@@ -6,7 +6,7 @@ Es existiert bereits ein Event, die ersten Teilnehmer tragen sich ein...
 
 #### Person auf dem Discord
 
-Über den Befehl ForceSlot kann eine Person mit der Rolle `Slotbot_Event_Manage` einen Discord-Nutzer eintragen. Der Befehl akzeptiert entweder die Person selbst (`@Name`) oder die Benutzer-ID ([Discord Support Artikel](https://support.discord.com/hc/de/articles/206346498-Wie-finde-ich-meine-Server-ID-), um die Benutzer-ID zu erhalten).
+Über den Befehl [forceslot.md](bot-befehle/forceslot.md "mention") kann eine Person mit der Rolle `Slotbot_Event_Manage` einen Discord-Nutzer eintragen. Der Befehl akzeptiert entweder die Person selbst (`@Name`) oder die Benutzer-ID ([Discord Support Artikel](https://support.discord.com/hc/de/articles/206346498-Wie-finde-ich-meine-Server-ID-), um die Benutzer-ID zu erhalten).
 
 #### Andere Person/Platzhalter/Slot sperren
 
@@ -20,4 +20,4 @@ Für das Umtragen einer Person auf einen anderen Slot muss nur die neue Slotnumm
 
 #### Person austragen, Platzhalter entfernen, Slot entsperren
 
-Die Belegung eines Platzes in einem Event kann über den Befehl ForceUnslot aufgehoben werden. Dabei spielt es keine Rolle, ob die Belegung eine Person oder nur ein Platzhalter-Text ist.
+Die Belegung eines Platzes in einem Event kann über den Befehl [forceunslot.md](bot-befehle/forceunslot.md "mention") aufgehoben werden. Dabei spielt es keine Rolle, ob die Belegung eine Person oder nur ein Platzhalter-Text ist.
