@@ -8,6 +8,20 @@ description: Die wichtigsten Updates ab Mai 2021
 
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
+## Highlights des Updates 14. November 2021
+
+#### ![](../../.gitbook/assets/slash-emoji.png)³
+
+Mehr Slash-Befehle. Mehr für Missionsbauer.
+
+#### 📱
+
+Discords Slash-Befehle sind mobil leider nicht wirklich ausgereift. Daher werden Texte, die nicht als Slash-Befehl versendet wurden, aber mit einem "/" beginnen trotzdem vom Bot verarbeitet und versucht zu interpretieren.
+
+{% content-ref url="update-14.11.2021.md" %}
+[update-14.11.2021.md](update-14.11.2021.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 18. Oktober 2021
 
 #### 🤝
@@ -129,3 +143,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-09.09.2021.md](update-09.09.2021.md "mention")
 * [update-18.10.2021.md](update-18.10.2021.md "mention")
 * [update-24.-and-26.10.2021.md](update-24.-and-26.10.2021.md "mention")
+* [update-14.11.2021.md](update-14.11.2021.md "mention")
