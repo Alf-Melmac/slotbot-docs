@@ -9,6 +9,7 @@
 * [Eventerstellung](slotbot/eventerstellung/README.md)
   * [Event Standards](slotbot/eventerstellung/event-standards.md)
 * [Teilnehmerverwaltung](slotbot/teilnehmerverwaltung.md)
+* [Eventkalender](slotbot/eventkalender.md)
 * [Bot Befehle](slotbot/bot-befehle/README.md)
   * [AddEventToChannel](slotbot/bot-befehle/addeventtochannel.md)
   * [Archive](slotbot/bot-befehle/archive.md)
