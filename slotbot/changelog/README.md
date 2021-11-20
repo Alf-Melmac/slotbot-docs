@@ -8,6 +8,8 @@ description: Die wichtigsten Updates ab Mai 2021
 
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
+Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/583efbee8aaf01cc67230e7963f2b896c188346d...master) alle Änderungen seit dem letzten Release nachvollziehen.
+
 ## Highlights des Updates 14. November 2021
 
 #### ![](../../.gitbook/assets/slash-emoji.png)³
