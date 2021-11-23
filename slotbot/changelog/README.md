@@ -8,7 +8,17 @@ description: Die wichtigsten Updates ab Mai 2021
 
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
-Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/583efbee8aaf01cc67230e7963f2b896c188346d...master) alle Änderungen seit dem letzten Release nachvollziehen.
+Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/83a8f779e0205ca9bce54f55242ffbefb1d9d7ac...master) alle Änderungen seit dem letzten Release nachvollziehen.
+
+## Highlights des Updates 23. November 2021
+
+📅
+
+iCal Support. Einbindung des Eventkalenders der eigenen Gruppe oder aller Events für die man sich geslottet hat in den eigenen Kalender.
+
+{% content-ref url="update-23.11.2021.md" %}
+[update-23.11.2021.md](update-23.11.2021.md)
+{% endcontent-ref %}
 
 ## Highlights des Updates 14. November 2021
 
@@ -146,3 +156,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-18.10.2021.md](update-18.10.2021.md "mention")
 * [update-24.-and-26.10.2021.md](update-24.-and-26.10.2021.md "mention")
 * [update-14.11.2021.md](update-14.11.2021.md "mention")
+* [update-23.11.2021.md](update-23.11.2021.md "mention")
