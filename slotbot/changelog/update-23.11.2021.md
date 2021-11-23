@@ -1,4 +1,4 @@
-# Update X2.11.2021
+# Update 23.11.2021
 
 ## 🗒️ Erwähnenswerte Änderungen
 
@@ -11,6 +11,7 @@
   * URL-Shortcuts für das manuelle Tippen der Gruppenkalender-URLs
   * Eigener Kalendar mit allen Events, in denen man geslottet ist.
 * Der Arma-Missions-Upload (siehe [#slotliste](../eventerstellung/#slotliste "mention")) ist nun auch während der Editierung eines leeren Events möglich. _(commit: _[_a93ab019_](https://github.com/Alf-Melmac/slotbotServer/commit/a93ab019b264d192c65c1ff201f5f6c6b452f332)_)_
+* Die DAA-Standard Felder bilden nun die [neue Zeitplanung](https://wiki.deutsche-arma-allianz.de/organisation/missionen#zeitplan) ab. _(commit: _[_83a8f779_](https://github.com/Alf-Melmac/slotbotServer/commit/83a8f779e0205ca9bce54f55242ffbefb1d9d7ac)_)_
 
 ## 🐞 Fehlerbehebungen
 
