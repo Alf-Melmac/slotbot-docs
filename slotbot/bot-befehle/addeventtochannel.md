@@ -1,5 +1,5 @@
 ---
-description: Wähle ein Event aus und ordne es den aktuellen Kanal zu.
+description: Wähle ein Event aus und ordne es dem aktuellen Kanal zu.
 ---
 
 # AddEventToChannel
