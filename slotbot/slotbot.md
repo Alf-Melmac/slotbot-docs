@@ -6,7 +6,7 @@ Dein Tool zur Planung des nächsten Spieleabends! Planung oder Vorbereitung übe
 
 ![](../.gitbook/assets/Discord-Logo+Wordmark-Color.png)
 
-_Details unter _[bot-befehle](bot-befehle/ "mention")__
+_Details unter_ [bot-befehle](bot-befehle/ "mention")__
 
 ### Anmeldungsverwaltung
 
@@ -14,17 +14,17 @@ Nur eine begrenzte Anzahl spezifischer Rollen verfügbar? Kein Problem! Teilnehm
 
 ![](../.gitbook/assets/Slotbot-Slot.gif)
 
-### Benachrichtigungen ![](../.gitbook/assets/Badge-New.png)
+### Benachrichtigungen
 
 Kein verpasstes Event mehr. Eingetragene Teilnehmer eines Events können sich so oft und so früh wie sie selbst möchten für ein Event über Discord benachrichtigen lassen. Für jeden [hier](https://armamachtbock.de/profile/me) selbst konfigurierbar.
 
 ![](../.gitbook/assets/Slotbot-Notifications.png)
 
+### Integriert in den eigenen Kalender
 
+iCalender (.ics Datei) Import in beliebigen Kalender. Damit sind die Events jederzeit in der eigenen Hosentasche, auch ohne Internet. Details zur Einrichtung unter [#kalender-synchronisation](eventkalender.md#kalender-synchronisation "mention")
 
-#### Integriert in den eigenen Kalender ![](../.gitbook/assets/Badge-ComingSoon.png)
-
-iCalender (.ics Datei) Import in beliebigen Kalender.
+![](../.gitbook/assets/Slotbot-AppleCalendar-Create9.PNG)
 
 ## Eventerstellung
 
@@ -34,7 +34,7 @@ Einfacher Event-Wizard, der alle Details für die Teilnehmer übersichtlich abfr
 
 **Speziell für Arma 3**: Mission.sqm Upload. Slotliste aus dem Missionsbau auf der Website importieren und kein zweites mal die Slotliste anlegen.
 
-_Details unter _[eventerstellung](eventerstellung/ "mention")__
+_Details unter_ [eventerstellung](eventerstellung/ "mention")__
 
 ## Ein Login für Alles
 
