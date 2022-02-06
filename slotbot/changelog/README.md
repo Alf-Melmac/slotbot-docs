@@ -8,7 +8,21 @@ description: Die wichtigsten Updates ab Mai 2021
 
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
-Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/83a8f779e0205ca9bce54f55242ffbefb1d9d7ac...master) alle Änderungen seit dem letzten Release nachvollziehen.
+Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/b3d841982d4f0a5e8f53c42349521ede447848f4...master) alle Änderungen seit dem letzten Release nachvollziehen.
+
+## Highlights des Updates 06. Februar 2022
+
+🥂
+
+Frohes Neues! Alles ist fitt für den Start ins neue Jahr. Unter anderem schlankere Slotlisten und neue Modsets.
+
+🍻
+
+Die neuen Reservierungen ganzer Squads oder einzelner Slots erleichtert das gemeinsame Zusammenspielen.
+
+{% content-ref url="update-06.02.2022.md" %}
+[update-06.02.2022.md](update-06.02.2022.md)
+{% endcontent-ref %}
 
 ## Highlights des Updates 23. November 2021
 
