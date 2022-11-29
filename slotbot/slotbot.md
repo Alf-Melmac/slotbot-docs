@@ -4,50 +4,58 @@ Dein Tool zur Planung des nächsten Spieleabends! Planung oder Vorbereitung übe
 
 ## Discord Integration
 
-![](../.gitbook/assets/Discord-Logo+Wordmark-Color.png)
+<figure><img src="../.gitbook/assets/Discord-Logo+Wordmark-Color.png" alt="Discord Logo mit Schriftzug"><figcaption></figcaption></figure>
+
+Teilnehmer können auf einer Plattform bleiben und erhalten alle Informationen und Interaktionen gebündelt.
 
 _Details unter_ [bot-befehle](bot-befehle/ "mention")__
 
-### Anmeldungsverwaltung
+### Ein Login für Alles
 
-Nur eine begrenzte Anzahl spezifischer Rollen verfügbar? Kein Problem! Teilnehmer melden sich im voraus für spezifische Rollen an.
+Login auch auf der Website über den eigenen Discord-Account. Berechigungskonfiguration über Discord-Rollen, die nur für Management-Rollen benötigt werden.
+
+## Anmeldungsverwaltung
+
+Nur eine begrenzte Anzahl spezifischer Plätze verfügbar? Kein Problem! Teilnehmer melden sich im voraus für geplante Plätze an.
 
 ![](../.gitbook/assets/Slotbot-Slot.gif)
 
-### Benachrichtigungen
+Sollten alle Plätze belegt sein wird automatisch, in Form einer Reserve, Platz für Nachrücker geschaffen.
 
-Kein verpasstes Event mehr. Eingetragene Teilnehmer eines Events können sich so oft und so früh wie sie selbst möchten für ein Event über Discord benachrichtigen lassen. Für jeden [hier](https://armamachtbock.de/profile/me) selbst konfigurierbar.
+## Benachrichtigungen
 
-![](../.gitbook/assets/Slotbot-Notifications.png)
+Kein verpasster Termin mehr. Eingetragene Teilnehmer eines Events können sich so oft und so früh wie sie möchten für ein Event über Discord benachrichtigen lassen.
 
-### Integriert in den eigenen Kalender
+<figure><img src="../.gitbook/assets/Slotbot-DE-Notifications.png" alt="Konfigurationsmaske der globalen Benachrichtigungseinstellungen im eigenen Profil"><figcaption></figcaption></figure>
 
-iCalender (.ics Datei) Import in beliebigen Kalender. Damit sind die Events jederzeit in der eigenen Hosentasche, auch ohne Internet. Details zur Einrichtung unter [#kalender-synchronisation](eventkalender.md#kalender-synchronisation "mention")
+## Integriert in den eigenen Kalender
+
+iCalender (.ics Datei) Import in beliebigen Kalender. Damit sind die Events jederzeit in der eigenen Hosentasche, auch ohne Internet.
 
 ![](../.gitbook/assets/Slotbot-AppleCalendar-Create9.PNG)
 
 ## Eventerstellung
 
-Einfacher Event-Wizard, der alle Details für die Teilnehmer übersichtlich abfragt.
+Einfach schnelles Anlegen mit dem Event-Wizard. Alle wichtigen Informatione für die Teilnehmer im richtigen Format.
 
-![](../.gitbook/assets/Badge-Star.png) Immer das Gleiche, aber doch nicht die selben Infos? Wenn eine Event-Kopie zu viel ist, gibt es die Möglichkeit für Event-Typen Standards festzulegen. Damit vergisst kein Event-Ersteller mehr die wichtigen Details.
+<figure><img src="../.gitbook/assets/Slotbot-DE-EventWizard.png" alt="Event-Anlage-Maske"><figcaption></figcaption></figure>
 
-**Speziell für Arma 3**: Mission.sqm Upload. Slotliste aus dem Missionsbau auf der Website importieren und kein zweites mal die Slotliste anlegen.
+<img src="../.gitbook/assets/Badge-Star.png" alt="" data-size="line"> Immer das Gleiche, aber doch nicht die selben Infos? Wenn eine Event-Kopie zu ausführlich ist, können Standards für Event-Typen festgelegt werden. Damit vergisst kein Event-Ersteller mehr die wirklich wichtigen Dinge.
+
+### Speziell für Arma 3
+
+`mission.sqm` Upload. Slotliste aus dem Missionsbau auf der Website importieren und kein zweites mal die Slotliste anlegen.
 
 _Details unter_ [eventerstellung](eventerstellung/ "mention")__
 
-## Ein Login für Alles
-
-Login auf der Website über den Discord Account. Berechigungsprüfungen über Discord Rollen, die nur für Management-Berechtigungen benötigt werden.
-
 ## Eigener Eventkalender
 
-![](../.gitbook/assets/Badge-Star.png) Getrennter Kalender, eigenes Design und Branding, Einladen anderer Gruppen über einen Klick und automatisch verlinkte Modsets. Speziell zugeschnitten und unter der eigenen Domain zur Verfügung gestellt.
+<img src="../.gitbook/assets/Badge-Star.png" alt="" data-size="line"> Getrennter Kalender, eigenes Design und Branding, Einladen anderer Gruppen über einen Klick und automatisch verlinkte Modsets. Speziell zugeschnitten und unter der eigenen Domain zur Verfügung gestellt.
 
 _Beispiele_: [AMB](https://armamachtbock.de/events) und [DAA](https://events.deutsche-arma-allianz.de/events)
 
 
 
-Mit \* markierte Features müssen eigens entwickelt werden. Bei Interesse Alf für Details kontaktieren.
 
-> Bilder zur Verfügung gestellt von Discord oder in Discord aufgenommen.
+
+> Mit \* markierte Features nur auf Anfrage. Bei Interesse Alf für Details kontaktieren.
