@@ -10,9 +10,9 @@ Events können nur über die Website erstellt werden. Nach dem erfolgreichen Log
 
 ![](../../.gitbook/assets/Slotbot-Wizard-Allgemein.png)
 
-Über die ![](../../.gitbook/assets/Slotbot-Teilbarkeit.png) Schaltfläche kann die **Teilbarkeit** eines Events aktiviert werden. Wird die Teilbarkeit erlaubt, können andere Gruppen die den Slotbot verwenden, dass Event ihrem Kalender hinzufügen und sich auf Slots eintragen.
+Über die <img src="../../.gitbook/assets/Slotbot-Teilbarkeit.png" alt="" data-size="line"> Schaltfläche kann die **Teilbarkeit** eines Events aktiviert werden. Wird die Teilbarkeit erlaubt, können andere Gruppen die den Slotbot verwenden, dass Event ihrem Kalender hinzufügen und sich auf Slots eintragen.
 
-Über die ![](../../.gitbook/assets/Slotbot-Sichtbarkeit.png) Schaltfläche kann die **Sichtbarkeit** des Events konfiguriert werden. Wird ein Event versteckt, taucht es im Kalender nur für Personen mit der Rolle Slotbot\_Event\_Manage oder höher nach Anmeldung auf.
+Über die <img src="../../.gitbook/assets/Slotbot-Sichtbarkeit.png" alt="" data-size="line"> Schaltfläche kann die **Sichtbarkeit** des Events konfiguriert werden. Wird ein Event versteckt, taucht es im Kalender nur für Personen mit der Rolle Slotbot\_Event\_Manage oder höher nach Anmeldung auf.
 
 ![Hinweis eines versteckten Events auf der Website](../../.gitbook/assets/Slotbot-HiddenEvent-Details.png) ![Hinweis im Discord](../../.gitbook/assets/Slotbot-HiddenEvent-Discord.png)
 
@@ -32,7 +32,7 @@ Für manche Event-Typen gibt es definierte Standard-Felder, die dem Event-Erstel
 
 #### Spezielle Details
 
-![](../../.gitbook/assets/Badge-Star.png) Ein Feld mit dem Namen "Modset" kann automatisch verlinkt werden. Dazu muss die passende Download-Datei auf dem Server hochgeladen werden.
+<img src="../../.gitbook/assets/Badge-Star.png" alt="" data-size="line"> Ein Feld mit dem Namen "Modset" kann automatisch verlinkt werden. Dazu muss die passende Download-Datei auf dem Server hochgeladen werden.
 
 ![Anklickbares Modset auf der Website](../../.gitbook/assets/Slotbot-Modset-Details.png)
 
@@ -44,7 +44,7 @@ Für manche Event-Typen gibt es definierte Standard-Felder, die dem Event-Erstel
 
 Die Slotliste eines Events bestimmt immer aus Gruppen ("Squads") und Plätzen innerhalb dieser Gruppen ("Slots"). Die Reihenfolge der Gruppen kann frei bestimmt werden. Die Slots werden anhand ihrer Slotnummer aufsteigend sortiert.
 
-Über das ![](../../.gitbook/assets/Slotbot-BlockSlot.png) Symbol kann ein Slot während der Erstellung blockiert werden. Dadurch taucht er später als "_Gesperrt_" auf und Teilnehmer können sich nicht auf diesen Platz eintragen. Siehe dazu auch den Befehl [blockslot.md](../bot-befehle/blockslot.md "mention").
+Über das <img src="../../.gitbook/assets/Slotbot-BlockSlot.png" alt="" data-size="line"> Symbol kann ein Slot während der Erstellung blockiert werden. Dadurch taucht er später als "_Gesperrt_" auf und Teilnehmer können sich nicht auf diesen Platz eintragen. Siehe dazu auch den Befehl [blockslot.md](../bot-befehle/blockslot.md "mention").
 
 #### Arma-Missions-Upload
 
