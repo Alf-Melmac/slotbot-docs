@@ -10,6 +10,16 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/b3d841982d4f0a5e8f53c42349521ede447848f4...master) alle Änderungen seit dem letzten Release nachvollziehen.
 
+## Highlights des Updates 30. November 2022
+
+✨
+
+Für die passende Weihnachtsstimmung wird die gesamte Seite auf den Kopf gestellt. Alle Details und Bilder:
+
+{% content-ref url="update-30.11.2022.md" %}
+[update-30.11.2022.md](update-30.11.2022.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 06. Februar 2022
 
 🥂
@@ -36,7 +46,7 @@ iCal Support. Einbindung des Eventkalenders der eigenen Gruppe oder aller Events
 
 ## Highlights des Updates 14. November 2021
 
-#### ![](../../.gitbook/assets/slash-emoji.png)³
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">³
 
 Mehr Slash-Befehle. Mehr für Missionsbauer.
 
@@ -70,7 +80,7 @@ Nie mehr ein Event verschlafen! Im neuen Profil die Benachrichtigungen konfiguri
 
 ## Highlights des Updates 3. August 2021
 
-#### ![](../../.gitbook/assets/slash-emoji.png)²
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">²
 
 Slash-Befehle sind einfach, toll und spitzenmäßig. Deswegen gibt es jetzt wesentlich mehr unterstütze Befehle!
 
@@ -84,7 +94,7 @@ _Keine Benachrichtigungen mehr bei Slotwechseln innerhalb der Reserve._ Erst wen
 
 ## Higlights des Updates 28. Juli 2021
 
-#### ![](../../.gitbook/assets/slash-emoji.png)
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">
 
 Die **Slash-Befehle** sind da! Discord unterstützt jetzt aktiv bei der Verwendung der Befehle. Schreibt einen Slash in den Chat und lasst euch den Rest erklären. Alle verfügbaren Slash-Befehle sind in der Befehlsübersicht markiert.
 
