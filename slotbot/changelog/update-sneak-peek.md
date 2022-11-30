@@ -20,7 +20,7 @@ Der technologische Umbau ist abgeschlossen. Gleichzeitig mit diesem gibt es nun 
 
 <div>
 
-<figure><img src="../../.gitbook/assets/Changelog-112022-EventDetails-Old.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-EventDetails-Old.png" alt=""><figcaption><p>Klick mich, dann werde ich größer</p></figcaption></figure>
 
  
 
@@ -38,7 +38,7 @@ Der technologische Umbau ist abgeschlossen. Gleichzeitig mit diesem gibt es nun 
 
 </div>
 
-Statistiken sind toll. Daher erwähne ich hier aus dem Backend Projekt mit dem alten Frontend die [211 changed files](https://github.com/Alf-Melmac/slotbotServer/compare/b3d841982d4f0a5e8f53c42349521ede447848f4...991af5ef436f66c7cd1ec08f076f2f26b8a58feb) with **1,861 additions** and **9,463 deletions** in **103 Commits**. Und im neuen Frontend-Projekt [160 changed files](https://github.com/Alf-Melmac/slotbot-frontend/compare/4139362f8e435e77b2588800348d0517a4afe735...ac25ba88a8fa835841590dfe2ab524fa9dbcbb8a) with **8,302 additions** and **26,727 deletions** in **312 Commits** nach dem initalen Setup.
+Statistiken sind toll. Daher erwähne ich hier aus dem Backend Projekt mit dem alten Frontend die [213 changed files](https://github.com/Alf-Melmac/slotbotServer/compare/b3d841982d4f0a5e8f53c42349521ede447848f4...89ffd5693ded34eac2611cd7bb96c3362d9fb7ef) with **1,876 additions** and **9,496 deletions** in **104 Commits**. Und im neuen Frontend-Projekt [160 changed files](https://github.com/Alf-Melmac/slotbot-frontend/compare/4139362f8e435e77b2588800348d0517a4afe735...ac25ba88a8fa835841590dfe2ab524fa9dbcbb8a) with **8,298 additions** and **26,727 deletions** in **313 Commits** nach dem initalen Setup.
 
 ## :star: Neue Features
 
@@ -65,6 +65,7 @@ Statistiken sind toll. Daher erwähne ich hier aus dem Backend Projekt mit dem a
   * Während der Event-Bearbeitung ist auf einen Blick ersichtlich welche Felder welche Art der Speicherung verwenden.
   * Die meisten Seiten sind mobil wesentlich besser bedienbar.
   * Die Unterstützung für Assistenzsystem, im speziellen Screen Reader, wurde stark ausgebaut.
+  * Alle Daten aktualisieren sich live. Bleibt der Tab mit den Eventdetails im Hintergrund siehst du beim zurück kommen ohne neuladen die aktuellen Daten.
 
 Und viel mehr was zu ausführlich wäre hier aufzulisten.
 
@@ -82,5 +83,5 @@ Und viel mehr was zu ausführlich wäre hier aufzulisten.
 * Alle Seiten haben ein neues Look & Feel bekommen. Ja, sogar die Fehlerseiten.
 
 {% hint style="info" %}
-Die ersten beiden Features und die erste Fehlerbehebungen wurden zusammen mit einer Sicherheitskorrektur bereits vor und am 31.03. installiert.
+Die ersten beiden Features und die Fehlerbehebungen wurden zusammen mit einer Sicherheitskorrektur bereits vor und am 31.03. installiert.
 {% endhint %}
