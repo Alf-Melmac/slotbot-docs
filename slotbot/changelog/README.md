@@ -36,7 +36,7 @@ iCal Support. Einbindung des Eventkalenders der eigenen Gruppe oder aller Events
 
 ## Highlights des Updates 14. November 2021
 
-#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">³
+#### ![](../../.gitbook/assets/slash-emoji.png)³
 
 Mehr Slash-Befehle. Mehr für Missionsbauer.
 
@@ -70,7 +70,7 @@ Nie mehr ein Event verschlafen! Im neuen Profil die Benachrichtigungen konfiguri
 
 ## Highlights des Updates 3. August 2021
 
-#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">²
+#### ![](../../.gitbook/assets/slash-emoji.png)²
 
 Slash-Befehle sind einfach, toll und spitzenmäßig. Deswegen gibt es jetzt wesentlich mehr unterstütze Befehle!
 
@@ -84,7 +84,7 @@ _Keine Benachrichtigungen mehr bei Slotwechseln innerhalb der Reserve._ Erst wen
 
 ## Higlights des Updates 28. Juli 2021
 
-#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">
+#### ![](../../.gitbook/assets/slash-emoji.png)
 
 Die **Slash-Befehle** sind da! Discord unterstützt jetzt aktiv bei der Verwendung der Befehle. Schreibt einen Slash in den Chat und lasst euch den Rest erklären. Alle verfügbaren Slash-Befehle sind in der Befehlsübersicht markiert.
 
