@@ -4,4 +4,4 @@
 
 ## :lady\_beetle: Fehlerbehebungen
 
-* Event-Details mit einem Checkbox-Standard, z.B. Respawn in einem Arma 3 Event, verhinderten das Anlegen oder Bearbeiten der Event-Details, wenn das Checkbox-Feld sichtbar war. _(commit:_ [_da7bf448_](https://github.com/Alf-Melmac/slotbot-frontend/commit/da7bf4485175045d546bb02b1f53f0eb016fecb9)_)_ `(Danke Shiro für die Meldung)`
+* Event-Details mit einem Checkbox-Standard, z.B. Respawn in einem Arma 3 Event, verhinderten das Anlegen oder Bearbeiten der Event-Details, wenn das Checkbox-Feld sichtbar war. `(Danke Shiro für die Meldung)`_(commit:_ [_da7bf448_](https://github.com/Alf-Melmac/slotbot-frontend/commit/da7bf4485175045d546bb02b1f53f0eb016fecb9)_)_
