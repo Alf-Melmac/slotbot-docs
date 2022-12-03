@@ -23,6 +23,7 @@
   * [ForceUnslot](slotbot/bot-befehle/forceunslot.md)
 * [Glossar](slotbot/glossar.md)
 * [Changelog](slotbot/changelog/README.md)
+  * [Update 03.12.2022](slotbot/changelog/update-03.12.2022.md)
   * [Update 30.11.2022](slotbot/changelog/update-30.11.2022.md)
   * [Update 06.02.2022](slotbot/changelog/update-06.02.2022.md)
   * [Update 23.11.2021](slotbot/changelog/update-23.11.2021.md)
