@@ -8,7 +8,7 @@ description: Die wichtigsten Updates ab Mai 2021
 
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
-Technisch Versierte können auf [Github](https://github.com/Alf-Melmac/slotbotServer/compare/b3d841982d4f0a5e8f53c42349521ede447848f4...master) alle Änderungen seit dem letzten Release nachvollziehen.
+Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
 ## Highlights des Updates 30. November 2022
 
