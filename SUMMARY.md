@@ -43,11 +43,12 @@
 
 * [Seymour](seymour/seymour.md)
 * [Bot Befehle](seymour/bot-befehle/README.md)
+  * [Abstimmung starten](seymour/bot-befehle/abstimmung-starten.md)
   * [Admin](seymour/bot-befehle/admin.md)
-  * [Copy](seymour/bot-befehle/copy.md)
-  * [EditMessage](seymour/bot-befehle/editmessage.md)
-  * [PostMessage](seymour/bot-befehle/postmessage.md)
-  * [Vote](seymour/bot-befehle/vote.md)
+  * [Kopieren](seymour/bot-befehle/kopieren.md)
+  * [Nachricht bearbeiten](seymour/bot-befehle/nachricht-bearbeiten.md)
+  * [Nachricht senden](seymour/bot-befehle/nachricht-senden.md)
+* [Zusätzliche Funktionen](seymour/zusaetzliche-funktionen.md)
 
 ## DAA
 
