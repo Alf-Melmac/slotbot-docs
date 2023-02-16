@@ -10,7 +10,7 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
-## Higlights des nächsten Updates
+## Higlights des Updates 16. Februar 2023
 
 :england:
 
@@ -20,8 +20,8 @@ Let's go global! Kein Deutsch, kein Problem. Vorausgesetzt du kannst englischspr
 
 Communities lassen sich nicht nur ansehen, sondern auch direkt verwalten. Hole das meiste aus Reservierungen heraus.
 
-{% content-ref url="update-sneak-peek.md" %}
-[update-sneak-peek.md](update-sneak-peek.md)
+{% content-ref url="update-16.02.2023.md" %}
+[update-16.02.2023.md](update-16.02.2023.md)
 {% endcontent-ref %}
 
 ## Highlights des Updates 30. November 2022

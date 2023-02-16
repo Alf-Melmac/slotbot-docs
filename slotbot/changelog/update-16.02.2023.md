@@ -1,15 +1,11 @@
----
-description: Nächstes Update
----
-
-# Update Sneak Peek
+# Update 16.02.2023
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slotbot-Server</strong></td><td>2.1.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.1.0">https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.1.0</a></td></tr><tr><td><strong>Slotbot-Frontend</strong></td><td>1.1.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.1.0">https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.1.0</a></td></tr></tbody></table>
 
 ## :star: Neue Features
 
 * Happy New Year! :tada: _(commit:_ [_4a10a9e9_](https://github.com/Alf-Melmac/slotbot-frontend/commit/4a10a9e92d52f56d0a58d3544687f9a0924bc493)_)_
-* Die gesamte Website ist nun auf Englisch übersetzt. Falls im Browser eine andere Sprache als Deutsch ausgewählt ist, werden alle Oberflächentexte auf Englisch angezeigt. _(commit:_ [_76a7720f_](https://github.com/Alf-Melmac/slotbot-frontend/commit/76a7720f1ef3f9aa9f9362ef0d2c9116d78497d2)_)_
+* Die gesamte Website ist nun auf Englisch übersetzt. Falls im Browser eine andere Sprache als Deutsch ausgewählt ist, werden alle Oberflächentexte auf Englisch angezeigt. `(Danke The43rd für die Unterstützung bei den Übersetzungen)` _(commit:_ [_76a7720f_](https://github.com/Alf-Melmac/slotbot-frontend/commit/76a7720f1ef3f9aa9f9362ef0d2c9116d78497d2)_,_ [_da820223_](https://github.com/Alf-Melmac/slotbot-frontend/commit/da82022321eb2e6dba241443686730314709e4ad)_)_
 * Ebenfalls die Discord-Nachrichten wurden übersetzt. Für Interaktionen mit dem Bot wird die in Discord ausgewählte Sprache verwendet (Deutsch oder sonst Englisch). Für Anzeigen, wie die Event-Details, wird die in der neuen Community-Konfiguration (siehe unten) eingestellte Sprache verwendet. _(commit:_ [_3d41760b_](https://github.com/Alf-Melmac/slotbotServer/commit/3d41760b29c5143089b71e6f7dd6fc3eac11c955)_,_ [_31151e42_](https://github.com/Alf-Melmac/slotbotServer/commit/31151e42b526a50f5dcf641bcc006be51665cae5)_,_ [_a13b6108_](https://github.com/Alf-Melmac/slotbotServer/commit/a13b6108a00fe354a826e2642c3dde869219ad0b)_)_
 * Gleichzeitig zu den Übersetzungen wurden die meisten Discord-Befehle überarbeitet und die Ausgaben verbessert.
   * AddEventToChannel ist nur noch ein Slash-Command.
