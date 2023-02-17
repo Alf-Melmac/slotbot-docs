@@ -2,13 +2,13 @@
 description: Sperrt einen Slot und setzt, falls angegeben, den Text an dessen Stelle.
 ---
 
-# BlockSlot
+# Slot blockieren
 
 ## Befehl
 
-/blockSlot `slotnummer`
+/slot\_blockieren `slotnummer`
 
-/blockSlot `slotnummer` `ersatzname`
+/slot\_blockieren `slotnummer` `ersatzname`
 
 ## Aktion
 
@@ -19,5 +19,5 @@ Sperrt einen leeren oder bereits blockierten Slot anhand seiner Slotnummer und s
 
 
 {% hint style="info" %}
-Suchst du nach [Blockierung aufheben](forceunslot.md)?
+Suchst du nach [Blockierung aufheben](unslot-erzwingen.md)?
 {% endhint %}

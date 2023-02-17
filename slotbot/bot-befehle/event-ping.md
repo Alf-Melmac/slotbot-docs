@@ -4,12 +4,12 @@ description: >-
   Personen des Events.
 ---
 
-# EventPing
+# Event Ping
 
 ## Befehl
 
-/eventping `nachricht`
+/event\_ping `nachricht`
 
 ## Aktion
 
-Postet die übergebene Nachricht und pingt dabei alle Teilnehmer des Events.
+Versendet die übergebene Nachricht und pingt dabei alle Teilnehmer des Events.
