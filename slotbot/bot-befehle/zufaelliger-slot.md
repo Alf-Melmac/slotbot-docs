@@ -2,11 +2,11 @@
 description: Trägt dich auf einem zufälligen Slot im Event ein.
 ---
 
-# RandomSlot
+# Zufälliger Slot
 
 ## Befehl
 
-/randomSlot
+/zufälliger\_slot
 
 ## Aktion
 

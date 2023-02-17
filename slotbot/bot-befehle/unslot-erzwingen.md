@@ -2,13 +2,13 @@
 description: Slottet jemand anderen aus einem Event aus.
 ---
 
-# ForceUnslot
+# Unslot erzwingen
 
 ![](../../.gitbook/assets/Slotbot-ForceUnslot.gif)
 
 ## Befehl
 
-/forceUnslot `slotnummer`
+/unslot\_erzwingen `slotnummer`
 
 ## Aktion
 

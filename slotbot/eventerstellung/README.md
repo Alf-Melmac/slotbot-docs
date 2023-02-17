@@ -44,7 +44,7 @@ Für manche Event-Typen gibt es definierte Standard-Felder, die dem Event-Erstel
 
 Die Slotliste eines Events bestimmt immer aus Gruppen ("Squads") und Plätzen innerhalb dieser Gruppen ("Slots"). Die Reihenfolge der Gruppen kann frei bestimmt werden. Die Slots werden anhand ihrer Slotnummer aufsteigend sortiert.
 
-Über das <img src="../../.gitbook/assets/Slotbot-BlockSlot.png" alt="" data-size="line"> Symbol kann ein Slot während der Erstellung blockiert werden. Dadurch taucht er später als "_Gesperrt_" auf und Teilnehmer können sich nicht auf diesen Platz eintragen. Siehe dazu auch den Befehl [blockslot.md](../bot-befehle/blockslot.md "mention").
+Über das <img src="../../.gitbook/assets/Slotbot-BlockSlot.png" alt="" data-size="line"> Symbol kann ein Slot während der Erstellung blockiert werden. Dadurch taucht er später als "_Gesperrt_" auf und Teilnehmer können sich nicht auf diesen Platz eintragen. Siehe dazu auch den Befehl [slot-blockieren.md](../bot-befehle/slot-blockieren.md "mention").
 
 #### Arma-Missions-Upload
 
