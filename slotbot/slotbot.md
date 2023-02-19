@@ -16,7 +16,7 @@ Login auch auf der Website über den eigenen Discord-Account. Berechigungskonfig
 
 ## Anmeldungsverwaltung
 
-Nur eine begrenzte Anzahl spezifischer Plätze verfügbar? Kein Problem! Teilnehmer melden sich im voraus für geplante Plätze an.
+Nur eine begrenzte Anzahl spezifischer Plätze verfügbar? Kein Problem! Teilnehmer melden sich im Voraus für geplante Plätze an.
 
 ![](../.gitbook/assets/Slotbot-Slot.gif)
 
