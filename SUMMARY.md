@@ -10,6 +10,7 @@
   * [Event Standards](slotbot/eventerstellung/event-standards.md)
 * [Teilnehmerverwaltung](slotbot/teilnehmerverwaltung.md)
 * [Eventkalender](slotbot/eventkalender.md)
+* [Communityverwaltung](slotbot/communityverwaltung.md)
 * [Bot Befehle](slotbot/bot-befehle/README.md)
   * [Archivieren](slotbot/bot-befehle/archivieren.md)
   * [Archiv neu aufbauen](slotbot/bot-befehle/archiv-neu-aufbauen.md)

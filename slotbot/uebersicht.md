@@ -1,3 +1,7 @@
+---
+description: Die wichtigsten Befehle auf einen Blick
+---
+
 # Übersicht
 
 ## Für den Mitspieler
