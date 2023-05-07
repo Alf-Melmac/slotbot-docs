@@ -2,7 +2,7 @@
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slotbot-Server</strong></td><td>2.1.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.1.0">https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.1.0</a></td></tr><tr><td><strong>Slotbot-Frontend</strong></td><td>1.1.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.1.0">https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.1.0</a></td></tr></tbody></table>
 
-## :star: Neue Features
+## ⭐ Neue Features
 
 * Happy New Year! :tada: _(commit:_ [_4a10a9e9_](https://github.com/Alf-Melmac/slotbot-frontend/commit/4a10a9e92d52f56d0a58d3544687f9a0924bc493)_)_
 * Die gesamte Website ist nun auf Englisch übersetzt. Falls im Browser eine andere Sprache als Deutsch ausgewählt ist, werden alle Oberflächentexte auf Englisch angezeigt. `(Danke The43rd für die Unterstützung bei den Übersetzungen)` _(commit:_ [_76a7720f_](https://github.com/Alf-Melmac/slotbot-frontend/commit/76a7720f1ef3f9aa9f9362ef0d2c9116d78497d2)_,_ [_da820223_](https://github.com/Alf-Melmac/slotbot-frontend/commit/da82022321eb2e6dba241443686730314709e4ad)_)_
@@ -23,7 +23,7 @@
 * Event-Typen werden alphabetisch sortiert. _(commit:_ [_7fb5f42f_](https://github.com/Alf-Melmac/slotbotServer/commit/7fb5f42f8244c349fc54eade7cdc59bef12cc49d)_)_
 * Event-Typen werden standardmäßig Community-Spezifisch angelegt. Dadurch können die Event-Ersteller besser gelenkt werden, welche Typen für die eigene Community relevant sind. Diese werden in der Community-Ansicht Administratoren als Nicht-Global angezeigt. _(commit:_ [_9c27b57b_](https://github.com/Alf-Melmac/slotbotServer/commit/9c27b57bd3490da72e928717498f3f7a95293370)_,_ [_836f33d5_](https://github.com/Alf-Melmac/slotbotServer/commit/836f33d5f638ef12af8e54268c8c722cf1666578)_)_
 
-## :lady\_beetle: Fehlerbehebungen
+## 🐞 Fehlerbehebungen
 
 * Logos in der Navigationsleiste sind nun weich und rund _(commit:_ [_8eaf52a5_](https://github.com/Alf-Melmac/slotbot-frontend/commit/8eaf52a5505bcff3626f578db2e0d122caddcd54)_)_
 * Falls ein fremdes in der Zukunft liegendes Event nicht teilbar war, die eigene Community allerdings einen reservierten Squad oder Slot in diesem hatte trat ein Fehler, beim Versuch dieses einem Discord Kanal hinzuzufügen, auf. _(commit:_ [_bcec5b63_](https://github.com/Alf-Melmac/slotbotServer/commit/bcec5b63fc2d98447046ad5108b47a5906f8644b)_)_

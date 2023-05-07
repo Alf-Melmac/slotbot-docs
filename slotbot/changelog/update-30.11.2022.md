@@ -1,6 +1,6 @@
-# Update Sneak Peek
+# Update 30.11.2022
 
-## :sparkles: Neuer, besser, schöner!
+## ✨ Neuer, besser, schöner!
 
 Der technologische Umbau ist abgeschlossen. Gleichzeitig mit diesem gibt es nun die neue Oberfläche. Hier ein paar Eindrücke:
 
@@ -40,7 +40,7 @@ Der technologische Umbau ist abgeschlossen. Gleichzeitig mit diesem gibt es nun 
 
 Statistiken sind toll. Daher erwähne ich hier aus dem Backend Projekt mit dem alten Frontend die [213 changed files](https://github.com/Alf-Melmac/slotbotServer/compare/b3d841982d4f0a5e8f53c42349521ede447848f4...89ffd5693ded34eac2611cd7bb96c3362d9fb7ef) with **1,876 additions** and **9,496 deletions** in **104 Commits**. Und im neuen Frontend-Projekt [160 changed files](https://github.com/Alf-Melmac/slotbot-frontend/compare/4139362f8e435e77b2588800348d0517a4afe735...ac25ba88a8fa835841590dfe2ab524fa9dbcbb8a) with **8,298 additions** and **26,727 deletions** in **313 Commits** nach dem initalen Setup.
 
-## :star: Neue Features
+## ⭐ Neue Features
 
 * Falls der Nutzer schon ein mal angemeldet war wird er bei erneutem Login von Discord nicht erneut um Bestätigung gebeten, sondern wird direkt eingeloggt. _(commit:_ [_463785aa_](https://github.com/Alf-Melmac/slotbotServer/commit/463785aa457cf80d2408a6fb5f49d59332c2c5fd)_)_
 * Reservierungen werden in der Discord-Slotliste angezeigt. _(commit:_ [_72cc227f_](https://github.com/Alf-Melmac/slotbotServer/commit/72cc227fe30b0d987bb73259556b14909d2c553c)_)_
@@ -69,7 +69,7 @@ Statistiken sind toll. Daher erwähne ich hier aus dem Backend Projekt mit dem a
 
 Und viel mehr was zu ausführlich wäre hier aufzulisten.
 
-## :lady\_beetle: Fehlerbehebungen
+## 🐞 Fehlerbehebungen
 
 * Unter seltenen Umständen konnte bei großen Events die Slotliste nicht in Discord ausgegeben oder aktualisiert werden. _(commit:_ [_0fb501ab_](https://github.com/Alf-Melmac/slotbotServer/commit/0fb501abd7d67431f0126b2cf4aa6571a17c6e04)_)_
 
@@ -77,9 +77,9 @@ Und viel mehr was zu ausführlich wäre hier aufzulisten.
 
 * Event-Typen können nicht mehr mit dem gleichen Namen mit verschiedenen Farben existieren.
   * Daher kann während der Editierung eines Events kein neuer Event-Typ angelegt werden.
-* Umsortieren von Details und Squads in Events ist über die neue Oberfläche noch nicht möglich.
+* ~~Umsortieren von Details und Squads in Events ist über die neue Oberfläche noch nicht möglich.~~ -> [update-31.03.2023.md](update-31.03.2023.md "mention")
 * In der Administration ist die feste Status-Anzeige zu den AMB-Events entfallen. Außerdem ist das Slot-Log nicht mehr erreichbar.
-* Die Startseite entfällt und wurde in ein eigenes Projekt ausgelagert.
+* Die Startseite entfällt und wurde in ein [eigenes Projekt](https://github.com/AMB-Coding/amb-landingpage) ausgelagert.
 * Alle Seiten haben ein neues Look & Feel bekommen. Ja, sogar die Fehlerseiten.
 
 {% hint style="info" %}

@@ -26,6 +26,7 @@
   * [Zufälliger Slot](slotbot/bot-befehle/zufaelliger-slot.md)
 * [Glossar](slotbot/glossar.md)
 * [Changelog](slotbot/changelog/README.md)
+  * [Nächstes Update](slotbot/changelog/naechstes-update.md)
   * [Update 31.03.2023](slotbot/changelog/update-31.03.2023.md)
   * [Update 22.02.2023](slotbot/changelog/update-22.02.2023.md)
   * [Update 16.02.2023](slotbot/changelog/update-16.02.2023.md)
