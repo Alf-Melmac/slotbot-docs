@@ -2,12 +2,12 @@
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slotbot-Server</strong></td><td>2.1.1 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.1.1">https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.1.1</a></td></tr><tr><td><strong>Slotbot-Frontend</strong></td><td>1.1.1 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.1.1">https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.1.1</a></td></tr></tbody></table>
 
-## :star: Neue Features
+## ⭐ Neue Features
 
 * Zufällige Slots sind nicht mehr zufaellig. _(commit:_ [_ff39c9bf_](https://github.com/Alf-Melmac/slotbotServer/commit/ff39c9bf96b6c4b705e9013e675f3f2438df8402)_)_
 * Wenn Event-Details ausgegeben werden, sendet nur noch die erste Nachricht mit den allgemeinen Informationen eine Push-Benachrichtigung. _(commit:_ [_f85fba3c_](https://github.com/Alf-Melmac/slotbotServer/commit/f85fba3cdb7dc4f6f896f67fb3d4cf67953cb6e3)_)_
 
-## :lady\_beetle: Fehlerbehebungen
+## 🐞 Fehlerbehebungen
 
 * Modsets in den Discord Event-Details können auch wieder heruntergeladen werden, wenn die letzte Aktualisierung ein ein (Un-)Slotting war. _(commit:_ [_6489eb73_](https://github.com/Alf-Melmac/slotbotServer/commit/6489eb738a09662436f01843df14df4b34b7878e)_)_
 * Nach der Anmeldung musste die erste schreibende Interaktion zwei mal ausgeführt werden, da ein Sicherheitsmechanismus noch nicht aktiv war. _(commit:_ [_91345612_](https://github.com/Alf-Melmac/slotbotServer/commit/91345612bef43a8fab582234b86d63c00c658e93)_)_

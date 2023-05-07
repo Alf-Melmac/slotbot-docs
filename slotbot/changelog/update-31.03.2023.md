@@ -2,7 +2,7 @@
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slotbot-Server</strong></td><td>2.2.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.2.0">https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.2.0</a></td></tr><tr><td><strong>Slotbot-Frontend</strong></td><td>1.2.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td></td><td><a href="https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.2.0">https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.2.0</a></td></tr></tbody></table>
 
-## :star: Neue Features
+## ⭐ Neue Features
 
 * Die Mitgliederansicht einzelner Communities lädt durch Caching und Nachladen beim Durchscrollen deutlich schneller. _(commit:_ [_732a0837_](https://github.com/Alf-Melmac/slotbot-frontend/commit/732a0837a9730daecb82f7f536ae6af567a3b7bb)_,_ [_f139d7ce_](https://github.com/Alf-Melmac/slotbotServer/commit/f139d7cef90cca341480bf7f53704f0b7a78e3af)_)_
 * Jedes Datum und jede Uhrzeit werden automatisch in die Zeitzone des Betrachters umgewandelt. Auch Eingaben werden direkt umgewandelt und für jeden Betrachter in der eigenen Zeitzone angezeigt. _(commit:_ [_d1e5c9db_](https://github.com/Alf-Melmac/slotbot-frontend/commit/d1e5c9db1811bd97004636541e819a098ccad740)_,_ [_470deda4_](https://github.com/Alf-Melmac/slotbotServer/commit/470deda4e8e951863ba0171208272ae5924be205)_,_ [_e4ea5b6d_](https://github.com/Alf-Melmac/slotbotServer/commit/e4ea5b6d24e54e5e6375a71dca65d254f7a3e956)_)_
@@ -15,7 +15,7 @@
 * Auf kleinen Bildschirmen wird im Kalender die Event-Typen-Farbe ausgeblendet, damit die Uhrzeit und der Anfang des Eventnamens besser sichtbar sind. _(commit:_ [_9fa7eab9_](https://github.com/Alf-Melmac/slotbot-frontend/commit/9fa7eab94c9085c70646062e9f24aeee8f1a2f5b)_)_
 * Farben der Event-Typen können in den Community-Einstellungen per Klick auf die Farbe kopiert werden. Die dargestellte Farbe wird außerdem beim Hovern angezeigt. _(commit:_ [_9fa7eab9_](https://github.com/Alf-Melmac/slotbot-frontend/commit/9fa7eab94c9085c70646062e9f24aeee8f1a2f5b)_)_
 
-## :lady\_beetle: Fehlerbehebungen
+## 🐞 Fehlerbehebungen
 
 * Übersetzungen dürfen auch leer sein. Dadurch wird in den Event-Details die Uhrzeit im 12 Stunden Format nicht mehr mit am/pm und oClock angezeigt. _(commit:_ [_95901b6e_](https://github.com/Alf-Melmac/slotbot-frontend/commit/95901b6ec9c0f1e860c32d409fa6f942015a1ae6)_)_
 * Neben allgemeinen technischen Verbesserung rund um die Bearbeitung von Events werden zu speichernde Änderungen während der Event-Bearbeitung zuverlässiger erkannt. Außerdem sind weitere Änderungen auch nach dem ersten Speichern weiter möglich und Event-Details können geleert werden. _(commit:_ [_c3989a95_](https://github.com/Alf-Melmac/slotbot-frontend/commit/c3989a959edff82c40a4a7716bf009d6180d687e)_,_ [_19faab6d_](https://github.com/Alf-Melmac/slotbot-frontend/commit/19faab6db9f59587b57cc110bab532bdc3735fce)_,_ [_f5a357c2_](https://github.com/Alf-Melmac/slotbotServer/commit/f5a357c2b8b732dc5f93b455eec6858d84cfccac)_,_ [_e908ce9a_](https://github.com/Alf-Melmac/slotbotServer/commit/e908ce9a4bdf42f4d598973a359b93aa40133882)_)_
