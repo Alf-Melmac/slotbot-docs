@@ -10,12 +10,14 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
-## Highlights des Updates ??. Mai 2023
+## Highlights des Updates 08. Mai 2023
 
-...
+🔛
 
-{% content-ref url="naechstes-update.md" %}
-[naechstes-update.md](naechstes-update.md)
+Slotten jetzt auch direkt über die Website. Oben rechts einloggen und direkt den gewünschten Platz reservieren.
+
+{% content-ref url="update-08.05.2023.md" %}
+[update-08.05.2023.md](update-08.05.2023.md)
 {% endcontent-ref %}
 
 ## Highlights des Updates 31. März 2023

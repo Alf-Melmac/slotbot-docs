@@ -8,7 +8,7 @@ Dein Tool zur Planung des nächsten Spieleabends! Planung oder Vorbereitung übe
 
 Teilnehmer können auf einer Plattform bleiben und erhalten alle Informationen und Interaktionen gebündelt.
 
-_Details unter_ [bot-befehle](bot-befehle/ "mention")__
+_Details unter_ [bot-befehle](bot-befehle/ "mention")
 
 ### Ein Login für Alles
 
@@ -46,7 +46,7 @@ Einfach schnelles Anlegen mit dem Event-Wizard. Alle wichtigen Informatione für
 
 `mission.sqm` Upload. Slotliste aus dem Missionsbau auf der Website importieren und kein zweites mal die Slotliste anlegen.
 
-_Details unter_ [eventerstellung](eventerstellung/ "mention")__
+_Details unter_ [eventerstellung](eventerstellung/ "mention")
 
 ## Eigener Eventkalender
 
