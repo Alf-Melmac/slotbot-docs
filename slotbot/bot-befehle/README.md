@@ -30,7 +30,7 @@ description: Aufzählung aller verfügbaren Interaktion mit dem Discord Bot.
 
 <figure><img src="../../.gitbook/assets/discord-message-context-menu (1).png" alt=""><figcaption></figcaption></figure>
 
-_Discords_ [_Slash Commands FAQ_](https://support.discord.com/hc/de/articles/1500000368501-Slash-Commands-FAQ) _und_ [_Application Commands_](https://discord.com/developers/docs/interactions/application-commands)__
+_Discords_ [_Slash Commands FAQ_](https://support.discord.com/hc/de/articles/1500000368501-Slash-Commands-FAQ) _und_ [_Application Commands_](https://discord.com/developers/docs/interactions/application-commands)
 
 ## Textbefehle
 
