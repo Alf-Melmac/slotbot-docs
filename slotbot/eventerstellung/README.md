@@ -18,7 +18,7 @@ Durch das **Verstecken** eines Events kann das Event im Kalender nur noch nach A
 
 Der **Event-Typ** kategorisiert Events. Durch die ausgewählte Farbe lassen sich Missionsreihen im Kalender und im Discord auf den ersten Blick erkennen.
 
-<div>
+<div align="center">
 
 <figure><img src="../../.gitbook/assets/Slotbot-DE-EventType-Calendar.png" alt=""><figcaption><p>Event-Typ-Farbe im Kalender</p></figcaption></figure>
 
@@ -44,7 +44,7 @@ Für manche Event-Typen gibt es definierte Standard-Felder, die dem Event-Erstel
 
 <img src="../../.gitbook/assets/Badge-Star.png" alt="" data-size="line"> Ein Feld mit dem Namen "Modset" kann automatisch verlinkt werden. Dazu muss die passende Download-Datei auf dem Server hochgeladen werden.
 
-<div>
+<div align="center">
 
 <img src="../../.gitbook/assets/Slotbot-DE-EventDetails-ModsetDownload.png" alt="Anklickbares Modset auf der Website">
 

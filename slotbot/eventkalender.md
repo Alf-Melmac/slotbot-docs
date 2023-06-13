@@ -44,4 +44,8 @@ Falls dies, wie bei mir im Bild, nicht funktioniert, kann ein Kalender auch übe
 
 ![URL des Kalenders als Server eintragen](../.gitbook/assets/Slotbot-AppleCalendar-Create7.PNG) ![Konfiguration bestätigen](../.gitbook/assets/Slotbot-AppleCalendar-Create8.PNG)
 
-![Im Kalender taucht das neue Kalenderabonnement in der Kategorie Abonniert auf](../.gitbook/assets/Slotbot-AppleCalendar-Create9.PNG)
+<div align="center">
+
+<img src="../.gitbook/assets/Slotbot-AppleCalendar-Create9.PNG" alt="Im Kalender taucht das neue Kalenderabonnement in der Kategorie Abonniert auf">
+
+</div>

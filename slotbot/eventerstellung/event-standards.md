@@ -10,7 +10,11 @@ description: Vorschläge für die Event-Details bestimmter Event Typen
 
 ## Arma 3
 
-![](../../.gitbook/assets/Slotbot-Default-Arma3.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/Slotbot-Default-Arma3.png" alt="">
+
+</div>
 
 ## Deutsche Arma Allianz
 
