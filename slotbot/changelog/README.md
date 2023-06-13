@@ -10,6 +10,20 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
+## Highlights des Updates 13. Juni 2023
+
+🧈
+
+Die Oberfläche zeigt nicht nur immer an, was sie gerade tut, sie lädt auch weniger Dinge nach und lässt sich butterweich navigieren.
+
+🤖
+
+Mit Hilfe der neu gestalteten API-Endpunkte können Events genau so integriert werden, wie sie benötigt werden.
+
+{% content-ref url="update-13.06.2023.md" %}
+[update-13.06.2023.md](update-13.06.2023.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 08. Mai 2023
 
 🔛
@@ -219,3 +233,18 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-24.-and-26.10.2021.md](update-24.-and-26.10.2021.md "mention")
 * [update-14.11.2021.md](update-14.11.2021.md "mention")
 * [update-23.11.2021.md](update-23.11.2021.md "mention")
+
+### 2022
+
+* [update-06.02.2022.md](update-06.02.2022.md "mention")
+* [update-30.11.2022.md](update-30.11.2022.md "mention")
+* [update-03.12.2022.md](update-03.12.2022.md "mention")
+
+### 2023
+
+* [update-16.02.2023.md](update-16.02.2023.md "mention")
+* [update-22.02.2023.md](update-22.02.2023.md "mention")
+* [update-31.03.2023.md](update-31.03.2023.md "mention")
+* [update-08.05.2023.md](update-08.05.2023.md "mention")
+* [update-10.05.2023.md](update-10.05.2023.md "mention")
+* [update-13.06.2023.md](update-13.06.2023.md "mention")
