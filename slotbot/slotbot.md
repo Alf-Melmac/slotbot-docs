@@ -4,7 +4,11 @@ Dein Tool zur Planung des nächsten Spieleabends! Planung oder Vorbereitung übe
 
 ## Discord Integration
 
+<div align="center">
+
 <figure><img src="../.gitbook/assets/Discord-Logo+Wordmark-Color.png" alt="Discord Logo mit Schriftzug"><figcaption></figcaption></figure>
+
+</div>
 
 Teilnehmer können auf einer Plattform bleiben und erhalten alle Informationen und Interaktionen gebündelt.
 
