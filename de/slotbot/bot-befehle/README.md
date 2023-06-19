@@ -20,7 +20,7 @@ description: Aufzählung aller verfügbaren Interaktion mit dem Discord Bot.
 | Unslot\_Erzwingen     | Kanal verwalten                          | [unslot-erzwingen.md](unslot-erzwingen.md "mention")       |
 | Zufälliger\_Slot      | Nachrichtenverlauf anzeigen              | [zufaelliger-slot.md](zufaelliger-slot.md "mention")       |
 
-<figure><img src="../../.gitbook/assets/discord-slash-command.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/discord-slash-command (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Kontext-Menü
 
@@ -28,7 +28,7 @@ description: Aufzählung aller verfügbaren Interaktion mit dem Discord Bot.
 | -------------------- | ---------------------------------------- | -------------------------------------------------------------- |
 | Community hinzufügen | Rollen verwalten                         | [community-hinzufuegen.md](community-hinzufuegen.md "mention") |
 
-<figure><img src="../../.gitbook/assets/discord-message-context-menu.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/discord-message-context-menu (1).png" alt=""><figcaption></figcaption></figure>
 
 _Discords_ [_Slash Commands FAQ_](https://support.discord.com/hc/de/articles/1500000368501-Slash-Commands-FAQ) _und_ [_Application Commands_](https://discord.com/developers/docs/interactions/application-commands)
 

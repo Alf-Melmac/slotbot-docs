@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Willkommen!](README.md)
-
 ## Slotbot
 
-* [Slotbot](slotbot/slotbot.md)
+* [Slotbot](README.md)
 * [Übersicht](slotbot/uebersicht.md)
 * [Eventerstellung](slotbot/eventerstellung/README.md)
   * [Event Standards](slotbot/eventerstellung/event-standards.md)
@@ -47,10 +45,6 @@
   * [Update 12.06.2021](slotbot/changelog/update-12.06.2021.md)
   * [Update 17.05.2021](slotbot/changelog/update-17.05.2021.md)
   * [Update 14.05.2021](slotbot/changelog/update-14.05.2021.md)
-
-## Seymour
-
-* [Seymour](seymour/seymour.md)
 
 ## DAA
 
