@@ -248,3 +248,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-08.05.2023.md](update-08.05.2023.md "mention")
 * [update-10.05.2023.md](update-10.05.2023.md "mention")
 * [update-13.06.2023.md](update-13.06.2023.md "mention")
+* [update-27.06.2023.md](update-27.06.2023.md "mention")
