@@ -25,6 +25,7 @@
 * [Glossar](slotbot/glossar.md)
 * [API Dokumentation](slotbot/api-dokumentation.md)
 * [Changelog](slotbot/changelog/README.md)
+  * [Update 27.06.2023](slotbot/changelog/update-27.06.2023.md)
   * [Update 13.06.2023](slotbot/changelog/update-13.06.2023.md)
   * [Update 10.05.2023](slotbot/changelog/update-10.05.2023.md)
   * [Update 08.05.2023](slotbot/changelog/update-08.05.2023.md)
