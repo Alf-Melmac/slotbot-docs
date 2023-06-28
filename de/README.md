@@ -1,61 +1,23 @@
-# Slotbot
+---
+description: >-
+  Der Slotbot ist eine moderne Plattform zur effizienten Organisation von Events
+  jeglicher Art.
+---
 
-Dein Tool zur Planung des nächsten Spieleabends! Planung oder Vorbereitung über die Website, API oder die umfassende Discord Integration.
+# Was ist der Slotbot?
 
-## Discord Integration
+## <mark style="color:blue;">Konzentriere dich auf das Event, wir übernehmen den Rest.</mark>
 
-<div align="center">
+Wir möchten **Communities** dabei helfen, sich auf den Inhalt ihrer Events zu **fokusieren**, indem wir eine einfache, aber leistungsstarke Plattform für die Organisation von Events anbieten.
 
-<figure><img src=".gitbook/assets/Discord-Logo+Wordmark-Color.png" alt="Discord Logo mit Schriftzug"><figcaption></figcaption></figure>
+Unser Ziel ist es, ein **eventbasiertes**, **benutzerfreundliches** und **kollaboratives** Produkt zu schaffen, mit dem Teilnehmende und Planende alle wichtigen Informationen miteinander teilen können.
 
-</div>
+Damit sich möglichst viele Teilnehmer registrieren, wurde der Registrierungsprozess für die Nutzer so einfach wie möglich gestaltet. Auch den Event-Planenden werden in drei kurzen Schritten gezielt alle wichtigen Informationen abgefragt, so dass keine Fragen offen bleiben.
 
-Teilnehmer können auf einer Plattform bleiben und erhalten alle Informationen und Interaktionen gebündelt.
+## Entdecke den Slotbot
 
-_Details unter_ [bot-befehle](slotbot/bot-befehle/ "mention")
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Kalender</strong></td><td>Entdecke die Übersicht und Details der Events</td><td><a href="events/eventkalender.md">eventkalender.md</a></td></tr><tr><td><strong>Einladen und zusammen spielen</strong></td><td>Lerne andere Gruppen einzuladen und gemeinsam zu planen</td><td></td></tr><tr><td><strong>Erinnerungen</strong></td><td>Benachrichtigung vor dem Start und Kalenderintegration</td><td></td></tr><tr><td><strong>Verwaltung</strong></td><td>Verwalte deine Community und ihre Mitglieder</td><td></td></tr></tbody></table>
 
-### Ein Login für Alles
+## Entdecke die Integrationen
 
-Login auch auf der Website über den eigenen Discord-Account. Berechigungskonfiguration über Discord-Rollen, die nur für Management-Rollen benötigt werden.
-
-## Anmeldungsverwaltung
-
-Nur eine begrenzte Anzahl spezifischer Plätze verfügbar? Kein Problem! Teilnehmer melden sich im Voraus für geplante Plätze an.
-
-![](.gitbook/assets/Slotbot-Slot.gif)
-
-Sollten alle Plätze belegt sein wird automatisch, in Form einer Reserve, Platz für Nachrücker geschaffen.
-
-## Benachrichtigungen
-
-Kein verpasster Termin mehr. Eingetragene Teilnehmer eines Events können sich so oft und so früh wie sie möchten für ein Event über Discord benachrichtigen lassen.
-
-<figure><img src=".gitbook/assets/Slotbot-DE-Notifications.png" alt="Konfigurationsmaske der globalen Benachrichtigungseinstellungen im eigenen Profil"><figcaption></figcaption></figure>
-
-## Integriert in den eigenen Kalender
-
-iCalender (.ics Datei) Import in beliebigen Kalender. Damit sind die Events jederzeit in der eigenen Hosentasche, auch ohne Internet.
-
-![](.gitbook/assets/Slotbot-AppleCalendar-Create9.PNG)
-
-## Eventerstellung
-
-Einfach schnelles Anlegen mit dem Event-Wizard. Alle wichtigen Informatione für die Teilnehmer im richtigen Format.
-
-<figure><img src=".gitbook/assets/Slotbot-DE-EventWizard.png" alt="Event-Anlage-Maske"><figcaption></figcaption></figure>
-
-<img src=".gitbook/assets/Badge-Star.png" alt="" data-size="line"> Immer das Gleiche, aber doch nicht die selben Infos? Wenn eine Event-Kopie zu ausführlich ist, können Standards für Event-Typen festgelegt werden. Damit vergisst kein Event-Ersteller mehr die wirklich wichtigen Dinge.
-
-### Speziell für Arma 3
-
-`mission.sqm` Upload. Slotliste aus dem Missionsbau auf der Website importieren und kein zweites mal die Slotliste anlegen.
-
-_Details unter_ [eventerstellung](slotbot/eventerstellung/ "mention")
-
-## Eigener Eventkalender
-
-<img src=".gitbook/assets/Badge-Star.png" alt="" data-size="line"> Getrennter Kalender, eigenes Design und Branding, Einladen anderer Gruppen über einen Klick und automatisch verlinkte Modsets. Speziell zugeschnitten und unter der eigenen Domain zur Verfügung gestellt.
-
-_Beispiele_: [AMB](https://armamachtbock.de/events) und [DAA](https://events.deutsche-arma-allianz.de/events)
-
-> Mit \* markierte Features nur auf Anfrage. Bei Interesse Alf für Details kontaktieren.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Discord</strong></td><td></td><td></td><td></td><td><a href="integrationen/discord/">discord</a></td></tr><tr><td><strong>Eigener Kalender</strong></td><td></td><td></td><td></td><td><a href="integrationen/kalender-synchronisation.md">kalender-synchronisation.md</a></td></tr></tbody></table>
