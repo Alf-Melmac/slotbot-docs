@@ -8,7 +8,7 @@ description: Slottet jemand anderen in ein Event.
 
 ## Befehl
 
-/forceSlot `slotnummer` `nutzer`
+/slot\_erzwingen `slotnummer` `nutzer`
 
 ## Aktion
 

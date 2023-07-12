@@ -4,7 +4,7 @@
 
 Die API kann verwendet werden, um der eigenen Community zusätzliche Möglichkeiten zu bieten, mit Events zu interagieren oder Informationen anzuzeigen. Teile gerne deine Ideen, vielleicht können auch andere davon profitieren.
 
-Die aktuelle API Version ist `v1`. Breaking changes für zu einer Anhebung der Versionsnummer. Dies enthält unter anderem Änderungen der Rückgabewerte existierender Felder, entfernen eines beliebigen Teils der API. Zusätzliche Rückgabefelder oder neue Anfrage-Parameter führen nicht zu einem Versionswechsel. Änderungen an den Entpunkten sind den Changelogs zu entnehmen.
+Die aktuelle API Version ist `v1`. Breaking changes für zu einer Anhebung der Versionsnummer. Dies enthält unter anderem Änderungen der Rückgabewerte existierender Felder oder entfernen eines beliebigen Teils der API. Zusätzliche Rückgabefelder oder neue Anfrage-Parameter führen nicht zu einem Versionswechsel. Änderungen an den Endpunkten sind den Changelogs zu entnehmen.
 
 Die meisten Endpunkte benötigen eine Authentifizierung über API-Schlüssel. Diese können derzeit nicht selbst konfiguriert werden, Kontaktaufnahme mit Alf ist erforderlich.
 

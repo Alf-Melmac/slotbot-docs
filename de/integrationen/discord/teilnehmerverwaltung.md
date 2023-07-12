@@ -24,4 +24,4 @@ Für das Umtragen einer Person auf einen anderen Slot muss nur die neue Slotnumm
 
 Die Belegung eines Platzes in einem Event kann über den Befehl [unslot-erzwingen.md](bot-befehle/unslot-erzwingen.md "mention") aufgehoben werden. Dabei spielt es keine Rolle, ob die Belegung eine Person oder nur ein Platzhalter-Text ist.
 
-Jeder Teilnehmer kann sich selbst jederzeit über den [unslot.md](bot-befehle/unslot.md "mention") Befehlt austragen.
+Jeder Teilnehmer kann sich selbst jederzeit über den [unslot.md](bot-befehle/unslot.md "mention") Befehl austragen.

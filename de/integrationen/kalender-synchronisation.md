@@ -4,11 +4,11 @@ description: Den Kalender überall hin mitnehmen.
 
 # Kalender-Synchronisation
 
-Die Eventabende mit der Familie planen und nicht den Überblick verlieren? Kein Problem! Einfach den externen Kalender [im Profil](https://armamachtbock.de/profile/me) aktivieren und in den eigenen Kalender einfügen.
+Die Eventabende mit der Familie planen und nicht den Überblick verlieren? Kein Problem! Einfach den externen Kalender [im Profil](https://slotbot.de/profile/me) aktivieren und in den eigenen Kalender einfügen.
 
 ![](../../.gitbook/assets/Slotbot-External-Calendar.png)
 
-Es handelt sich hierbei um das standardisierte iCalendar-Format (erkennbar and Endung .ics). Die meisten gängigen Kalenderanwendungen unterstützen dieses Format. Eine Schritt-für-Schritt-Anleitung für den Google und Apple Kalender befindet sich hier auf der Seiter weiter unten.
+Es handelt sich hierbei um das standardisierte iCalendar-Format (erkennbar an der Endung .ics). Die meisten gängigen Kalenderanwendungen unterstützen dieses Format. Eine Schritt-für-Schritt-Anleitung für den Google und Apple Kalender befindet sich hier auf der Seiter weiter unten.
 
 {% hint style="info" %}
 Für ausgewählte Gruppen gibt es auch den gesamten Kalender als Import. Dieser enthält dann alle Events, die auch auf der Website im Gruppen-Kalender sichtbar sind. _Beispiele:_ [AMB](https://armamachtbock.de/calendar/AMB) und [DAA](https://events.deutsche-arma-allianz.de/calendar/DAA)
@@ -24,7 +24,7 @@ Die URL aus dem Profil oder die der Gruppe einfügen und "Kalender hinzufügen" 
 
 ![](../../.gitbook/assets/Slotbot-GoogleCalendar-Create2.png)
 
-Das war schon! Damit der Kalender stets aktualisiert wird muss die Synchronisation teils manuell in den [Synchronisierungseinstellungen](https://calendar.google.com/calendar/syncselect) aktiviert werden.
+Das wars schon! Damit der Kalender stets aktualisiert wird muss die Synchronisation teils manuell in den [Synchronisierungseinstellungen](https://calendar.google.com/calendar/syncselect) aktiviert werden.
 
 ### Apple
 

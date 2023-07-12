@@ -8,7 +8,7 @@
 
 * Neue Ladeanzeige beim Auswählen eines Events im Kalender. _(commit:_ [_7db5b285_](https://github.com/Alf-Melmac/slotbotServer/commit/7db5b285b9a6dc5a82aa52ce29972d72a64592d1)_)_
 * **Profilseite** hinzugefügt _(commit:_ [_9b73b25f_](https://github.com/Alf-Melmac/slotbotServer/commit/9b73b25f987e3261553ba6de6aeacbe3f86972f7)_)_
-  * Discord Name und Avatar (Auch Gifs _(commit:_ [_3d586a95_](https://github.com/Alf-Melmac/slotbotServer/commit/3d586a953abd3f75080b9b8881a28e7a338dd9a8)_)_)
+  * Discord Name und Avatar (Auch Gifs) _(commit:_ [_3d586a95_](https://github.com/Alf-Melmac/slotbotServer/commit/3d586a953abd3f75080b9b8881a28e7a338dd9a8)_)_
   * Anzahl der teilgenommenen Events _(commit:_ [_0a49896c_](https://github.com/Alf-Melmac/slotbotServer/commit/0a49896c6b536ac600cc61bdc812b644d5a6bacf)_)_
   * Eingeloggte Nutzer sehen die vergebenen Berechtigungen
   * Globale Benachrichtigungseinstellungen (Siehe unten) _(commit:_ [_c327d351_](https://github.com/Alf-Melmac/slotbotServer/commit/c327d351915d54a71f537672742beda992c4ea0e)_)_
