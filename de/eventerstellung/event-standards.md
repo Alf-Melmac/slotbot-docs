@@ -1,5 +1,5 @@
 ---
-description: Vorschläge für die Event-Details bestimmter Event Typen
+description: Vorschläge für die Event-Details bestimmter Event Typen.
 ---
 
 # Event Standards
