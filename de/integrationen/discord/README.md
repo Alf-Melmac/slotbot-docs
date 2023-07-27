@@ -12,7 +12,7 @@ Keine nötig. Sobald der Bot dem Server beigetreten ist, sind wir startklar.
 
 ## Funktionsübersicht
 
-Die Discord Integration ermöglicht die Darstellung der Events in Kanälen. Die Teilnehmer können sich anmelden, ohne Discord verlassen zu müssen, und erhalten Benachrichtigungen vor dem Start.
+Die Discord Integration ermöglicht die Darstellung der Events in Kanälen. Die Teilnehmer können sich anmelden, ohne Discord verlassen zu müssen, und erhalten Benachrichtigungen vor dem Start. Eine Übersicht über alle vergangenen Events wird ebenfalls angeboten.
 
 
 

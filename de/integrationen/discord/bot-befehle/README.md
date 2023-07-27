@@ -8,7 +8,6 @@ description: Aufzählung aller verfügbaren Interaktion mit dem Discord Bot.
 
 | Befehl                | Standardmäßig erforderliche Berechtigung | Details                                                    |
 | --------------------- | ---------------------------------------- | ---------------------------------------------------------- |
-| Archivieren           | Kanal verwalten                          | [archivieren.md](archivieren.md "mention")                 |
 | Archiv\_Neu\_Aufbauen | Administrator                            | [archiv-neu-aufbauen.md](archiv-neu-aufbauen.md "mention") |
 | Event\_Hinzufügen     | Kanal verwalten                          | [event-hinzufuegen.md](event-hinzufuegen.md "mention")     |
 | Event\_Ping           | Nachrichtenverlauf anzeigen              | [event-ping.md](event-ping.md "mention")                   |
