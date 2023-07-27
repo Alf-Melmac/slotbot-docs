@@ -4,7 +4,7 @@ description: Gemeinsam macht es doch am meisten Spaß.
 
 # Communities / Guilds
 
-**Link:** [**https://events.armamachtbock.de/guilds**](https://events.armamachtbock.de/guilds)
+**Link:** [**https://slotbot.de/guilds**](https://slotbot.de/guilds)
 
 Wir sind davon überzeugt, dass von gemeinsamen Events alle profitieren. Der Slotbot hilft dir, gemeinsam mit anderen zu planen.
 

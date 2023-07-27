@@ -12,7 +12,6 @@
 * [Discord](integrationen/discord/README.md)
   * [Teilnehmerverwaltung](integrationen/discord/teilnehmerverwaltung.md)
   * [Bot Befehle](integrationen/discord/bot-befehle/README.md)
-    * [Archivieren](integrationen/discord/bot-befehle/archivieren.md)
     * [Archiv neu aufbauen](integrationen/discord/bot-befehle/archiv-neu-aufbauen.md)
     * [Community hinzufügen](integrationen/discord/bot-befehle/community-hinzufuegen.md)
     * [Event hinzufügen](integrationen/discord/bot-befehle/event-hinzufuegen.md)
@@ -26,6 +25,7 @@
     * [Zufälliger Slot](integrationen/discord/bot-befehle/zufaelliger-slot.md)
   * [Empfohlene Konfiguration](integrationen/discord/empfohlene-konfiguration.md)
   * [Benachrichtigungen](integrationen/discord/benachrichtigungen.md)
+  * [Archiv](integrationen/discord/archiv.md)
 * [Kalender-Synchronisation](integrationen/kalender-synchronisation.md)
 * [API Dokumentation](integrationen/api-dokumentation.md)
 
@@ -45,6 +45,7 @@
 
 * [FAQs](faq/glossar.md)
 * [Changelog](faq/changelog/README.md)
+  * [Update 2X.07.2023](faq/changelog/update-2x.07.2023.md)
   * [Update 27.06.2023](faq/changelog/update-27.06.2023.md)
   * [Update 13.06.2023](faq/changelog/update-13.06.2023.md)
   * [Update 10.05.2023](faq/changelog/update-10.05.2023.md)
