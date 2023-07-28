@@ -22,30 +22,34 @@ In allen Anfragen bitte den Header `user-agent` mitschicken. Diese Daten werden 
 
 #### Everything related to events <a href="#operations-tag-events" id="operations-tag-events"></a>
 
-{% swagger src="../.gitbook/assets/slotbot-api-docs_2-4-0.json" path="/events" method="post" %}
-[slotbot-api-docs_2-4-0.json](../.gitbook/assets/slotbot-api-docs_2-4-0.json)
+{% swagger src="../.gitbook/assets/slotbot-api-docs_2-5-0.json" path="/events" method="get" %}
+[slotbot-api-docs_2-5-0.json](../.gitbook/assets/slotbot-api-docs_2-5-0.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/slotbot-api-docs_2-4-0.json" path="/events/{id}" method="get" %}
-[slotbot-api-docs_2-4-0.json](../.gitbook/assets/slotbot-api-docs_2-4-0.json)
+{% swagger src="../.gitbook/assets/slotbot-api-docs_2-5-0.json" path="/events" method="post" %}
+[slotbot-api-docs_2-5-0.json](../.gitbook/assets/slotbot-api-docs_2-5-0.json)
+{% endswagger %}
+
+{% swagger src="../.gitbook/assets/slotbot-api-docs_2-5-0.json" path="/events/{id}" method="get" %}
+[slotbot-api-docs_2-5-0.json](../.gitbook/assets/slotbot-api-docs_2-5-0.json)
 {% endswagger %}
 
 ## Slots
 
 #### Everything related to slots in events <a href="#operations-tag-slots" id="operations-tag-slots"></a>
 
-{% swagger src="../.gitbook/assets/slotbot-api-docs_2-4-0.json" path="/events/{id}/slot/{slotNumber}" method="post" %}
-[slotbot-api-docs_2-4-0.json](../.gitbook/assets/slotbot-api-docs_2-4-0.json)
+{% swagger src="../.gitbook/assets/slotbot-api-docs_2-5-0.json" path="/events/{id}/slot/{slotNumber}" method="post" %}
+[slotbot-api-docs_2-5-0.json](../.gitbook/assets/slotbot-api-docs_2-5-0.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/slotbot-api-docs_2-4-0.json" path="/events/{id}/slot/{slotNumber}/block" method="post" %}
-[slotbot-api-docs_2-4-0.json](../.gitbook/assets/slotbot-api-docs_2-4-0.json)
+{% swagger src="../.gitbook/assets/slotbot-api-docs_2-5-0.json" path="/events/{id}/slot/{slotNumber}/block" method="post" %}
+[slotbot-api-docs_2-5-0.json](../.gitbook/assets/slotbot-api-docs_2-5-0.json)
 {% endswagger %}
 
 ## Status
 
 #### Server Status <a href="#operations-tag-status" id="operations-tag-status"></a>
 
-{% swagger src="../.gitbook/assets/slotbot-api-docs_2-4-0.json" path="/status" method="get" %}
-[slotbot-api-docs_2-4-0.json](../.gitbook/assets/slotbot-api-docs_2-4-0.json)
+{% swagger src="../.gitbook/assets/slotbot-api-docs_2-5-0.json" path="/status" method="get" %}
+[slotbot-api-docs_2-5-0.json](../.gitbook/assets/slotbot-api-docs_2-5-0.json)
 {% endswagger %}
