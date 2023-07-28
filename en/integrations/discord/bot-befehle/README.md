@@ -9,7 +9,6 @@ description: List of all available interactions with the Discord Bot.
 | Befehl                  | Permission required by default | Details                                                    |
 | ----------------------- | ------------------------------ | ---------------------------------------------------------- |
 | Add\_Event\_To\_Channel | Manage Channels                | [event-hinzufuegen.md](event-hinzufuegen.md "mention")     |
-| Archive                 | Manage Channels                | [archivieren.md](archivieren.md "mention")                 |
 | Block\_Slot             | Manage Channels                | [slot-blockieren.md](slot-blockieren.md "mention")         |
 | Event\_Ping             | Read Message History           | [event-ping.md](event-ping.md "mention")                   |
 | Force\_Slot             | Manage Channels                | [slot-erzwingen.md](slot-erzwingen.md "mention")           |

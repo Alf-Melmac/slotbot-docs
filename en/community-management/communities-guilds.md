@@ -4,7 +4,7 @@ description: It is more fun to be together.
 
 # Communities / Guilds
 
-**Link:** [**https://events.armamachtbock.de/guilds**](https://events.armamachtbock.de/guilds)
+**Link:** [**https://slotbot.de/guilds**](https://slotbot.de/guilds)
 
 We are convinced that everyone benefits from joint events. The Slotbot helps you to plan together.
 
