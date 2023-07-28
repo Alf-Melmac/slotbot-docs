@@ -12,7 +12,7 @@ No setup required. Once the bot has joined the server, we are ready to go.
 
 ## Feature overview
 
-The Discord integration allows the events to be displayed in channels. Participants can register without leaving Discord and receive notifications before the event starts.
+The Discord integration allows the events to be displayed in channels. Participants can register without leaving Discord and receive notifications before the event starts. An overview of all past events is also available.
 
 
 

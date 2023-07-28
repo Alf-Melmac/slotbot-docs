@@ -10,6 +10,20 @@ description: The most important updates as of May 2021
 
 Technically savvy users can track all changes since the last release for the [backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) and [frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) on Github.
 
+## Highlights of the update 28 July 2023
+
+🗃️
+
+The even easier archiving also gives a quick overview of past events in Discord.
+
+🦾
+
+The API now also returns multiple events in a period of time.
+
+{% content-ref url="update-28.07.2023.md" %}
+[update-28.07.2023.md](update-28.07.2023.md)
+{% endcontent-ref %}
+
 ## Highlights of the update 13 June 2023
 
 🧈
