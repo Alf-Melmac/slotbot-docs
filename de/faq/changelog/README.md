@@ -10,18 +10,18 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
-## Highlights des Updates 2X.Juli 2023
+## Highlights des Updates 28.Juli 2023
 
 🗃️
 
-Die noch einfachere archivieren gibt auch in Discord eine schnelle Übersicht über die vergangenen Events.
+Das noch einfachere Archivieren gibt auch in Discord eine schnelle Übersicht über die vergangenen Events.
 
 🦾
 
 Die API gibt nun auch mehrere Events in Zeiträumen zurück.
 
-{% content-ref url="update-2x.07.2023.md" %}
-[update-2x.07.2023.md](update-2x.07.2023.md)
+{% content-ref url="update-28.07.2023.md" %}
+[update-28.07.2023.md](update-28.07.2023.md)
 {% endcontent-ref %}
 
 ## Highlights des Updates 13. Juni 2023
@@ -263,4 +263,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-10.05.2023.md](update-10.05.2023.md "mention")
 * [update-13.06.2023.md](update-13.06.2023.md "mention")
 * [update-27.06.2023.md](update-27.06.2023.md "mention")
-* [update-2x.07.2023.md](update-2x.07.2023.md "mention")
+* [update-28.07.2023.md](update-28.07.2023.md "mention")

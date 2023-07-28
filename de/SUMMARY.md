@@ -45,7 +45,7 @@
 
 * [FAQs](faq/glossar.md)
 * [Changelog](faq/changelog/README.md)
-  * [Update 2X.07.2023](faq/changelog/update-2x.07.2023.md)
+  * [Update 28.07.2023](faq/changelog/update-28.07.2023.md)
   * [Update 27.06.2023](faq/changelog/update-27.06.2023.md)
   * [Update 13.06.2023](faq/changelog/update-13.06.2023.md)
   * [Update 10.05.2023](faq/changelog/update-10.05.2023.md)
