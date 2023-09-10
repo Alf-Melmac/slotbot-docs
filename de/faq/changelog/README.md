@@ -10,13 +10,27 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
-## Highlights des Updates 28.Juli 2023
+## Highlights des Updates 10. September 2023
 
-🗃️
+#### <img src="../../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">⁴
+
+Keine Textbefehle mehr. Jetzt sind auch alle Befehle zur schnellen Event-Verwaltung in Discord Slash Befehle.
+
+#### 🔀
+
+Noch nie war es so einfach, Slots zu tauschen.
+
+{% content-ref url="update-10.09.2023.md" %}
+[update-10.09.2023.md](update-10.09.2023.md)
+{% endcontent-ref %}
+
+## Highlights des Updates 28. Juli 2023
+
+#### 🗃️
 
 Das noch einfachere Archivieren gibt auch in Discord eine schnelle Übersicht über die vergangenen Events.
 
-🦾
+#### 🦾
 
 Die API gibt nun auch mehrere Events in Zeiträumen zurück.
 
@@ -26,11 +40,11 @@ Die API gibt nun auch mehrere Events in Zeiträumen zurück.
 
 ## Highlights des Updates 13. Juni 2023
 
-🧈
+#### 🧈
 
 Die Oberfläche zeigt nicht nur immer an, was sie gerade tut, sie lädt auch weniger Dinge nach und lässt sich butterweich navigieren.
 
-🤖
+#### 🤖
 
 Mit Hilfe der neu gestalteten API-Endpunkte können Events genau so integriert werden, wie sie benötigt werden.
 
@@ -40,7 +54,7 @@ Mit Hilfe der neu gestalteten API-Endpunkte können Events genau so integriert w
 
 ## Highlights des Updates 08. Mai 2023
 
-🔛
+#### 🔛
 
 Slotten jetzt auch direkt über die Website. Oben rechts einloggen und direkt den gewünschten Platz reservieren.
 
@@ -50,11 +64,11 @@ Slotten jetzt auch direkt über die Website. Oben rechts einloggen und direkt de
 
 ## Highlights des Updates 31. März 2023
 
-🗺
+#### 🗺
 
 Schon so spät? Events werden nun in der lokalen Zeitzone angezeigt.
 
-↔️
+#### ↔️
 
 Event-Bearbeitung in einfach: Event-Details, Squads und Slots können sortiert und dupliziert werden.
 
@@ -64,11 +78,11 @@ Event-Bearbeitung in einfach: Event-Details, Squads und Slots können sortiert u
 
 ## Higlights des Updates 16. Februar 2023
 
-:england:
+#### :england:
 
 Let's go global! Kein Deutsch, kein Problem. Vorausgesetzt du kannst englischsprachige Texte lesen und verstehen.
 
-:piñata:
+#### :piñata:
 
 Communities lassen sich nicht nur ansehen, sondern auch direkt verwalten. Hole das meiste aus Reservierungen heraus.
 
@@ -78,7 +92,7 @@ Communities lassen sich nicht nur ansehen, sondern auch direkt verwalten. Hole d
 
 ## Highlights des Updates 30. November 2022
 
-✨
+#### ✨
 
 Für die passende Weihnachtsstimmung wird die gesamte Seite auf den Kopf gestellt. Alle Details und Bilder:
 
@@ -88,11 +102,11 @@ Für die passende Weihnachtsstimmung wird die gesamte Seite auf den Kopf gestell
 
 ## Highlights des Updates 06. Februar 2022
 
-🥂
+#### 🥂
 
 Frohes Neues! Alles ist fitt für den Start ins neue Jahr. Unter anderem schlankere Slotlisten und neue Modsets.
 
-🍻
+#### 🍻
 
 Die neuen Reservierungen ganzer Squads oder einzelner Slots erleichtert das gemeinsame Zusammenspielen.
 
@@ -102,7 +116,7 @@ Die neuen Reservierungen ganzer Squads oder einzelner Slots erleichtert das geme
 
 ## Highlights des Updates 23. November 2021
 
-📅
+#### 📅
 
 iCal Support. Einbindung des Eventkalenders der eigenen Gruppe oder aller Events für die man sich geslottet hat in den eigenen Kalender.
 
