@@ -73,3 +73,4 @@
   * [Update 12.06.2021](faq/changelog/update-12.06.2021.md)
   * [Update 17.05.2021](faq/changelog/update-17.05.2021.md)
   * [Update 14.05.2021](faq/changelog/update-14.05.2021.md)
+  * [Vor 05.2021](faq/changelog/vor-05.2021.md)
