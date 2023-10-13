@@ -10,14 +10,18 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
-## Highlights des nächsten Updates
+## Highlights des Updates 13. Oktober 2023
 
 #### 🔓
 
 Community Berechtigungen können nun auch über die Website gesteuert werden. Keine erzwungenen Discord-Rollen mehr.
 
-{% content-ref url="update-.10.2023.md" %}
-[update-.10.2023.md](update-.10.2023.md)
+#### 🖼️
+
+Der neue Bilder-Upload ermöglicht es endlich nicht mehr Links heraussuchen zu müssen. Einfach im Event das Bild hochladen.
+
+{% content-ref url="update-13.10.2023.md" %}
+[update-13.10.2023.md](update-13.10.2023.md)
 {% endcontent-ref %}
 
 ## Highlights des Updates 10. September 2023
@@ -293,4 +297,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-27.06.2023.md](update-27.06.2023.md "mention")
 * [update-28.07.2023.md](update-28.07.2023.md "mention")
 * [update-10.09.2023.md](update-10.09.2023.md "mention")
-* [update-.10.2023.md](update-.10.2023.md "mention")
+* [update-13.10.2023.md](update-13.10.2023.md "mention")
