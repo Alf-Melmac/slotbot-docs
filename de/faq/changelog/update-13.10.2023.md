@@ -1,8 +1,4 @@
----
-description: Vorschau des nächsten Updates
----
-
-# Update ??.10.2023
+# Update 13.10.2023
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slotbot-Server</strong></td><td>2.7.0 <img src="../../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td><a href="https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.7.0">https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.7.0</a></td></tr><tr><td><strong>Slotbot-Frontend</strong></td><td>1.6.0 <img src="../../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td><a href="https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.6.0">https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.6.0</a></td></tr></tbody></table>
 
@@ -14,6 +10,8 @@ description: Vorschau des nächsten Updates
   * Die Berechtigungsverwaltung muss nicht mehr vollständig über Discord-Rollen erfolgen. Dadurch entfallen auch die automatisch generierten Rollen Slotbot\_Admin und Slotbot\_Event\_Manage. Auf Servern, auf denen die Rollen bereits generiert wurden, werden sie nicht automatisch gelöscht.
   * Community-Administratoren haben die Möglichkeit, Community-Mitgliedern Rechte zur Bearbeitung von Events und der Community zu erteilen. Die Rollen können auch mit Discord-Rollen synchronisiert werden.
 * Community-Mitglieder werden automatisch entfernt, wenn sie den verknüpften Discord-Server verlassen. _(commit:_ [_04ac047e_](https://github.com/Alf-Melmac/slotbotServer/commit/04ac047ee4361fa7fda82709948b0223e7a35305)_)_
+* Mit dem neuen Bild-Upload können nun Bilder in Events einfach hochgeladen werden, anstatt einen Link einfügen zu müssen. _(commit:_ [_31cdeecc_](https://github.com/Alf-Melmac/slotbotServer/commit/31cdeecc7b2721119b32567905e14b855876d691)_)_
+  * Dieses Änderung ist die Vorbereitung für die anstehende Änderung für Discord-Links, die außerhalb der App nicht mehr endlos lang verwendet werden können: [https://www.reddit.com/r/DataHoarder/comments/16zs1gt/cdndiscordapp\_links\_will\_expire\_breaking/](https://www.reddit.com/r/DataHoarder/comments/16zs1gt/cdndiscordapp\_links\_will\_expire\_breaking/)
 
 ## 🐞 Fehlerbehebungen
 
