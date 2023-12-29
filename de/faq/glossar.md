@@ -24,12 +24,12 @@ Ein einzelner Platz in einem Event. Auf einen Slot meldet sich ein einziger Teil
 
 Um die verschiedenen Funktionen möglichst einfach und reibungslos zur Verfügung stellen zu können, benötigt der Discord Bot Administratorrechte. Folgende Aktionen werden damit ausgeführt:
 
-* Lese- und Schreibrechte in allen Kanälen für die [Ausgabe von Events](../integrationen/discord/bot-befehle/event-hinzufuegen.md) (auch in privaten Kanälen), das Versenden anderer Nachrichten (z.B. [event-ping.md](../integrationen/discord/bot-befehle/event-ping.md "mention")) und [archivieren von Events](../integrationen/discord/archiv.md).
-* Nachrichten löschen, die mit den alten [#textbefehle](../integrationen/discord/bot-befehle/#textbefehle "mention")n interagieren. Dadurch bleibt die Verwendung unsichtbar, ähnlich wie bei Interaktionen über [#slash-command](../integrationen/discord/bot-befehle/#slash-command "mention")s.
+* Lese- und Schreibrechte in allen Kanälen für die [Ausgabe von Events](../integrationen/discord/bot-befehle/event-hinzufuegen.md) (auch in privaten Kanälen), das Versenden anderer Nachrichten (z.B. [event-ping.md](../integrationen/discord/bot-befehle/event-ping.md "mention")), [archivieren von Events](../integrationen/discord/archiv.md) und Auswahlmöglichkeiten bei der Konfiguration des Archiv-Kanals.
+* Nachrichten löschen, um die Informationen über angepinnte Event-Details entfernen zu können.
 * Beobachten der gelöschten Nachrichten und Kanäle, um Event- und Archiv-Kanal-Verknüpfungen automatisch aufheben zu können.
-* Rollen für die [Berechtigungssteuerung](../integrationen/discord/empfohlene-konfiguration.md) anlegen.
-* Es werden **keine Nachrichten mitgeschrieben**, die nicht mit gültigen Textbefehlen anfangen.
-* Auf dem Server selbst werden **keine Einstellungen verändert** oder ausgelesen. Lediglich die Slotbot\_ Rollen werden angelegt.
+* Beobachten der Änderungen an Rollen, um automatisch Berechtigungen zuzuordnen.
+* Auflistung der Servermitglieder für die Zuordnung zu Communities.
+* Es werden **keine Nachrichten mitgeschrieben**, die Inhalte werden von Discord nicht an den Bot übertragen.
 
 #### Wie kann ich sicher sein, dass keine weiteren Aktionen durchgeführt werden?
 
