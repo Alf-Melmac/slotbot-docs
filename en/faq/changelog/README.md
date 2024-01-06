@@ -10,13 +10,55 @@ description: The most important updates as of May 2021
 
 Technically savvy users can track all changes since the last release for the [backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) and [frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) on Github.
 
+## Highlights of the update 29 December 2023
+
+#### 🦋
+
+Not only much easier to use on mobile devices, but also more beautiful on all devices. This completely eliminates the possibility of skipping events!
+
+#### 📣
+
+Finally, you can add headings to large paragraphs in the event descriptions.
+
+{% content-ref url="update-29.12.2023.md" %}
+[update-29.12.2023.md](update-29.12.2023.md)
+{% endcontent-ref %}
+
+## Highlights of the update 13 October 2023
+
+#### 🔓
+
+Community permissions can now be controlled from the website. No more mandatory Discord roles.
+
+#### 🖼️
+
+The new image upload means no more searching for links. Just upload the image in the event.
+
+{% content-ref url="update-13.10.2023.md" %}
+[update-13.10.2023.md](update-13.10.2023.md)
+{% endcontent-ref %}
+
+## Highlights of the update 10 September 2023
+
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">⁴
+
+No more text commands. All commands used to quickly manage events in Discord are now slash commands.
+
+#### 🔀
+
+Swapping slots has never been easier.
+
+{% content-ref url="update-10.09.2023.md" %}
+[update-10.09.2023.md](update-10.09.2023.md)
+{% endcontent-ref %}
+
 ## Highlights of the update 28 July 2023
 
-🗃️
+#### 🗃️
 
 The even easier archiving also gives a quick overview of past events in Discord.
 
-🦾
+#### 🦾
 
 The API now also returns multiple events in a period of time.
 
@@ -26,11 +68,11 @@ The API now also returns multiple events in a period of time.
 
 ## Highlights of the update 13 June 2023
 
-🧈
+#### 🧈
 
 Not only does the interface always show what it is doing, it also reloads fewer things and is buttery smooth to navigate.
 
-🤖
+#### 🤖
 
 Using the redesigned API endpoints, events can be integrated exactly as they are needed.
 
@@ -40,7 +82,7 @@ Using the redesigned API endpoints, events can be integrated exactly as they are
 
 ## Highlights of the update 8 May 2023
 
-🔛
+#### 🔛
 
 Slotting now also directly via the website. Log in at the top right and reserve your seat directly.
 
@@ -50,11 +92,11 @@ Slotting now also directly via the website. Log in at the top right and reserve 
 
 ## Highlights of the update 31 March 2023
 
-🗺
+#### 🗺
 
 So late already? Events are now displayed in the local time zone.
 
-↔️
+#### ↔️
 
 Event editing in simple: event details, squads and slots can be sorted and duplicated.
 
@@ -64,11 +106,11 @@ Event editing in simple: event details, squads and slots can be sorted and dupli
 
 ## Highlights of the update 16 February 2023
 
-:england:
+#### :england:
 
 Let's go global! No German, no problem. Provided you can read and understand English texts.
 
-:piñata:
+#### :piñata:
 
 Communities can not only be viewed, but also managed directly. Get the most out of reservations.
 
@@ -78,7 +120,7 @@ Communities can not only be viewed, but also managed directly. Get the most out 
 
 ## Highlights of the update 30 November 2022
 
-✨
+#### ✨
 
 For the right Christmas mood, the entire page is turned upside down. All details and pictures:
 
@@ -88,11 +130,11 @@ For the right Christmas mood, the entire page is turned upside down. All details
 
 ## Highlights of the update 6 February 2022
 
-🥂
+#### 🥂
 
 Happy New Year! Everything is ready for the start of the new year. Among other things, leaner slot lists and new modsets.
 
-🍻
+#### 🍻
 
 The new reservations of entire squads or individual slots make it easier to play together.
 
@@ -102,7 +144,7 @@ The new reservations of entire squads or individual slots make it easier to play
 
 ## Highlights of the update 23 November 2021
 
-📅
+#### 📅
 
 iCal support. Integration of the event calendar of your own group or all events for which you have slotted into your own calendar.
 
@@ -236,6 +278,10 @@ Events are now less Arma-dependent. This allows us to **present events** more **
 
 _All changelogs until 06.2023 are machine translated._
 
+### 2020
+
+* [before-05.2021.md](before-05.2021.md "mention")
+
 ### 2021
 
 * [update-14.05.2021.md](update-14.05.2021.md "mention")
@@ -265,3 +311,9 @@ _All changelogs until 06.2023 are machine translated._
 * [update-10.05.2023.md](update-10.05.2023.md "mention")
 * [update-13.06.2023.md](update-13.06.2023.md "mention")
 * [update-27.06.2023.md](update-27.06.2023.md "mention")
+* [update-28.07.2023.md](update-28.07.2023.md "mention")
+* [update-10.09.2023.md](update-10.09.2023.md "mention")
+* [update-13.10.2023.md](update-13.10.2023.md "mention")
+* [update-15.11.2023.md](update-15.11.2023.md "mention")
+* [update-25.11.2023.md](update-25.11.2023.md "mention")
+* [update-29.12.2023.md](update-29.12.2023.md "mention")
