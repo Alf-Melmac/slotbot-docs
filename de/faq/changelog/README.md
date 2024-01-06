@@ -10,6 +10,20 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
+## Highlights des Updates 29. Dezember 2023
+
+#### 🦋
+
+Nicht nur mobil deutlich besser nutzbar, sondern auch auf allen Geräten schöner. Ein Fernbleiben von Events ist damit völlig ausgeschlossen!
+
+#### 📣
+
+Endlich können große Absätze mit Überschriften in den Eventbeschreibungen beschriftet werden.
+
+{% content-ref url="update-29.12.2023.md" %}
+[update-29.12.2023.md](update-29.12.2023.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 13. Oktober 2023
 
 #### 🔓
@@ -26,7 +40,7 @@ Der neue Bilder-Upload ermöglicht es endlich nicht mehr Links heraussuchen zu m
 
 ## Highlights des Updates 10. September 2023
 
-#### <img src="../../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">⁴
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">⁴
 
 Keine Textbefehle mehr. Jetzt sind auch alle Befehle zur schnellen Event-Verwaltung in Discord Slash Befehle.
 
@@ -140,7 +154,7 @@ iCal Support. Einbindung des Eventkalenders der eigenen Gruppe oder aller Events
 
 ## Highlights des Updates 14. November 2021
 
-#### <img src="../../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">³
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">³
 
 Mehr Slash-Befehle. Mehr für Missionsbauer.
 
@@ -174,7 +188,7 @@ Nie mehr ein Event verschlafen! Im neuen Profil die Benachrichtigungen konfiguri
 
 ## Highlights des Updates 3. August 2021
 
-#### <img src="../../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">²
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">²
 
 Slash-Befehle sind einfach, toll und spitzenmäßig. Deswegen gibt es jetzt wesentlich mehr unterstütze Befehle!
 
@@ -188,7 +202,7 @@ _Keine Benachrichtigungen mehr bei Slotwechseln innerhalb der Reserve._ Erst wen
 
 ## Higlights des Updates 28. Juli 2021
 
-#### <img src="../../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">
+#### <img src="../../.gitbook/assets/slash-emoji.png" alt="" data-size="line">
 
 Die **Slash-Befehle** sind da! Discord unterstützt jetzt aktiv bei der Verwendung der Befehle. Schreibt einen Slash in den Chat und lasst euch den Rest erklären. Alle verfügbaren Slash-Befehle sind in der Befehlsübersicht markiert.
 

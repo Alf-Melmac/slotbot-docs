@@ -6,35 +6,35 @@ Der technologische Umbau ist abgeschlossen. Gleichzeitig mit diesem gibt es nun 
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-Calendar-Old.png" alt=""><figcaption><p>So kennt ihr den Kalender bisher</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-Calendar-Old.png" alt=""><figcaption><p>So kennt ihr den Kalender bisher</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-Calendar-New.png" alt=""><figcaption><p>In neuem Look</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-Calendar-New.png" alt=""><figcaption><p>In neuem Look</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-Calendar-New-Light.png" alt=""><figcaption><p>oder doch lieber in hell?</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-Calendar-New-Light.png" alt=""><figcaption><p>oder doch lieber in hell?</p></figcaption></figure>
 
 </div>
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-EventDetails-Old.png" alt=""><figcaption><p>Klick mich, dann werde ich größer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-EventDetails-Old.png" alt=""><figcaption><p>Klick mich, dann werde ich größer</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-EventDetails-New.png" alt=""><figcaption><p>Ich sehe mehr von der Beschreibung und kann die Gruppen besser auseinander halten!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-EventDetails-New.png" alt=""><figcaption><p>Ich sehe mehr von der Beschreibung und kann die Gruppen besser auseinander halten!</p></figcaption></figure>
 
 </div>
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-Profile-Old.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-Profile-Old.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Changelog-112022-Profile-New.png" alt=""><figcaption><p>Nur noch die für mich relevanten Informationen mit mehr Platz für Benachrichtigungen. Ich vergesse sonst die Events :(</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Changelog-112022-Profile-New.png" alt=""><figcaption><p>Nur noch die für mich relevanten Informationen mit mehr Platz für Benachrichtigungen. Ich vergesse sonst die Events :(</p></figcaption></figure>
 
 </div>
 

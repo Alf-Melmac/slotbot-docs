@@ -4,7 +4,7 @@ description: Slottet jemand anderen aus einem Event aus.
 
 # Unslot erzwingen
 
-![](../../../../.gitbook/assets/Slotbot-ForceUnslot.gif)
+![](../../../.gitbook/assets/Slotbot-ForceUnslot.gif)
 
 ## Befehl
 

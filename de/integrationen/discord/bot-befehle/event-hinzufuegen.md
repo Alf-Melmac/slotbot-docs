@@ -4,7 +4,7 @@ description: Wähle ein Event aus und ordne es den aktuellen Kanal zu.
 
 # Event hinzufügen
 
-![](../../../../.gitbook/assets/Slotbot-AddEventToChannel.gif)
+![](../../../.gitbook/assets/Slotbot-AddEventToChannel.gif)
 
 ## Befehl
 

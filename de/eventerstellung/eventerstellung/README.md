@@ -14,7 +14,7 @@ Zum Erstellen eines Events ist die Rolle `Slotbot_Event_Manage` oder höher übe
 
 ## Allgemeine Informationen
 
-<figure><img src="../../../.gitbook/assets/Slotbot-DE-EventWizard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Slotbot-DE-EventWizard.png" alt=""><figcaption></figcaption></figure>
 
 ### Teilen erlauben
 
@@ -24,7 +24,7 @@ Standardmäßig ist es anderen Gruppen, die den Slotbot benutzen, erlaubt, neue 
 
 Durch das **Verstecken** eines Events kann das Event im Kalender nur noch nach Anmeldung von Personen mit der Rolle `Slotbot_Event_Manage` oder höher gesehen werden.
 
-![Hinweis eines versteckten Events auf der Website](../../../.gitbook/assets/Slotbot-DE-HiddenEvent-Details.png) ![Hinweis im Discord](../../../.gitbook/assets/Slotbot-HiddenEvent-Discord.png)
+![Hinweis eines versteckten Events auf der Website](../../.gitbook/assets/Slotbot-DE-HiddenEvent-Details.png) ![Hinweis im Discord](../../.gitbook/assets/Slotbot-HiddenEvent-Discord.png)
 
 ### Event-Typ
 
@@ -32,11 +32,11 @@ Der **Event-Typ** kategorisiert Events. Durch die ausgewählte Farbe lassen sich
 
 <div align="center">
 
-<figure><img src="../../../.gitbook/assets/Slotbot-DE-EventType-Calendar.png" alt=""><figcaption><p>Event-Typ-Farbe im Kalender</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Slotbot-DE-EventType-Calendar.png" alt=""><figcaption><p>Event-Typ-Farbe im Kalender</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Slotbot-DE-EventType-Details.png" alt=""><figcaption><p>Event-Typ in den Event-Details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Slotbot-DE-EventType-Details.png" alt=""><figcaption><p>Event-Typ in den Event-Details</p></figcaption></figure>
 
 </div>
 
@@ -52,7 +52,7 @@ Die Beschreibung unterstützt einfache Textformatierungen, wie sie auch aus dem 
 
 ## Details
 
-![](../../../.gitbook/assets/Sltobot-DE-EventWizard-Details.png)
+![](../../.gitbook/assets/Sltobot-DE-EventWizard-Details.png)
 
 Im zweiten Schritt des Wizards können 23 Freitextfelder definiert werden.
 
@@ -64,7 +64,7 @@ Event-Details, die in einer speziellen Form angezeigt/formatiert werden, werden 
 
 ## Slotliste
 
-![](../../../.gitbook/assets/Slotbot-DE-EventWizard-Slotlist.png)
+![](../../.gitbook/assets/Slotbot-DE-EventWizard-Slotlist.png)
 
 Die Slotliste eines Events besteht immer aus Gruppen ("Squads") und Plätzen innerhalb dieser Gruppen ("Slots"). Die Reihenfolge der Gruppen kann frei bestimmt werden. Die Slots innerhalb eines Squads werden anhand ihrer Slotnummer aufsteigend sortiert.
 
