@@ -4,7 +4,7 @@ description: Slottet dich in ein Event.
 
 # Slot
 
-![](../../../../.gitbook/assets/Slotbot-Slot.gif)
+![](../../../.gitbook/assets/Slotbot-Slot.gif)
 
 ## Befehl
 

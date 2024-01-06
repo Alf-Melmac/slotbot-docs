@@ -4,7 +4,7 @@ description: Eventteilnehmer erhalten alle Informationen über Discord.
 
 # Discord
 
-<figure><img src="../../../.gitbook/assets/Discord-Logo+Wordmark-Color.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Discord-Logo+Wordmark-Color.png" alt=""><figcaption></figcaption></figure>
 
 ## Einrichtung
 

@@ -8,4 +8,4 @@ Kein verpasster Termin mehr. Registrierte Teilnehmer eines Events können sich s
 
 Konfiguration im [eigenen Profil](https://slotbot.de/profile/me) nach Anmeldung auf der Website.
 
-<figure><img src="../../../.gitbook/assets/Slotbot-DE-Notifications.png" alt="Konfigurationsmaske der globalen Benachrichtigungseinstellungen im eigenen Profil"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Slotbot-DE-Notifications.png" alt="Konfigurationsmaske der globalen Benachrichtigungseinstellungen im eigenen Profil"><figcaption></figcaption></figure>

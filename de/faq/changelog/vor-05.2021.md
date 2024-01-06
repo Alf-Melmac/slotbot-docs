@@ -1,5 +1,5 @@
 ---
-description: Alle Update-Nachrichten vor Mai 21 die noch auffindbar waren
+description: Alle Update-Nachrichten vor Mai 21, die noch auffindbar waren
 ---
 
 # Vor 05.2021
@@ -149,6 +149,10 @@ Hello World!
 ## 23.01.2021
 
 > Hotfix für die Event-Datumsanzeige und das neue Modpack.
+
+## 22.02.2021
+
+> Ich habe den Discord Bot von einigen fiesen Bugs befreit. Die nennenswertesten sind die unzuverlässige Modpack-Verlinkung und verrutschen in der Reserve. Beides funktioniert nun wieder wie gewollt und vielleicht findet ihr unter `!help` sogar ein paar neue Befehle :wink:
 
 ## 16.03.2021
 

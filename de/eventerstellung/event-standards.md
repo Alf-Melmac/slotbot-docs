@@ -12,14 +12,14 @@ Bei den Vorschlägen kann es sich um Freitext, Freitext mit Auswahlmöglichkeite
 
 <div align="center">
 
-<img src="../../.gitbook/assets/Slotbot-Default-Arma3.png" alt="Zur Verfügung gestellt von Arma macht Bock">
+<img src="../.gitbook/assets/Slotbot-Default-Arma3.png" alt="Zur Verfügung gestellt von Arma macht Bock">
 
 </div>
 
 ## Deutsche Arma Allianz
 
-![Zur Verfügung gestellt von Deutsche Arma Allianz](../../.gitbook/assets/Slotbot-Default-DAA.png)
+![Zur Verfügung gestellt von Deutsche Arma Allianz](../.gitbook/assets/Slotbot-Default-DAA.png)
 
 ## OPT Kampagne
 
-![Zur Verfügung gestellt von Operation Pandora Trigger](../../.gitbook/assets/Slotbot-Default-OPT.png)
+![Zur Verfügung gestellt von Operation Pandora Trigger](../.gitbook/assets/Slotbot-Default-OPT.png)

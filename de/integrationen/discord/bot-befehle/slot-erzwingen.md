@@ -4,7 +4,7 @@ description: Slottet jemand anderen in ein Event.
 
 # Slot erzwingen
 
-![](../../../../.gitbook/assets/Slotbot-ForceSlot.gif)
+![](../../../.gitbook/assets/Slotbot-ForceSlot.gif)
 
 ## Befehl
 
