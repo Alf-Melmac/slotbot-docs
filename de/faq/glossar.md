@@ -18,19 +18,29 @@ Eine Gruppe in einem Event. Enthält einen oder mehrere Slots.
 
 Ein einzelner Platz in einem Event. Auf einen Slot meldet sich ein einziger Teilnehmer an und bekundet damit sein Interesse oder sagt seine Teilnahme zu.
 
+## Welche Rechte benötigt der Discord Bot?
 
+Um die verschiedenen Funktionen möglichst einfach und reibungslos zur Verfügung stellen zu können, benötigt der Discord Bot einige Rechte. Die folgenden Aktionen werden damit ausgeführt. "Kanäle" inkludieren im folgenden sowohl die Standard Textkanäle, als auch Threads und Forenbeiträge.
 
-## Warum benötigt der Discord Bot Administrator-Rechte?
+* **Kanal anzeigen** und **Nachrichten (in Threads) senden**, um [Events auszugeben](../integrationen/discord/bot-befehle/event-hinzufuegen.md), zu aktualisieren und [Nachrichten an Eventteilnehmer](../integrationen/discord/bot-befehle/event-ping.md) zu senden. Um [Archivnachrichten](../integrationen/discord/archiv.md) zu versenden, muss der Bot außerdem Zugriff auf den Archivkanal haben. Mit der Berechtigung zum Anzeigen von Kanälen können außerdem während der Konfiguration des Archivkanals Auswahlmöglichkeiten angeboten werden.
+* **Links einbetten**, um die Event-Details und den Eventtrenner auszugeben.
+* (Optional) **Nachrichten verwalten**, um die Slotliste im Event-Kanal anzupinnen.
+* (Optional) **Nachrichtenverlauf anzeigen**, um die Informationen zum Anpinnen der Event-Details zwischen oder unter der Slotliste zu entfernen.
+  * Mit dieser Berechtigung kann der Bot nicht den Inhalt der Nachrichten anderer Benutzer lesen. Er erhält lediglich Informationen über die Meta-Informationen der Nachrichten. (Mehr dazu im [Discord FAQ](https://support-dev.discord.com/hc/en-us/articles/4404772028055))
 
-Um die verschiedenen Funktionen möglichst einfach und reibungslos zur Verfügung stellen zu können, benötigt der Discord Bot Administratorrechte. Folgende Aktionen werden damit ausgeführt:
+Diese zusätzlichen Informationen werden von Discord an den Bot weitergeleitet (Intents [https://discord.com/developers/docs/topics/gateway#list-of-intents](https://discord.com/developers/docs/topics/gateway#list-of-intents)):
 
-* Lese- und Schreibrechte in allen Kanälen für die [Ausgabe von Events](../integrationen/discord/bot-befehle/event-hinzufuegen.md) (auch in privaten Kanälen), das Versenden anderer Nachrichten (z.B. [event-ping.md](../integrationen/discord/bot-befehle/event-ping.md "mention")), [archivieren von Events](../integrationen/discord/archiv.md) und Auswahlmöglichkeiten bei der Konfiguration des Archiv-Kanals.
-* Nachrichten löschen, um die Informationen über angepinnte Event-Details entfernen zu können.
-* Beobachten der gelöschten Nachrichten und Kanäle, um Event- und Archiv-Kanal-Verknüpfungen automatisch aufheben zu können.
-* Beobachten der Änderungen an Rollen, um automatisch Berechtigungen zuzuordnen.
-* Auflistung der Servermitglieder für die Zuordnung zu Communities.
-* Es werden **keine Nachrichten mitgeschrieben**, die Inhalte werden von Discord nicht an den Bot übertragen.
+* Interaktionen mit dem Bot über Slash Commands.
+* Informationen über die Mitglieder eines Discord Servers, um ihnen automatisch Berechtigungen zuzuweisen oder zu entziehen, wenn sie ihre Rolle ändern oder die Verbindung zu einer Community trennen. (`GUILD_MEMBERS`)
+* Gelöschte Kanäle und Gelöschte Nachrichten , um Event- und Archivkanalverknüpfungen automatisch zu löschen. (`GUILD_MESSAGES`)
 
 #### Wie kann ich sicher sein, dass keine weiteren Aktionen durchgeführt werden?
 
 Der gesamte Quellcode des Bots wird als Open Source zur Verfügung gestellt. Damit kann selbst geprüft werden, welche Listener aktiv sind und welche Interaktionen ausgeführt werden. Besonders relevant sind die Klassen unter [`de.webalf.slotbot.service.bot`](https://github.com/Alf-Melmac/slotbotServer/tree/master/src/main/java/de/webalf/slotbot/service/bot).
+
+{% hint style="info" %}
+Bekannte Probleme mit der Berechtigungsprüfung:
+
+In privaten Threads öffentlicher Kanäle denkt der Bot, Nachrichten senden zu können, auch wenn er nicht Mitglied des privaten Threads ist. Referenz: [discord-jda/JDA#2602](https://github.com/discord-jda/JDA/issues/2602)
+{% endhint %}
+
