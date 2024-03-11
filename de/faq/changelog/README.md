@@ -10,6 +10,30 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
+## Highlights des Updates ??. März 2024
+
+#### 🔍
+
+Nicht nur die Unterstützung größerer Schriften, Abstände und die mobile Ansicht wurden optimiert. Extra Aufmerksamkeit wurde auch den Kontrasten und der schnellen Ladezeit gewidmet.
+
+#### ➕
+
+Das Anlegen und Editieren von Events ist noch individueller und einfacher geworden! So wird beim Anlegen eines Events der Event-Ersteller automatisch ausgefüllt, ein neuer Event-Typ kann auch nach dem Anlegen des Events angelegt und ausgewählt werden und Sonderzeichen zur Formatierung können escaped werden. Damit wird nur das wirklich Wichtige hervorgehoben.
+
+{% content-ref url="update-.03.2024.md" %}
+[update-.03.2024.md](update-.03.2024.md)
+{% endcontent-ref %}
+
+## Highlights des Updates 9. Januar 2024
+
+#### 🔏
+
+Der Discord Bot benötigt keine Administratorrechte mehr, um korrekt zu funktionieren. Das sorgt für mehr Sicherheit für alle.
+
+{% content-ref url="update-09.01.2024.md" %}
+[update-09.01.2024.md](update-09.01.2024.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 29. Dezember 2023
 
 #### 🦋
@@ -319,3 +343,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 ### 2024
 
 * [update-09.01.2024.md](update-09.01.2024.md "mention")
+* [update-.03.2024.md](update-.03.2024.md "mention")
