@@ -18,18 +18,21 @@ A group in an event. Contains one or more slots.
 
 A single slot in an event. A single participant registers for a slot, which indicates their interest or agreement to participate.
 
+## What permissions does the Discord Bot require?
 
+In order to make the various functions available as easily and smoothly as possible, the Discord Bot requires certain rights. The following actions are carried out with them. "Channels" include the standard text channels as well as threads and forum posts.
 
-## Why does the Discord Bot need administrator permissions?
+* **View channel** and **Send messages (in Threads)** to [output](../integrations/discord/bot-befehle/event-hinzufuegen.md) and update events and send [messages to event participants](../integrations/discord/bot-befehle/event-ping.md). To send [archive messages](../integrations/discord/archive.md), the bot must also have access to the archive channel. Selection options can also be offered when configuring the archive channel if the permission to view channels is given.
+* **Embed links** to output the event details and the event separator.
+* (Optional) **Manage messages** to pin the slot list in the event channel.
+* (Optional) **Read message history** to remove the information for pinning the event details between or below the slot list.
+  * With this permission, the bot cannot read the content of other users' messages. It only receives information about the meta information of the messages. (More on this in the [Discord FAQ](https://support-dev.discord.com/hc/en-us/articles/4404772028055))
 
-In order for the Discord Bot to perform its various functions as easily and smoothly as possible, it requires administrator privileges. The following actions are performed with them:
+This additional information is forwarded to the bot by Discord (Intents [https://discord.com/developers/docs/topics/gateway#list-of-intents](https://discord.com/developers/docs/topics/gateway#list-of-intents)):
 
-* Read and write permissions in all channels to [output events](../integrations/discord/bot-befehle/event-hinzufuegen.md) (including private channels), send other messages (e.g. [event-ping.md](../integrations/discord/bot-befehle/event-ping.md "mention")) and archive events.
-* Delete messages that interact with the old [#text-commands](../integrations/discord/bot-befehle/#text-commands "mention"). This keeps the usage invisible, similar to the [#slash-command](../integrations/discord/bot-befehle/#slash-command "mention") interactions.
-* Deleted messages and channels are monitored for automatic unlinking of events and archive channels.
-* Create roles for [permission control](../integrations/discord/recommended-configuration.md).
-* There is **no logging of messages** that are not valid text commands.
-* **No settings are changed** or read from the server itself. Only the Slotbot\_ roles will be created.
+* Interactions with the bot via slash commands.
+* Information about the members of a Discord server to automatically assign or revoke permissions when they change roles or leave a community. (`GUILD_MEMBERS`)
+* Deleted channels and Deleted messages to automatically delete event and archive channel links. (`GUILD_MESSAGES`)
 
 #### How can I be sure that no further actions will be taken?
 
