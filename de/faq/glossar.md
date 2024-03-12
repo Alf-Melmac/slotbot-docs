@@ -37,10 +37,3 @@ Diese zusätzlichen Informationen werden von Discord an den Bot weitergeleitet (
 #### Wie kann ich sicher sein, dass keine weiteren Aktionen durchgeführt werden?
 
 Der gesamte Quellcode des Bots wird als Open Source zur Verfügung gestellt. Damit kann selbst geprüft werden, welche Listener aktiv sind und welche Interaktionen ausgeführt werden. Besonders relevant sind die Klassen unter [`de.webalf.slotbot.service.bot`](https://github.com/Alf-Melmac/slotbotServer/tree/master/src/main/java/de/webalf/slotbot/service/bot).
-
-{% hint style="info" %}
-Bekannte Probleme mit der Berechtigungsprüfung:
-
-In privaten Threads öffentlicher Kanäle denkt der Bot, Nachrichten senden zu können, auch wenn er nicht Mitglied des privaten Threads ist. Referenz: [discord-jda/JDA#2602](https://github.com/discord-jda/JDA/issues/2602)
-{% endhint %}
-
