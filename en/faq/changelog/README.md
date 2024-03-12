@@ -10,7 +10,7 @@ description: The most important updates as of May 2021
 
 Technically savvy users can track all changes since the last release for the [backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) and [frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) on Github.
 
-## Highlights of the update 1? March 2024
+## Highlights of the update 12 March 2024
 
 #### 🔍
 
@@ -20,8 +20,8 @@ Not only the support of larger fonts, spacing and the mobile view have been opti
 
 Creating and editing events has become even easier and more customised! The event creator is automatically filled in when an event is created, a new event type can also be created and selected after the event has been created and special characters for formatting can be escaped. This means that only what is really important is highlighted.
 
-{% content-ref url="update-1-.03.2024.md" %}
-[update-1-.03.2024.md](update-1-.03.2024.md)
+{% content-ref url="update-12.03.2024.md" %}
+[update-12.03.2024.md](update-12.03.2024.md)
 {% endcontent-ref %}
 
 ## Highlights of the update 9 January 2023
@@ -345,4 +345,4 @@ _All changelogs until 06.2023 are machine translated._
 ### 2024
 
 * [update-09.01.2024.md](update-09.01.2024.md "mention")
-* [update-1-.03.2024.md](update-1-.03.2024.md "mention")
+* [update-12.03.2024.md](update-12.03.2024.md "mention")
