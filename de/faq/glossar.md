@@ -24,6 +24,7 @@ Um die verschiedenen Funktionen möglichst einfach und reibungslos zur Verfügun
 
 * **Kanal anzeigen** und **Nachrichten (in Threads) senden**, um [Events auszugeben](../integrationen/discord/bot-befehle/event-hinzufuegen.md), zu aktualisieren und [Nachrichten an Eventteilnehmer](../integrationen/discord/bot-befehle/event-ping.md) zu senden. Um [Archivnachrichten](../integrationen/discord/archiv.md) zu versenden, muss der Bot außerdem Zugriff auf den Archivkanal haben. Mit der Berechtigung zum Anzeigen von Kanälen können außerdem während der Konfiguration des Archivkanals Auswahlmöglichkeiten angeboten werden.
 * **Links einbetten**, um die Event-Details und den Eventtrenner auszugeben.
+* (Optional, aber empfohlen) **Rollen verwalten**, um Änderungen der Berechtigungen von [Community-Mitgliedern](../community-verwaltung/communities-guilds.md#spieler) in den zugewiesenen Discord-Rollen widerzuspiegeln.
 * (Optional) **Nachrichten verwalten**, um die Slotliste im Event-Kanal anzupinnen.
 * (Optional) **Nachrichtenverlauf anzeigen**, um die Informationen zum Anpinnen der Event-Details zwischen oder unter der Slotliste zu entfernen.
   * Mit dieser Berechtigung kann der Bot nicht den Inhalt der Nachrichten anderer Benutzer lesen. Er erhält lediglich Informationen über die Meta-Informationen der Nachrichten. (Mehr dazu im [Discord FAQ](https://support-dev.discord.com/hc/en-us/articles/4404772028055))
