@@ -10,7 +10,7 @@ description: The most important updates as of May 2021
 
 Technically savvy users can track all changes since the last release for the [backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) and [frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) on Github.
 
-## Highlights of the next update
+## Highlights of the update 8 June 2024
 
 #### 🫣
 
@@ -20,8 +20,8 @@ See exactly what you end up with. Gone are the days of asterisks and underlines 
 
 When was the last participation... is now displayed directly in the profile.
 
-{% content-ref url="update-0-.06.2024.md" %}
-[update-0-.06.2024.md](update-0-.06.2024.md)
+{% content-ref url="update-08.06.2024.md" %}
+[update-08.06.2024.md](update-08.06.2024.md)
 {% endcontent-ref %}
 
 ## Highlights of the update 12 March 2024
@@ -360,4 +360,4 @@ _All changelogs until 06.2023 are machine translated._
 
 * [update-09.01.2024.md](update-09.01.2024.md "mention")
 * [update-12.03.2024.md](update-12.03.2024.md "mention")
-* [update-0-.06.2024.md](update-0-.06.2024.md "mention")
+* [update-08.06.2024.md](update-08.06.2024.md "mention")
