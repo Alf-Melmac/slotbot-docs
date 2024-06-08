@@ -10,6 +10,20 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
+## Highlights des nächsten Updates
+
+#### 🫣
+
+Genau das sehen, was am Ende angezeigt wird. Mit der Einführung eines WYSIWYG-Editors sind die Zeiten von Sternchen und Unterstrichen vorbei. Einfach die Buttons oder bekannte Tastenkombinationen nutzen und sehen, was passiert.
+
+#### 🕸️
+
+Wann eigentlich die letzte Teilnahme war... wird jetzt direkt im Profil angezeigt.
+
+{% content-ref url="update-.06.2024.md" %}
+[update-.06.2024.md](update-.06.2024.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 12. März 2024
 
 #### 🔍
@@ -344,4 +358,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 
 * [update-09.01.2024.md](update-09.01.2024.md "mention")
 * [update-12.03.2024.md](update-12.03.2024.md "mention")
-* [update-.0-.2024.md](update-.0-.2024.md "mention")
+* [update-.06.2024.md](update-.06.2024.md "mention")
