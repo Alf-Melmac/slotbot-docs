@@ -18,7 +18,7 @@ Wählen dazu in der Community-Konfiguration einen Archiv-Kanal aus.
 
 Wenn ein Event-Kanal später gelöscht wird, werden die Informationen automatisch in den Archiv-Kanal gepostet.
 
-_Früher gab es für diese Aktion den Befehl `/archivieren`. Dieser ist nicht mehr notwendig, da das Event beim Löschen des Kanals automatisch archiviert wird._
+Soll der Kanal und die Event-Ausgabe erhalten bleiben, kann alternativ der [archivieren.md](bot-befehle/archivieren.md "mention")-Befehl verwendet werden. Dieser löst ebenfalls die Archivnachricht aus, danach kann der Kanal jedoch wieder für neue Events verwendet werden.
 
 ## Archiv neu aufbauen
 
