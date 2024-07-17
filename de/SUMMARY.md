@@ -12,6 +12,7 @@
 * [Discord](integrationen/discord/README.md)
   * [Teilnehmerverwaltung](integrationen/discord/teilnehmerverwaltung.md)
   * [Bot Befehle](integrationen/discord/bot-befehle/README.md)
+    * [Archivieren](integrationen/discord/bot-befehle/archivieren.md)
     * [Archiv neu aufbauen](integrationen/discord/bot-befehle/archiv-neu-aufbauen.md)
     * [Community hinzufügen](integrationen/discord/bot-befehle/community-hinzufuegen.md)
     * [Event hinzufügen](integrationen/discord/bot-befehle/event-hinzufuegen.md)
@@ -49,6 +50,7 @@
 
 * [FAQs](faq/glossar.md)
 * [Changelog](faq/changelog/README.md)
+  * [Update 18.07.2024](faq/changelog/update-18.07.2024.md)
   * [Update 08.06.2024](faq/changelog/update-08.06.2024.md)
   * [Update 12.03.2024](faq/changelog/update-12.03.2024.md)
   * [Update 09.01.2024](faq/changelog/update-09.01.2024.md)
