@@ -15,6 +15,7 @@
     * [Add community](integrations/discord/bot-befehle/community-hinzufuegen.md)
     * [Add event to channel](integrations/discord/bot-befehle/event-hinzufuegen.md)
     * [Add slot](integrations/discord/bot-befehle/add-slot.md)
+    * [Archive](integrations/discord/bot-befehle/archive.md)
     * [Block slot](integrations/discord/bot-befehle/slot-blockieren.md)
     * [Delete slot](integrations/discord/bot-befehle/delete-slot.md)
     * [Event Ping](integrations/discord/bot-befehle/event-ping.md)
@@ -49,6 +50,7 @@
 
 * [FAQs](faq/glossar.md)
 * [Changelog](faq/changelog/README.md)
+  * [Update 18.07.2024](faq/changelog/update-18.07.2024.md)
   * [Update 08.06.2024](faq/changelog/update-08.06.2024.md)
   * [Update 12.03.2024](faq/changelog/update-12.03.2024.md)
   * [Update 09.01.2024](faq/changelog/update-09.01.2024.md)
