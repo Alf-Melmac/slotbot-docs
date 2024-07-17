@@ -10,6 +10,20 @@ description: The most important updates as of May 2021
 
 Technically savvy users can track all changes since the last release for the [backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) and [frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) on Github.
 
+## Highlights of the update 18 July 2024
+
+#### 💾
+
+It is no longer necessary to delete the entire channel in order to archive an event.
+
+#### 🎬
+
+Be the first to try out the new homepage and help design it!
+
+{% content-ref url="update-18.07.2024.md" %}
+[update-18.07.2024.md](update-18.07.2024.md)
+{% endcontent-ref %}
+
 ## Highlights of the update 8 June 2024
 
 #### 🫣
@@ -361,3 +375,4 @@ _All changelogs until 06.2023 are machine translated._
 * [update-09.01.2024.md](update-09.01.2024.md "mention")
 * [update-12.03.2024.md](update-12.03.2024.md "mention")
 * [update-08.06.2024.md](update-08.06.2024.md "mention")
+* [update-18.07.2024.md](update-18.07.2024.md "mention")
