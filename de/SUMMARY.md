@@ -50,6 +50,7 @@
 
 * [FAQs](faq/glossar.md)
 * [Changelog](faq/changelog/README.md)
+  * [Update 21.07.2024](faq/changelog/update-21.07.2024.md)
   * [Update 18.07.2024](faq/changelog/update-18.07.2024.md)
   * [Update 08.06.2024](faq/changelog/update-08.06.2024.md)
   * [Update 12.03.2024](faq/changelog/update-12.03.2024.md)
