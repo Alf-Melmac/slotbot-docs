@@ -376,3 +376,4 @@ _All changelogs until 06.2023 are machine translated._
 * [update-12.03.2024.md](update-12.03.2024.md "mention")
 * [update-08.06.2024.md](update-08.06.2024.md "mention")
 * [update-18.07.2024.md](update-18.07.2024.md "mention")
+* [update-21.07.2024.md](update-21.07.2024.md "mention")
