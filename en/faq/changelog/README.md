@@ -10,6 +10,20 @@ description: The most important updates as of May 2021
 
 Technically savvy users can track all changes since the last release for the [backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) and [frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) on Github.
 
+## Highlights of the update 8 August 2024
+
+#### 👕
+
+With event standards, event creators will never forget the important information for an event again. Once configured, the template can be used as a mental aid for any event of this type.
+
+#### 📋
+
+Lists - with or without numbering - or very small additional information now help to structure the event descriptions.
+
+{% content-ref url="update-08.08.2024.md" %}
+[update-08.08.2024.md](update-08.08.2024.md)
+{% endcontent-ref %}
+
 ## Highlights of the update 18 July 2024
 
 #### 💾
