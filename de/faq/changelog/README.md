@@ -10,6 +10,20 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
+## Highlights des Updates 8. August 2024
+
+#### 👕
+
+Mit Event-Standards vergessen Eventersteller nie wieder die wichtigen Infos für ein Event. Einmal konfiguriert, kann die Vorlage als Gedankenstütze in jedem Event dieses Typs verwendet werden.
+
+#### 📋
+
+Listen - mit oder ohne Nummerierung - oder sehr kleine Zusatzinformationen helfen ab sofort, die Eventbeschreibungen zu strukturieren.
+
+{% content-ref url="update-08.08.2024.md" %}
+[update-08.08.2024.md](update-08.08.2024.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 18. Juli 2024
 
 #### 💾
@@ -375,3 +389,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-08.06.2024.md](update-08.06.2024.md "mention")
 * [update-18.07.2024.md](update-18.07.2024.md "mention")
 * [update-21.07.2024.md](update-21.07.2024.md "mention")
+* [update-08.08.2024.md](update-08.08.2024.md "mention")
