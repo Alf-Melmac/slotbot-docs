@@ -10,7 +10,7 @@
   * Viele Abstände und Farben wurden angepasst, um die Übersichtlichkeit und Sichtbarkeit zu verbessern. Gerade in der mobilen Nutzung bekommen Informationen den Platz, den sie brauchen.
 * Event-Typen können nun auch während der Bearbeitung eines Events erstellt werden.
 * Standardmäßig wird für den Ersteller eines Events der Benutzername des aktuell angemeldeten Benutzers eingetragen. _(commit:_ [_c8ffc4c2_](https://github.com/Alf-Melmac/slotbot-frontend/commit/c8ffc4c2a762fcec7373b7c974b1a7e20001f12e)_)_
-* Text-[formatierung.md](../../eventerstellung/formatierung.md "mention")en können nun wie in Discord mit Backslashes escaped werden. _(_[_#70_](https://github.com/Alf-Melmac/slotbotServer/pull/70)_) von_ [_@TheConen_](https://github.com/TheConen)_,_ [_@Alf-Melmac_](https://github.com/Alf-Melmac)
+* Text-[Broken link](broken-reference "mention")en können nun wie in Discord mit Backslashes escaped werden. _(_[_#70_](https://github.com/Alf-Melmac/slotbotServer/pull/70)_) von_ [_@TheConen_](https://github.com/TheConen)_,_ [_@Alf-Melmac_](https://github.com/Alf-Melmac)
 
 ## 🐞 Fehlerbehebungen
 
