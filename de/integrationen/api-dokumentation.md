@@ -1,3 +1,7 @@
+---
+icon: robot
+---
+
 # API Dokumentation
 
 ## Allgemeines

@@ -5,7 +5,7 @@
 ## ⭐ Neue Features
 
 * Die Vorlagen für Event-Details können nun pro Community konfiguriert werden. _(commit:_ [_9639c6f3_](https://github.com/Alf-Melmac/slotbotServer/commit/9639c6f3717231f477362f7f09dfc51432e0874a)_)_
-* Der Bot benötigt keine Administrator-Rechte mehr. Alle Details dazu im FAQ unter [#welche-rechte-benoetigt-der-discord-bot](../glossar.md#welche-rechte-benoetigt-der-discord-bot "mention") _(commit:_ [_c4b3e893_](https://github.com/Alf-Melmac/slotbotServer/commit/c4b3e8938bd72e0e8895df8b4c4b456b8e9a694b)_)_
+* Der Bot benötigt keine Administrator-Rechte mehr. Alle Details dazu im FAQ unter [#welche-rechte-benoetigt-der-discord-bot](../glossar/#welche-rechte-benoetigt-der-discord-bot "mention") _(commit:_ [_c4b3e893_](https://github.com/Alf-Melmac/slotbotServer/commit/c4b3e8938bd72e0e8895df8b4c4b456b8e9a694b)_)_
 
 ## 🐞 Fehlerbehebungen
 

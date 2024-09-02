@@ -1,5 +1,6 @@
 ---
 description: Eventteilnehmer erhalten alle Informationen über Discord.
+icon: discord
 ---
 
 # Discord

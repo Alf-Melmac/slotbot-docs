@@ -10,7 +10,7 @@
   * Gruppenkalender nicht nur auf der Website, sondern auch im privaten Kalender.
   * URL-Shortcuts für das manuelle Tippen der Gruppenkalender-URLs
   * Eigener Kalendar mit allen Events, in denen man geslottet ist.
-* Der Arma-Missions-Upload (siehe [arma-3-slotlist-generierung.md](../../eventerstellung/eventerstellung/arma-3-slotlist-generierung.md "mention")) ist nun auch während der Editierung eines leeren Events möglich. _(commit:_ [_a93ab019_](https://github.com/Alf-Melmac/slotbotServer/commit/a93ab019b264d192c65c1ff201f5f6c6b452f332)_)_
+* Der Arma-Missions-Upload (siehe [arma-3-slotlist-generierung.md](../../events/eventerstellung/arma-3-slotlist-generierung.md "mention")) ist nun auch während der Editierung eines leeren Events möglich. _(commit:_ [_a93ab019_](https://github.com/Alf-Melmac/slotbotServer/commit/a93ab019b264d192c65c1ff201f5f6c6b452f332)_)_
 * Die DAA-Standard Felder bilden nun die [neue Zeitplanung](https://wiki.deutsche-arma-allianz.de/organisation/missionen#zeitplan) ab. _(commit:_ [_83a8f779_](https://github.com/Alf-Melmac/slotbotServer/commit/83a8f779e0205ca9bce54f55242ffbefb1d9d7ac)_)_
 * Bessere Ausnutzung der Discord Slotlist-Nachrichten. Absofort wird nicht nur zwischen Gruppen, sondern direkt an Slots getrennt und einige unnötige Absätze und Leerzeichen werden weg gelassen. _(commit:_ [_547a0b21_](https://github.com/Alf-Melmac/slotbotServer/commit/547a0b2139aa0e169f5179ac7f402c4ccb2dd89b)_)_
 

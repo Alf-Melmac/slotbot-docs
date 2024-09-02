@@ -1,5 +1,6 @@
 ---
 description: Die wichtigsten Updates ab Mai 2021
+icon: sparkles
 ---
 
 # Changelog

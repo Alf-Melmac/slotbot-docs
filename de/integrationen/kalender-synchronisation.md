@@ -1,5 +1,6 @@
 ---
 description: Den Kalender überall hin mitnehmen.
+icon: mobile
 ---
 
 # Kalender-Synchronisation

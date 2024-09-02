@@ -1,11 +1,26 @@
 # Table of contents
 
 * [Was ist der Slotbot?](README.md)
+* [Jetzt starten](jetzt-starten.md)
 
 ## Events
 
+* [Übersicht](events/ubersicht.md)
 * [Eventkalender](events/eventkalender.md)
 * [Event-Details](events/event-details.md)
+* [Events Erstellen](events/eventerstellung/README.md)
+  * [Besondere Event Details](events/eventerstellung/besondere-event-details.md)
+  * [Teilnahmeplatz Regeln](events/eventerstellung/teilnahmeplatz-regeln.md)
+  * [Arma 3 Slotlist Generierung](events/eventerstellung/arma-3-slotlist-generierung.md)
+
+## Communities
+
+* [Übersicht](communities/ubersicht.md)
+* [Konfiguration](communities/konfiguration.md)
+* [Event Standards](communities/event-standards.md)
+* [Mitglieder](communities/mitglieder/README.md)
+  * [Mitglieder hinzufügen oder entfernen](communities/mitglieder/mitglieder-hinzufugen-oder-entfernen.md)
+  * [Rollen](communities/mitglieder/rollen.md)
 
 ## Integrationen
 
@@ -34,21 +49,17 @@
 * [Kalender-Synchronisation](integrationen/kalender-synchronisation.md)
 * [API Dokumentation](integrationen/api-dokumentation.md)
 
-## Eventerstellung
+## Persönliche Einstellungen
 
-* [Wizard](eventerstellung/eventerstellung/README.md)
-  * [Arma 3 Slotlist Generierung](eventerstellung/eventerstellung/arma-3-slotlist-generierung.md)
-* [Formatierung](eventerstellung/formatierung.md)
-* [Event Standards](eventerstellung/event-standards.md)
-* [Besondere Event Details](eventerstellung/besondere-event-details.md)
-
-## Community Verwaltung
-
-* [Communities / Guilds](community-verwaltung/communities-guilds.md)
+* [Profil](personliche-einstellungen/profil.md)
+* [Sprache](personliche-einstellungen/sprache.md)
+* [Feature-Vorschau](personliche-einstellungen/feature-vorschau.md)
 
 ## FAQ
 
-* [FAQs](faq/glossar.md)
+* [FAQ](faq/glossar/README.md)
+  * [Wie kann ich Hilfe erhalten?](faq/glossar/wie-kann-ich-hilfe-erhalten.md)
+  * [Security FAQ](faq/glossar/security-faq.md)
 * [Changelog](faq/changelog/README.md)
   * [Update 08.08.2024](faq/changelog/update-08.08.2024.md)
   * [Update 21.07.2024](faq/changelog/update-21.07.2024.md)
@@ -84,3 +95,12 @@
   * [Update 17.05.2021](faq/changelog/update-17.05.2021.md)
   * [Update 14.05.2021](faq/changelog/update-14.05.2021.md)
   * [Vor 05.2021](faq/changelog/vor-05.2021.md)
+* [Mitwirken](faq/mitwirken.md)
+
+## Policies
+
+* [DMCA Takedown Policy](policies/dmca-takedown-policy.md)
+* [Name Squatting Policy](policies/name-squatting-policy.md)
+* [Reporting vulnerabilities](policies/reporting-vulnerabilities.md)
+* [Privacy Statement](policies/privacy-statement/README.md)
+  * [Cookies](policies/privacy-statement/cookies.md)
