@@ -1,6 +1,6 @@
 ---
-description: Die wichtigsten Updates ab Mai 2021
 icon: sparkles
+description: Die wichtigsten Updates ab Mai 2021
 ---
 
 # Changelog
@@ -10,6 +10,30 @@ icon: sparkles
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
+
+## Highlights des Updates 12. Oktober 2024
+
+#### 🚯
+
+Manchmal nimmt man sich zu viel vor und plant riesige, aufregende Dinge. Administratoren haben nun die Möglichkeit, den Träumen ein realistisches Ende zu setzen und Events vollständig zu löschen.
+
+#### 🚀
+
+Eine eigene URL ist nicht länger ein Muss, um mit der Eventanlage zu beginnen! Das bedeutet: noch schnelleres Onboarding und noch schnellere Planung.
+
+{% content-ref url="update-12.10.2024.md" %}
+[update-12.10.2024.md](update-12.10.2024.md)
+{% endcontent-ref %}
+
+## Highlights des Updates 9. August 2024
+
+#### 🌐
+
+Ab sofort kann die Anzeigesprache frei ausgewählt werden, auch wenn eine andere Browsersprache eingestellt ist.
+
+{% content-ref url="update-09.08.2024.md" %}
+[update-09.08.2024.md](update-09.08.2024.md)
+{% endcontent-ref %}
 
 ## Highlights des Updates 8. August 2024
 
@@ -391,3 +415,6 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-18.07.2024.md](update-18.07.2024.md "mention")
 * [update-21.07.2024.md](update-21.07.2024.md "mention")
 * [update-08.08.2024.md](update-08.08.2024.md "mention")
+* [update-09.08.2024.md](update-09.08.2024.md "mention")
+* [update-06.10.2024.md](update-06.10.2024.md "mention")
+* [update-12.10.2024.md](update-12.10.2024.md "mention")
