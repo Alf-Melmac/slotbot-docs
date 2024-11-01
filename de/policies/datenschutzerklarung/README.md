@@ -1,6 +1,11 @@
+---
+noIndex: true
+noRobotsIndex: true
+---
+
 # Datenschutzerklärung
 
-**Stand: 29. Oktober 2024**
+**Stand: 1. November 2024**
 
 ## Die Kurzversion
 
@@ -44,6 +49,14 @@ Es erfolgt keine Einblendung von Werbeanzeigen sowie eine Weitergabe von Daten a
 
 Bitte beachten Sie, dass Sie durch Ihre Handlungen mit dem Dienst angeben, dass Sie bereit sind, Ihre persönlichen Benutzerinformationen weiterzugeben. Wenn Sie beispielsweise einer Community beitreten, haben Administratoren der Community die Option, Ihre Aktivitäten , zum Beispiel An- und Abmeldungen oder Event-Löschungen, im Protokoll der Community einzusehen.
 
+### Disclaimer
+
+Für jede Community stehen einige Videospiele als globale Eventtypen zur Verfügung. Slotbot ist mit keinem dieser Anbieter verbunden oder explizit autorisiert.
+
+> This website is not affiliated or authorized by Bohemia Interactive a.s. Bohemia Interactive, ARMA, DAYZ and all associated logos and designs are trademarks or registered trademarks of Bohemia Interactive a.s.
+
+> This website is not affiliated with Satisfactory, Coffee Stain Studios, DCS, Eagle Dynamics, Hearts of Iron, Paradox Interactive, Ready or Not or VOID Interactive and all game content and assets are copyrights and trademarks of their respective publisher and its licensors.
+
 ## Rechte der betroffenen Person
 
 Die in diesen Datenschutzhinweisen verwendeten Begrifflichkeiten wie „Verarbeitung“ oder „Verantwortlicher“ entsprechen den Definitionen im Artikel 4 der Datenschutz-Grundverordnung („DSGVO“), welche unter anderem auf der Website der [Europäischen Kommission](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679\&from=EN#d1e1508-1-1) nachgelesen werden können.\
@@ -75,3 +88,7 @@ Unser Dienst kann Verweise auf andere Seiten enthalten, die nicht von uns betrie
 ## **Urheber- und Kennzeichenrecht**
 
 Inhalte, die von Dritten auf unserer Website erstellt wurden, unterliegen der Verantwortung der jeweiligen Erstellenden. Wir übernehmen keinerlei Haftung für Verstöße gegen das Urheberrecht, Markenrecht oder Kennzeichenrecht, die durch Dritt-Inhalte auf unserer Website begangen wurden. Sollten Sie urheberrechtlich geschützte Inhalte in von Dritten erstellten Inhalten auf unserer Website finden, folgen Sie bitte den Anweisungen der [dmca-takedown-policy.md](../dmca-takedown-policy.md "mention").
+
+## Kontakt/Imprint
+
+> Tim Augustin Am Schützenhof 2b 52428 Jülich - contact-1 at webalf dot de
