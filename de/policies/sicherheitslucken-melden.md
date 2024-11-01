@@ -1,3 +1,7 @@
-# Reporting vulnerabilities
+---
+noRobotsIndex: true
+---
 
-{% embed url="https://github.com/Alf-Melmac/slotbotServer/security/policy" %}
+# Sicherheitslücken melden
+
+{% @github-files/github-code-block url="https://github.com/Alf-Melmac/slotbotServer/security" %}

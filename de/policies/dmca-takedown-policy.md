@@ -1,3 +1,8 @@
+---
+noIndex: true
+noRobotsIndex: true
+---
+
 # DMCA Takedown Policy
 
 ## Wie funktioniert das?

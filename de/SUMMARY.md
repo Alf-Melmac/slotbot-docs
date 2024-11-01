@@ -105,5 +105,6 @@
 * [DMCA Takedown Policy](policies/dmca-takedown-policy.md)
 * [Name Squatting Policy](policies/name-squatting-policy.md)
 * [Sicherheitslücken melden](policies/sicherheitslucken-melden.md)
+* [Terms of Service](policies/terms-of-service.md)
 * [Datenschutzerklärung](policies/datenschutzerklarung/README.md)
   * [Cookies](policies/datenschutzerklarung/cookies.md)
