@@ -11,6 +11,20 @@ description: Die wichtigsten Updates ab Mai 2021
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
+## Higlights des nächsten Updates
+
+#### ⚡
+
+Die letzte Komponente des manuellen Setups ist weggefallen. Das bedeutet, dass beim Hinzufügen des Bots nun automatisch ein Community Administrator benannt wird. Das Anlegen der Events kann direkt losgehen!
+
+#### ⛔
+
+Wir alle wissen, dass es immer wieder Personen gibt, die sich danebenbenehmen. Community-Administratoren können solche Personen dauerhaft aus der Community ausschließen.
+
+{% content-ref url="update-.12.2024.md" %}
+[update-.12.2024.md](update-.12.2024.md)
+{% endcontent-ref %}
+
 ## Highlights des Updates 12. Oktober 2024
 
 #### 🚯
@@ -418,3 +432,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-09.08.2024.md](update-09.08.2024.md "mention")
 * [update-06.10.2024.md](update-06.10.2024.md "mention")
 * [update-12.10.2024.md](update-12.10.2024.md "mention")
+* [update-.12.2024.md](update-.12.2024.md "mention")

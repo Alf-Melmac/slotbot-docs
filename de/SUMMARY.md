@@ -61,6 +61,7 @@
   * [Wie kann ich Hilfe erhalten?](faq/glossar/wie-kann-ich-hilfe-erhalten.md)
   * [Security FAQ](faq/glossar/security-faq.md)
 * [Changelog](faq/changelog/README.md)
+  * [Update ??.12.2024](faq/changelog/update-.12.2024.md)
   * [Update 12.10.2024](faq/changelog/update-12.10.2024.md)
   * [Update 06.10.2024](faq/changelog/update-06.10.2024.md)
   * [Update 09.08.2024](faq/changelog/update-09.08.2024.md)
