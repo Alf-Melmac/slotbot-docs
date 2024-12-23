@@ -9,6 +9,8 @@ description: Die wichtigsten Updates ab Mai 2021
 
 **🔨** Freue dich auf tolle neue Features und diverse Fehlerbehebungen.
 
+Wir würden uns sehr freuen, wenn du uns Feedback zu den aktuell in Arbeit befindlichen Funktionalitäten gibst. Schau doch mal auf der Seite [feature-vorschau.md](../../personliche-einstellungen/feature-vorschau.md "mention") vorbei, da findest du alle Details.
+
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
 ## Higlights des Updates 9. Dezember 2024
@@ -433,3 +435,5 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 * [update-06.10.2024.md](update-06.10.2024.md "mention")
 * [update-12.10.2024.md](update-12.10.2024.md "mention")
 * [update-09.12.2024.md](update-09.12.2024.md "mention")
+* [update-12.12.2024.md](update-12.12.2024.md "mention")
+* [update-17.12.2024.md](update-17.12.2024.md "mention")
