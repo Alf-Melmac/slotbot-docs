@@ -1,6 +1,6 @@
 ---
-description: Informiere dich über alle Details zu einem Event.
 icon: display
+description: Informiere dich über alle Details zu einem Event.
 ---
 
 # Event-Details
@@ -25,15 +25,7 @@ Die Slotliste oder Teilnehmendenliste enthält die in Gruppen eingeteilten Plät
 
 Angemeldete Nutzende können sich in dieser auch direkt an- oder abmelden.
 
-<div>
-
-<figure><img src="../.gitbook/assets/Slotbot-EventDetails-Registration.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Slotbot-EventDetails-Deregistration.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Slotbot-EventDetails-Registration.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Slotbot-EventDetails-Deregistration.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Beschreibung
 
@@ -50,5 +42,5 @@ Abschließend bieten die weiteren Details stichwortartige Ergänzungen zur Besch
 
 
 {% hint style="info" %}
-Schau dir das hier gezeigte Event in der Anwendung an: [https://events.armamachtbock.de/events/23169](https://events.armamachtbock.de/events/23169)
+Schau dir das hier gezeigte Event in der Anwendung an: [https://slotbot.de/events/23169](https://slotbot.de/events/23169)
 {% endhint %}
