@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Was ist der Slotbot?](README.md)
+* [Warum den Slotbot nutzen?](warum-den-slotbot-nutzen.md)
 * [Jetzt starten](jetzt-starten.md)
 
 ## Events
