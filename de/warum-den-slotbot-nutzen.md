@@ -17,3 +17,5 @@ Es wird keine manuell versendeten PDFs oder geteilten Excel-Listen mehr geben. A
 {% content-ref url="jetzt-starten.md" %}
 [jetzt-starten.md](jetzt-starten.md)
 {% endcontent-ref %}
+
+oder in den Kalender der anderen Communities schauen: [slotbot.de](https://slotbot.de)
