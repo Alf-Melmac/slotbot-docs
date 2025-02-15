@@ -13,7 +13,17 @@ Wir würden uns sehr freuen, wenn du uns Feedback zu den aktuell in Arbeit befin
 
 Technisch Versierte können auf Github alle Änderungen seit dem letzten Release fürs [Backend](https://github.com/Alf-Melmac/slotbotServer/compare/master...develop) und [Frontend](https://github.com/Alf-Melmac/slotbot-frontend/compare/master...develop) nachvollziehen.
 
-## Higlights des Updates 9. Dezember 2024
+## Highlights des Updates 15. Februar 2025
+
+#### 🚪
+
+Dieses Update erweitert die Feature-Vorschau rund um die Teilnahmevoraussetzungen. Jetzt ausprobieren! [#voraussetzungen-requirements](../../personliche-einstellungen/feature-vorschau.md#voraussetzungen-requirements "mention")
+
+{% content-ref url="update-15.02.2025.md" %}
+[update-15.02.2025.md](update-15.02.2025.md)
+{% endcontent-ref %}
+
+## Highlights des Updates 9. Dezember 2024
 
 #### ⚡
 
@@ -440,4 +450,4 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 
 ### 2025
 
-* [update-1-.02.2025.md](update-1-.02.2025.md "mention")
+* [update-15.02.2025.md](update-15.02.2025.md "mention")

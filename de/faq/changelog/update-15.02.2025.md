@@ -1,0 +1,33 @@
+# Update 15.02.2025
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slotbot-Server</strong></td><td>2.16.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td><a href="https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.16.0">https://github.com/Alf-Melmac/slotbotServer/releases/tag/v2.16.0</a></td></tr><tr><td><strong>Slotbot-Frontend</strong></td><td>1.15.0 <img src="../../.gitbook/assets/Badge-New.png" alt="Neu" data-size="line"></td><td><a href="https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.15.0">https://github.com/Alf-Melmac/slotbot-frontend/releases/tag/v1.15.0</a></td></tr></tbody></table>
+
+## ⭐ Neue Features
+
+* In den Event-Details werdem dem Nutzenden Details dazu angezeigt, warum eine Anmeldung für einen Slot nicht möglich ist. Gründe dafür können fehlende Community-Mitgliedschaft für reservierte Plätze, Ausschluss aus einer Community oder fehlende Voraussetzungen durch die Einstellungen in der Feature-Vorschau sein. _(commit:_ [_5ea09384_](https://github.com/Alf-Melmac/slotbot-frontend/commit/5ea0938463838d514e23a6d3c025fa75a479c0ba)_,_ [_#118_](https://github.com/Alf-Melmac/slotbotServer/pull/118)_)_
+* Happy New Year! 🎉 _(commit:_ [_59951b1b_](https://github.com/Alf-Melmac/slotbot-frontend/commit/59951b1bac31f572f6ebfc8cb08e2855dce1ee00)_)_
+* Eigenes Styling für GTO. _(commit:_ [_180a382d_](https://github.com/Alf-Melmac/slotbot-frontend/commit/180a382d4075efe7dc78ef2dc6fd102b6ea1ade5)_)_
+* Bei Reservierungen für Gruppen wird nun immer der Name in einem Tooltip angezeigt, auch wenn die Community ein eigenes Logo hat. _(commit:_ [_a6652996_](https://github.com/Alf-Melmac/slotbot-frontend/commit/a6652996e220247dae7c628b4c8e14b224256fbd)_)_
+* Durch den Umzug der Community-Verwaltung auf eine eigene Seite ([update-09.12.2024.md](update-09.12.2024.md "mention")) kann die Mitgliederübersicht mehr vertikalen Platz einnehmen. _(commit:_ [_912d38ac_](https://github.com/Alf-Melmac/slotbot-frontend/commit/912d38ac86b1b6a995253b290dc7d2a732f4f904)_)_
+
+## 🐞 Fehlerbehebungen
+
+* Reservisten rücken nicht mehr auf Slots vor, die für sie nicht verfügbar sind. Auch der /random\_slot Befehl wählt nur noch verfügbare Slots aus. _(commit:_ [_50fec8c6_](https://github.com/Alf-Melmac/slotbotServer/commit/50fec8c692de827391a955f512db6f74e67e6b3e)_)_
+* Wenn ein Nutzender von einer Community gesperrt wurde, konnte er sich in keiner anderen Community mehr slotten. _(commit:_ [_edd0e7d1_](https://github.com/Alf-Melmac/slotbotServer/commit/edd0e7d1a7ddbb869ff63bd2a93c0e4646037385)_)_
+
+## 🔮 Feature-Vorschau
+
+* Der Versuch mit erweiterten Informationen zu Voraussetzungen (Detailed requirement list) wurde abgebrochen. Die zusätzlichen Informationen bringen keinen sinnvollen Mehrwert und überladen die Einstellungen der verfügbaren Voraussetzungen für Event-Details. _(commit:_ [_8aa54296_](https://github.com/Alf-Melmac/slotbot-frontend/commit/8aa54296391763434d024383a61ff09374f6d8da)_,_ [_15418573_](https://github.com/Alf-Melmac/slotbotServer/commit/154185735cf8382992e9d71e374f28412ec8b4f8)_)_
+* Voraussetzungen für das gesamte Event, einzelne Squads und Slots. Die Voraussetzungen für einen Slot werden über die Hierarchie additiv aufgebaut. Für die Teilnahme müssen also alle Bedingungen des Slots + Squads + Events erfüllt sein. _(commit:_ [_d0c255dd_](https://github.com/Alf-Melmac/slotbot-frontend/commit/d0c255dd5f56e81d2de93c2a1a49a806d268c26a)_,_ [_705bee40_](https://github.com/Alf-Melmac/slotbot-frontend/commit/705bee402ef4fbae1116107035db68c47c6f5ca8)_,_ [_6853e191_](https://github.com/Alf-Melmac/slotbotServer/commit/6853e191249d88a85ca8d829552bcff054a30f3d)_,_ [_403e79c0_](https://github.com/Alf-Melmac/slotbotServer/commit/403e79c085375dbee78ef182c7876641fb295d7b)_)_
+* Anzeige der Voraussetzung am Event, Squad und Slot. _(commit:_ [_a6652996_](https://github.com/Alf-Melmac/slotbot-frontend/commit/a6652996e220247dae7c628b4c8e14b224256fbd)_,_ [_1ecaef35_](https://github.com/Alf-Melmac/slotbot-frontend/commit/1ecaef35c7c6ddbd91edf8ddd49f5da7431e3c99)_,_ [_60bf9f83_](https://github.com/Alf-Melmac/slotbotServer/commit/60bf9f83d172130f89b67d3c63dc13dbf948286e)_)_
+* Teilnehmende können Voraussetzungen, die sie noch nicht erfüllen und für die eine Selbstzuordnung erlaubt ist, über die Event-Details als für sich erfüllt markieren. Danach werden sie auch bei anderen Events nicht mehr darauf hingewiesen, dass sie die Voraussetzung nicht erfüllen. _(commit:_ [_9f483ac0_](https://github.com/Alf-Melmac/slotbot-frontend/commit/9f483ac0232d4b4dc4c184ee7764428a0c77ec9c)_,_ [_497f106a_](https://github.com/Alf-Melmac/slotbotServer/commit/497f106affabaaa1ad437a5ee458aaa9ff65fda6)_)_
+* Community-Administratoren wurde die Möglichkeit gegeben, in der Mitgliederübersicht ihrer Community die Erfüllung der Voraussetzungen ohne erlaubte Selbstzuordnung für die Mitglieder zu verwalten. _(commit:_ [_dd5f1a4c_](https://github.com/Alf-Melmac/slotbot-frontend/commit/dd5f1a4c6068d521ee41e467ecd20dee76a129c5)_,_ [_baecd936_](https://github.com/Alf-Melmac/slotbotServer/commit/baecd9366844cb58706c44c851e144c3954e79be)_)_
+* In der Verwaltung der verfügbaren Voraussetzungen können nun neben den Namen und der Berechtigung zur Selbstzuordnung auch die Verpflichtung und die Bilder für die einzelnen Voraussetzungen konfiguriert werden. _(commit:_ [_f438dd6a_](https://github.com/Alf-Melmac/slotbot-frontend/commit/f438dd6aa3e4f68fde23f871b919d32f6ff3253e)_)_
+* Erklärung zu abgelehnten Slot-Versuchen. _(commit:_ [_50fec8c6_](https://github.com/Alf-Melmac/slotbotServer/commit/50fec8c692de827391a955f512db6f74e67e6b3e)_)_
+* Wenn ein Mitglied eine Community verlässt, werden alle zugeordneten Voraussetzungen dieser Community automatisch gelöscht. _(commit:_ [_1cd9a07b_](https://github.com/Alf-Melmac/slotbotServer/commit/1cd9a07b3fb965e632ba5b58be2bae7d9aaf4a91)_)_
+
+## 🔨 Technisches
+
+* Performanceverbesserungen in der Mitgliederübersicht.
+  * Wo früher für jedes Mitglied ein eigener Ban-Dialog erzeugt wurde, gibt es jetzt nur noch einen, der auch für die Verwaltung der Voraussetzungen wiederverwendet wird. _(commit:_ [_dd5f1a4c_](https://github.com/Alf-Melmac/slotbot-frontend/commit/dd5f1a4c6068d521ee41e467ecd20dee76a129c5)_)_
+  * Alle administrativen Aktionen für Mitglieder werden nur noch von Administratoren heruntergeladen, was den ersten Zugriff auf die Seite für alle anderen optimiert. _(commit:_ [_6a72c48f_](https://github.com/Alf-Melmac/slotbot-frontend/commit/6a72c48f4e29d7f80fa450a83870bc828728ed67)_)_
