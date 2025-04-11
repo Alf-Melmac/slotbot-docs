@@ -1,6 +1,6 @@
 ---
-icon: sparkles
 description: Die wichtigsten Updates ab Mai 2021
+icon: sparkles
 ---
 
 # Changelog
@@ -452,3 +452,5 @@ Events sind jetzt weniger Arma abhängig. Dadurch können wir **Events** im gene
 
 * [update-15.02.2025.md](update-15.02.2025.md "mention")
 * [update-16.02.2025.md](update-16.02.2025.md "mention")
+* [update-18.02.2025.md](update-18.02.2025.md "mention")
+* [update-11.04.2025.md](update-11.04.2025.md "mention")
