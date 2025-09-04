@@ -1,0 +1,25 @@
+---
+title: "Update 08.06.2024"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.11.0" serverNew frontend="1.9.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* Verbesserungen in der Rollenauswahl für die Discord-Integration _(commit: [16addd34](https://github.com/Alf-Melmac/slotbot-frontend/commit/16addd34b20c8522ecf1aa201c548983db48a121), [c08a7c96](https://github.com/Alf-Melmac/slotbotServer/commit/c08a7c968cac6120effdf8912baf9752c395c1ed))_
+
+  * Eine Warnung wird angezeigt, wenn der Bot nicht berechtigt ist, die Rollen der Mitglieder zu bearbeiten.
+
+  * Es werden nur die Rollen zur Auswahl angeboten, die der Bot Mitgliedern zuweisen kann. Dazu muss die Rolle des Bots der auszuwählenden Rolle übergeordnet sein.
+
+* Im Profil eines Mitspielenden wird die Zeit seit der letzten Teilnahme an einem Event angezeigt. `(Danke Addi für den Vorschlag)` _(commit: [43340130](https://github.com/Alf-Melmac/slotbot-frontend/commit/433401302db2f2330611258926d9292add45ad4e), [1e0343f5](https://github.com/Alf-Melmac/slotbot-frontend/commit/1e0343f57a7a11ecac416b4f1372c9a0e10e8675), [18395770](https://github.com/Alf-Melmac/slotbotServer/commit/1839577036853b0de8cd8fcee20c44956e807740))_
+
+* Eventbeschreibungen werden jetzt mit einem "**w**hat **y**ou **s**ee **i**s **w**hat **y**ou **g**et" Editor erstellt und bearbeitet. Dadurch muss der Event-Erstellende die Formatierung des Discord-Markdowns nicht kennen, sondern kann die verfügbaren Formatierungen über Knöpfe einfügen. _([#464](https://github.com/Alf-Melmac/slotbot-frontend/pull/464), [#85](https://github.com/Alf-Melmac/slotbotServer/pull/85), commit: [41256c3a](https://github.com/Alf-Melmac/slotbot-frontend/commit/41256c3a168e4c05b961294c884946b65fa42978), [9b5c95c5](https://github.com/Alf-Melmac/slotbotServer/commit/9b5c95c5927915bba2120754d4ac46a133a56fd3))_
+
+## 🐞 Fehlerbehebungen
+
+* Das Textfeld zur Eingabe einer Bild-URL im Editiermodus eines Events nimmt wieder den gesamten verfügbaren Platz ein. _(commit: [59f7b9f7](https://github.com/Alf-Melmac/slotbot-frontend/commit/59f7b9f723ee4d139872387d612b273f81f02d85))_
+
+* Es ist nicht länger möglich doppelte Auswahlwerte in einen Event-Standard einzufügen. _(commit: [d62190f7](https://github.com/Alf-Melmac/slotbotServer/commit/d62190f720fe6afbaf0c42942932c9fb79b717b4))_

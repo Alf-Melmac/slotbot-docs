@@ -1,0 +1,35 @@
+---
+title: "Update 11.04.2025"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.17.0" serverNew frontend="1.16.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* Die Eventlänge kann nun mit einem Klick während der Event-Anlage und -Bearbeitung geleert werden. `(Extra für jaco.4)` _(commit: [282de869](https://github.com/Alf-Melmac/slotbot-frontend/commit/282de8697f70dcbeab6e1ce4be7d3159f083011f))_
+
+* Neue Startseite (erste Ankündigung [Update 18.07.2024](/faq/changelog/update-18.07.2024)) _(commit: [7c3b844d](https://github.com/Alf-Melmac/slotbot-frontend/commit/7c3b844d53d8653d6c11cc995f0ee4fafd3ceb2f), [ae6f67b0](https://github.com/Alf-Melmac/slotbotServer/commit/ae6f67b09fee15fc605a5c4d5b7cc126ac57713f))_
+
+  ![](/images/faq/changelog/update-20250411/Blog-Loading.png)
+
+  * Für ausgewählte Communities besteht die Möglichkeit, einen Überblick über kürzlich stattgefundene oder bevorstehende Events zu geben. Community-Administratoren können auch Beiträge verfassen, um Informationen in Textform zu teilen.
+
+  * Mehr dazu an späterer Stelle. Interesse die Startseite zu nutzen? Meldet euch bei Alf.
+
+* Neue Event-Archivierungsnachrichten enthalten einen Link zu den Event-Details. _(commit: [5c09ca60](https://github.com/Alf-Melmac/slotbotServer/commit/5c09ca6000e631dbe15564662ca7c1cd4497bc71))_
+
+## 🐞 Fehlerbehebungen
+
+* Bereits bestehende Communities werden beim Einladen des Discord Bots nicht mehr überschrieben. _(commit: [033170e8](https://github.com/Alf-Melmac/slotbotServer/commit/033170e8a049c909f4cec94fe0b83c82085c0138))_
+
+## 🔮 Feature-Vorschau
+
+* Voraussetzungen kann optional ein dunkles Icon konfiguriert werden, das im Light-Theme für besseren Kontrast angezeigt wird. _(commit: [81c15aef](https://github.com/Alf-Melmac/slotbot-frontend/commit/81c15aefea24491979ea117354db31d081341a73), [855acb02](https://github.com/Alf-Melmac/slotbotServer/commit/855acb02589290b522fe38ff611d649763e8ed87))_
+
+* Event-Planer können in den Event-Details sehen, wann Teilnehmer an- und abgemeldet wurden oder untereinander Plätze getauscht haben. Diese Informationen stehen auch für vergangene Events zur Verfügung. _(commit: [f2a4431e](https://github.com/Alf-Melmac/slotbot-frontend/commit/f2a4431e8fb20aba0ebc67b2120f1c2d7c5f33d8), [9cd6f702](https://github.com/Alf-Melmac/slotbot-frontend/commit/9cd6f7023e5cc9843fd95fab7b2e846c3e7b056f), [bb3ed14f](https://github.com/Alf-Melmac/slotbotServer/commit/bb3ed14f6f9b0b9bfef68762efc854f94232f374))_
+
+* Bessere Anzeige und Unterscheidung der Voraussetzungen zu den Reservierung in der Discord-Slotliste. _(commit: [136475ab](https://github.com/Alf-Melmac/slotbotServer/commit/136475ab075021de6ba31de5aca92496f433b0c4))_
+
+* Während des Slottens über Discord werden dem Teilnehmer alle Informationen zu den Voraussetzungen mitgeteilt und die potentiell notwendigen zuweisbaren Voraussetzungen zur Auswahl angeboten. _(commit: [b820a9a6](https://github.com/Alf-Melmac/slotbotServer/commit/b820a9a6576c52fedc26e7eddf7050ffeccf1f7c), [216de5ad](https://github.com/Alf-Melmac/slotbotServer/commit/216de5adb310954b7526119da8a70633af5465aa))_

@@ -1,0 +1,29 @@
+---
+title: "Update 09.12.2024"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.15.0" serverNew frontend="1.14.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* Community-Administratoren können Mitglieder dauerhaft von einer Community ausschließen. Dies verhindert, dass der gesperrte Benutzer sich für weitere Events der Community anmelden kann. _(commit: [a9766caa](https://github.com/Alf-Melmac/slotbot-frontend/commit/a9766caa0ec036c6de426a5fad11e0abbc2f207a), [466eacb2](https://github.com/Alf-Melmac/slotbot-frontend/commit/466eacb2a3a2d3137cc550a5567c2ba5994f2626), [6c6e6bb5](https://github.com/Alf-Melmac/slotbot-frontend/commit/6c6e6bb54d10ab8ca3078398359f276a8d5b5c40), [11656ec8](https://github.com/Alf-Melmac/slotbot-frontend/commit/11656ec86e1e4198edcfafb4f46d7c482bb1916a), [fda325a5](https://github.com/Alf-Melmac/slotbotServer/commit/fda325a574e83917d64adab47af5ae814d0d88b4), [16f5b3db](https://github.com/Alf-Melmac/slotbotServer/commit/16f5b3db5eb569af1e30323ecaf2f7fc353a41bc), [e5015fe4](https://github.com/Alf-Melmac/slotbotServer/commit/e5015fe4dc8608372873602f6ee24622643b6b52), [3a7017c4](https://github.com/Alf-Melmac/slotbotServer/commit/3a7017c4c30ae65c33858ce65ec6cb235815fef5), [61f64861](https://github.com/Alf-Melmac/slotbotServer/commit/61f64861a4efd7e8fce4dd977bf5d26b4b65d3d1), [929100c3](https://github.com/Alf-Melmac/slotbotServer/commit/929100c3e905fc70f1b11dd9877fe3d88db24ae1))_
+
+* Die Übersichtsseiten der Communitys wurden überarbeitet und die Verwaltung auf eine eigene Seite verschoben, um die Übersichtlichkeit zu verbessern. _(commit: [6c6e6bb5](https://github.com/Alf-Melmac/slotbot-frontend/commit/6c6e6bb54d10ab8ca3078398359f276a8d5b5c40))_
+
+* Das Schließen eines Discord-Threads archiviert nun automatisch das Event in diesem Thread. _(commit: [b375693e](https://github.com/Alf-Melmac/slotbotServer/commit/b375693e7813ac094f5ba81e49c4c975f7d08ea5))_
+
+* Beim Hinzufügen des Bots wird die Person, die den Bot hinzugefügt hat, automatisch zum Administrator der Community. Es ist also kein manuelles Setup mehr nötig, um mit dem Slotbot zu starten! _(commit: [d5d1e589](https://github.com/Alf-Melmac/slotbotServer/commit/d5d1e589daf936a8063a70a8d4d2e4775b1b33d7))_
+
+## 🐞 Fehlerbehebungen
+
+* Der Event Löschen Dialog kann nun auch mit dem Abbrechen-Knopf geschlossen werden. _(commit: [704cc37b](https://github.com/Alf-Melmac/slotbot-frontend/commit/704cc37bdf5b6b8153f518e70efc0bcfc9bc9070))_
+
+* Beim Schließen des Event Löschen Dialogs wird die Löschbestätigung korrekt zurückgesetzt. _(commit: [704cc37b](https://github.com/Alf-Melmac/slotbot-frontend/commit/704cc37bdf5b6b8153f518e70efc0bcfc9bc9070))_
+
+* Die Ausführung des [Event Ping](/integrationen/discord/bot-befehle/event-ping) Befehls wird verhindert, wenn der Bot nicht das Recht hat, Nachrichtem in diesem Kanal zu senden. _(commit: [7fe5e473](https://github.com/Alf-Melmac/slotbotServer/commit/7fe5e4736734e79889e0dbe6896109c5521a0318))_
+
+## 🔮 Feature-Vorschau
+
+* Voraussetzung für Events, Squads und Slots _([#517](https://github.com/Alf-Melmac/slotbot-frontend/pull/517), [#519](https://github.com/Alf-Melmac/slotbot-frontend/pull/519), [#521](https://github.com/Alf-Melmac/slotbot-frontend/pull/521), [#109](https://github.com/Alf-Melmac/slotbotServer/pull/109), [#110](https://github.com/Alf-Melmac/slotbotServer/pull/110), [#111](https://github.com/Alf-Melmac/slotbotServer/pull/111))_

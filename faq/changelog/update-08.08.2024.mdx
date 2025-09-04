@@ -1,0 +1,25 @@
+---
+title: "Update 08.08.2024"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.13.0" serverNew frontend="1.11.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* In der gesamten Anwendung wird nun besser mit langen Eventnamen umgegangen. _(commit: [35908d13](https://github.com/Alf-Melmac/slotbot-frontend/commit/35908d134a11f0725e7f50b86d4dbc26fd74b2f7))_
+
+* Event-Standards sind jetzt für alle verfügbar, ohne dass Alf kontaktiert werden muss. Community-Administratoren können diese Vorlagen in der Community-Administration erstellen, um Eventautoren bei der Erstellung von Events je nach Typ zu unterstützen. _(commit: [e9e4dc5b](https://github.com/Alf-Melmac/slotbot-frontend/commit/e9e4dc5be735bafc6cb71c2c74700a4211c0ae74), [dcbab0cd](https://github.com/Alf-Melmac/slotbotServer/commit/dcbab0cd364f10e345d5424c0fc49e45dfe94bf0))_
+
+* Eventbeschreibungen können nun nummerierte und nicht nummerierte Listen enthalten. _(commit: [c7d0ea29](https://github.com/Alf-Melmac/slotbot-frontend/commit/c7d0ea296416cba33e9daddf84f320a7b88e2830), [01e466c0](https://github.com/Alf-Melmac/slotbotServer/commit/01e466c021ed9364c0ad9356e0036b78b6302f52))_
+
+* Eventbeschreibungen können nun kleine Subtexte enthalten. _(commit: [fbc8e5ed](https://github.com/Alf-Melmac/slotbot-frontend/commit/fbc8e5ed2f638397e2daa6d9356f0ce05fa53450), [85d57d6a](https://github.com/Alf-Melmac/slotbotServer/commit/85d57d6a4fe7823d0ed5d1cdf2489c127f4afadd))_
+
+## 🐞 Fehlerbehebungen
+
+* #en am Zeilenanfang einer Eventbeschreibung werden in der Discord-Ausgabe nur dann mit einem Backslash escaped, wenn ein Leerzeichen folgt. Wieder ein paar wertvolle Zeichen gespart. _(commit: [c7d0ea29](https://github.com/Alf-Melmac/slotbot-frontend/commit/c7d0ea296416cba33e9daddf84f320a7b88e2830), [01e466c0](https://github.com/Alf-Melmac/slotbotServer/commit/01e466c021ed9364c0ad9356e0036b78b6302f52))_
+
+## 🔨 Technisches
+
+* Testweise wird in dieser Version die Dauer der gültigen Anmeldung verlängert und dafür neue Sicherheitsmechanismen rund um die Sitzung eingeführt.

@@ -1,0 +1,267 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Slotbot",
+  "colors": {
+	"primary": "#15AABF",
+	"light": "#66d9e8",
+	"dark": "#1098AD"
+  },
+  "logo": {
+	"light": "/logo/slotbot-256-256.png",
+	"dark": "/logo/slotbot-256-256.png"
+  },
+  "favicon": {
+	"light": "/favicon.ico",
+	"dark": "/favicon.ico"
+  },
+  "styling": {
+	"eyebrows": "breadcrumbs"
+  },
+  "navbar": {
+	"links": [
+	  {
+		"label": "Kalender",
+		"href": "https://slotbot.de"
+	  },
+	  {
+		"label": "Support",
+		"href": "https://discord.gg/3XU4urPuds"
+	  }
+	],
+	"primary": {
+	  "type": "button",
+	  "label": "Bot einladen",
+	  "href": "https://slotbot.de/invite"
+	}
+  },
+  "navigation": {
+	"groups": [
+	  {
+		"group": "Erste Schritte",
+		"pages": [
+		  "index",
+		  "warum-den-slotbot-nutzen",
+		  "jetzt-starten"
+		]
+	  },
+	  {
+		"group": "Events",
+		"pages": [
+		  "events/übersicht",
+		  "events/eventkalender",
+		  "events/event-details",
+		  {
+			"group": "Events Erstellen",
+			"icon": "pen-to-square",
+			"pages": [
+			  "events/events-erstellen",
+			  "events/events-erstellen/besondere-event-details",
+			  "events/events-erstellen/teilnahmeplatz-regeln",
+			  "events/events-erstellen/arma-3-slotlist-generierung"
+			]
+		  }
+		]
+	  },
+	  {
+		"group": "Communities",
+		"pages": [
+		  "communities/übersicht",
+		  "communities/konfiguration",
+		  "communities/event-standards",
+		  {
+			"group": "Mitglieder",
+			"icon": "users",
+			"pages": [
+			  "communities/mitglieder",
+			  "communities/mitglieder/mitglieder-hinzufügen-oder-entfernen",
+			  "communities/mitglieder/rollen"
+			]
+		  }
+		]
+	  },
+	  {
+		"group": "Integrationen",
+		"pages": [
+		  {
+			"group": "Discord",
+			"icon": "discord",
+			"pages": [
+			  "integrationen/discord",
+			  "integrationen/discord/teilnehmerverwaltung",
+			  {
+				"group": "Bot Befehle",
+				"pages": [
+				  "integrationen/discord/bot-befehle",
+				  "integrationen/discord/bot-befehle/archivieren",
+				  "integrationen/discord/bot-befehle/archiv-neu-aufbauen",
+				  "integrationen/discord/bot-befehle/community-hinzufügen",
+				  "integrationen/discord/bot-befehle/event-hinzufügen",
+				  "integrationen/discord/bot-befehle/event-ping",
+				  "integrationen/discord/bot-befehle/slot",
+				  "integrationen/discord/bot-befehle/slot-blockieren",
+				  "integrationen/discord/bot-befehle/slot-entfernen",
+				  "integrationen/discord/bot-befehle/slot-erzwingen",
+				  "integrationen/discord/bot-befehle/slot-hinzufügen",
+				  "integrationen/discord/bot-befehle/slot-umbenennen",
+				  "integrationen/discord/bot-befehle/squad-umbenennen",
+				  "integrationen/discord/bot-befehle/tauschen",
+				  "integrationen/discord/bot-befehle/unslot",
+				  "integrationen/discord/bot-befehle/unslot-erzwingen",
+				  "integrationen/discord/bot-befehle/zufälliger-slot"
+				]
+			  },
+			  "integrationen/discord/empfohlene-konfiguration",
+			  "integrationen/discord/benachrichtigungen",
+			  "integrationen/discord/archiv"
+			]
+		  },
+		  "integrationen/kalender-synchronisation",
+		  "integrationen/api-dokumentation"
+		]
+	  },
+	  {
+		"group": "Persönliche Einstellungen",
+		"pages": [
+		  "persönliche-einstellungen/profil",
+		  "persönliche-einstellungen/sprache",
+		  "persönliche-einstellungen/feature-vorschau"
+		]
+	  },
+	  {
+		"group": "FAQ",
+		"pages": [
+		  {
+			"group": "FAQ",
+			"icon": "message-question",
+			"pages": [
+			  "faq/faq",
+			  "faq/faq/wie-kann-ich-hilfe-erhalten",
+			  "faq/faq/security-faq"
+			]
+		  },
+		  {
+			"group": "Changelog",
+			"icon": "sparkles",
+			"pages": [
+			  "faq/changelog",
+			  "faq/changelog/update-02.06.2025",
+			  "faq/changelog/update-11.04.2025",
+			  "faq/changelog/update-18.02.2025",
+			  "faq/changelog/update-16.02.2025",
+			  "faq/changelog/update-15.02.2025",
+			  "faq/changelog/update-17.12.2024",
+			  "faq/changelog/update-12.12.2024",
+			  "faq/changelog/update-09.12.2024",
+			  "faq/changelog/update-12.10.2024",
+			  "faq/changelog/update-06.10.2024",
+			  "faq/changelog/update-09.08.2024",
+			  "faq/changelog/update-08.08.2024",
+			  "faq/changelog/update-21.07.2024",
+			  "faq/changelog/update-18.07.2024",
+			  "faq/changelog/update-08.06.2024",
+			  "faq/changelog/update-12.03.2024",
+			  "faq/changelog/update-09.01.2024",
+			  "faq/changelog/update-29.12.2023",
+			  "faq/changelog/update-25.11.2023",
+			  "faq/changelog/update-15.11.2023",
+			  "faq/changelog/update-13.10.2023",
+			  "faq/changelog/update-10.09.2023",
+			  "faq/changelog/update-28.07.2023",
+			  "faq/changelog/update-27.06.2023",
+			  "faq/changelog/update-13.06.2023",
+			  "faq/changelog/update-10.05.2023",
+			  "faq/changelog/update-08.05.2023",
+			  "faq/changelog/update-31.03.2023",
+			  "faq/changelog/update-22.02.2023",
+			  "faq/changelog/update-16.02.2023",
+			  "faq/changelog/update-03.12.2022",
+			  "faq/changelog/update-30.11.2022",
+			  "faq/changelog/update-06.02.2022",
+			  "faq/changelog/update-23.11.2021",
+			  "faq/changelog/update-14.11.2021",
+			  "faq/changelog/update-24.-and-26.10.2021",
+			  "faq/changelog/update-18.10.2021",
+			  "faq/changelog/update-09.09.2021",
+			  "faq/changelog/update-03.08.2021",
+			  "faq/changelog/update-28.07.2021",
+			  "faq/changelog/update-13.07.2021",
+			  "faq/changelog/update-12.06.2021",
+			  "faq/changelog/update-17.05.2021",
+			  "faq/changelog/update-14.05.2021",
+			  "faq/changelog/vor-05.2021"
+			]
+		  },
+		  "faq/mitwirken"
+		]
+	  },
+	  {
+		"group": "Policies",
+		"pages": [
+		  "policies/dmca-takedown-policy",
+		  "policies/name-squatting-policy",
+		  "policies/sicherheitslücken-melden",
+		  "policies/terms-of-service",
+		  {
+			"group": "Datenschutzerklärung",
+			"pages": [
+			  "policies/datenschutzerklärung",
+			  "policies/datenschutzerklärung/cookies"
+			]
+		  }
+		]
+	  }
+	]
+  },
+  "interaction": {
+	"drilldown": true
+  },
+  "footer": {
+	"socials": {
+	  "discord": "https://discord.gg/3XU4urPuds",
+	  "github": "https://github.com/Alf-Melmac"
+	}
+  },
+  "redirects": [
+	{
+	  "source": "/events/ubersicht",
+	  "destination": "/events/übersicht"
+	},
+	{
+	  "source": "/communities/ubersicht",
+	  "destination": "/communities/übersicht"
+	},
+	{
+	  "source": "/communities/mitglieder/mitglieder-hinzufugen-oder-entfernen",
+	  "destination": "/communities/mitglieder/mitglieder-hinzufügen-oder-entfernen"
+	},
+	{
+	  "source": "/integrationen/discord/bot-befehle/community-hinzufuegen",
+	  "destination": "/integrationen/discord/bot-befehle/community-hinzufügen"
+	},
+	{
+	  "source": "/integrationen/discord/bot-befehle/event-hinzufuegen",
+	  "destination": "/integrationen/discord/bot-befehle/event-hinzufügen"
+	},
+	{
+	  "source": "/integrationen/discord/bot-befehle/slot-hinzufugen",
+	  "destination": "/integrationen/discord/bot-befehle/slot-hinzufügen"
+	},
+	{
+	  "source": "/integrationen/discord/bot-befehle/zufaelliger-slot",
+	  "destination": "/integrationen/discord/bot-befehle/zufälliger-slot"
+	},
+	{
+	  "source": "/personliche-einstellungen/*",
+	  "destination": "/persönliche-einstellungen/*"
+	},
+	{
+	  "source": "/policies/sicherheitslucken-melden",
+	  "destination": "/policies/sicherheitslücken-melden"
+	},
+	{
+	  "source": "/policies/datenschutzerklarung*",
+	  "destination": "/policies/datenschutzerklärung*"
+	}
+  ]
+}

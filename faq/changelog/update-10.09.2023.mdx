@@ -1,0 +1,35 @@
+---
+title: "Update 10.09.2023"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.6.0" serverNew frontend="1.5.0"/>
+
+## ⭐ Neue Features
+
+* [Event Ping](/integrationen/discord/bot-befehle/event-ping) unterstützt nun auch Nachrichten, die das Discord-Nachrichtenlimit von 2000 Zeichen überschreiten. In diesem Fall werden mehrere Nachrichten gesendet. _(commit: [f5fc038b](https://github.com/Alf-Melmac/slotbotServer/commit/f5fc038be8b29c765b652673b634d49e77007ce9))_
+
+* [Unslot erzwingen](/integrationen/discord/bot-befehle/unslot-erzwingen) wurde erweitert und kann nun neben Slotnummern auch Personen anhand ihres Namens ausslotten. _(commit: [60b68d71](https://github.com/Alf-Melmac/slotbotServer/commit/60b68d7100c85c7c9ba53ea47943d52f3cc7918d))_
+
+* Fehlende Übersetzungen ergänzt. _(commit: [0a22e1ab](https://github.com/Alf-Melmac/slotbotServer/commit/0a22e1ab764f4629f38171f1c7876b7572ba530e))_
+
+* Die Befehle zur schnellen Verwaltung der Slotliste aus Discord heraus wurden überarbeitet. Sie sind jetzt als Slash-Befehle verfügbar: [Slot umbenennen](/integrationen/discord/bot-befehle/slot-umbenennen) _(commit: [f367d5c1](https://github.com/Alf-Melmac/slotbotServer/commit/f367d5c1eb03edf903674c0d7ae6892684029979), [e69d341c](https://github.com/Alf-Melmac/slotbotServer/commit/e69d341c98a5596589341931b5f897a5f04efb01))_, [Squad umbenennen](/integrationen/discord/bot-befehle/squad-umbenennen) _(commit: [443d03fb](https://github.com/Alf-Melmac/slotbotServer/commit/443d03fb4da31648da66667b3529f2f3c325d9a3))_, [Slot hinzufügen](/integrationen/discord/bot-befehle/slot-hinzufügen) _(commit: [b03f4eab](https://github.com/Alf-Melmac/slotbotServer/commit/b03f4eab89db410ad2ecf4cd449234d16d15e770))_, [Slot entfernen](/integrationen/discord/bot-befehle/slot-entfernen) _(commit: [39d2394c](https://github.com/Alf-Melmac/slotbotServer/commit/39d2394c82180c54428bcd5d33e299f868fbd787))_. Für alle erhält der Nutzer nun besser beschriebene, übersetzte Fehlermeldungen und eine schnellere Reaktionszeit.
+
+  * Die Befehle `EditMessage` und `SteamId` entfallen. Nachrichten können schon länger nicht mehr über den Bot versendet werden und die SteamId kann auf der Website [im eigenen Profil](https://slotbot.de/profile/me) angepasst werden. _(commit: [6fd02039](https://github.com/Alf-Melmac/slotbotServer/commit/6fd02039abecc901d43d321e1dd88080fc558e52))_
+
+* Überarbeitung des Swap Befehls _(commit: [c2da6aa3](https://github.com/Alf-Melmac/slotbotServer/commit/c2da6aa316ba2dc293314d7cf41a01a78b9375ae))_
+
+  * Anfragen werden sich über Neustarts hinaus gemerkt und können auch noch danach verarbeitet werden.
+
+  * Aktive Benachrichtigung, wenn dem angefragten Teilnehmenden keine Privatnachricht gesendet werden kann.
+
+  * Statt mit Daumen hoch und runter können die Anfragen nun mit eindeutig beschrifteten Knöpfen beantwortet werden.
+
+* Aktualisierungen von Events werden 5 Sekunden nach der letzten Änderung an Discord übertragen. Dies führt durch mehr gesammelte Aktionen zu selteneren Limitierung von Discord. _(commit: [09e82a53](https://github.com/Alf-Melmac/slotbotServer/commit/09e82a532bd1126227bdd929aa7eb2f1ff23713c))_
+
+## 🐞 Fehlerbehebungen
+
+* In Community-Discords ohne konfigurierten [Archiv](/integrationen/discord/archiv)-Kanal können wieder Events hinzugefügt werden. _(commit: [66cf4666](https://github.com/Alf-Melmac/slotbotServer/commit/66cf4666f15f0ff5c1b61a6c95b91285cd6e1aab))_
+
+* Die technische Umstellung interner Änderungsverarbeitung behebt einige seltene Fehler unter anderem bezüglich fehlender Benachrichtigungs- oder Discord-Event-Aktualisierungen insbesondere bei der Umbenennung von Slots oder Squads. _(commit: [662ef03c](https://github.com/Alf-Melmac/slotbotServer/commit/662ef03c562bae695c57d73a7cf2f2fb9e161ae1))_

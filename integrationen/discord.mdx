@@ -1,0 +1,32 @@
+---
+title: "Discord"
+description: "Eventteilnehmer erhalten alle Informationen über Discord."
+---
+
+<img src="/images/integrationen/discord/Discord-Logo+Wordmark-Color.png"alt="Discord Logo" noZoom/>
+
+## Einrichtung
+
+Keine nötig. Sobald der Bot dem Server beigetreten ist, sind wir startklar.
+
+## Funktionsübersicht
+
+Die Discord Integration ermöglicht die Darstellung der Events in Kanälen. Die Teilnehmer können sich anmelden, ohne Discord verlassen zu müssen, und erhalten Benachrichtigungen vor dem Start. Eine Übersicht über alle vergangenen Events wird ebenfalls angeboten.
+
+### Die wichtigsten Befehle auf einen Blick
+
+#### Für den Mitspieler
+
+| Befehl             | Erklärung                                               | Details                                                 |
+|--------------------|---------------------------------------------------------|---------------------------------------------------------|
+| `/slot slotnummer` | Trägt dich auf einen freien Platz im Event ein.         | [Slot](/integrationen/discord/bot-befehle/slot)         |
+| `/unslot`          | Trägt dich aus dem Event aus.                           | [Unslot](/integrationen/discord/bot-befehle/unslot)     |
+| `/swap @Person`    | Sendet der Person eine Anfrage zum Tauschen der Plätze. | [Tauschen](/integrationen/discord/bot-befehle/tauschen) |
+
+#### Für die Teilnehmerverwaltung
+
+| Befehl                          | Erklärung                                                        | Details                                                                 |
+|---------------------------------|------------------------------------------------------------------|-------------------------------------------------------------------------|
+| `/blockSlot slotnummer`         | Blockiert einen Platz, damit sich niemand darauf eintragen kann. | [Slot blockieren](/integrationen/discord/bot-befehle/slot-blockieren)   |
+| `/forceSlot slotnummer @Person` | Trägt eine Person auf einen Platz ein.                           | [Slot erzwingen](/integrationen/discord/bot-befehle/slot-erzwingen)     |
+| `/forceUnslot slotnummer`       | Leert den Platz mit der angegebenen Nummer.                      | [Unslot erzwingen](/integrationen/discord/bot-befehle/unslot-erzwingen) |

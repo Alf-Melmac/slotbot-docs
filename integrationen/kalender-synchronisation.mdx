@@ -1,0 +1,88 @@
+---
+title: "Kalender-Synchronisation"
+description: "Den Kalender überall hin mitnehmen."
+icon: "mobile"
+---
+
+Die Eventabende mit der Familie planen und nicht den Überblick verlieren? Kein Problem! Einfach den externen Kalender [im Profil](https://slotbot.de/profile/me) aktivieren und in den eigenen Kalender einfügen.
+
+![Kalender Einstellung](/images/integrationen/kalender-synchronisation/Slotbot-External-Calendar.png)
+
+Es handelt sich hierbei um das standardisierte iCalendar-Format (erkennbar an der Endung .ics). Die meisten gängigen Kalenderanwendungen unterstützen dieses Format. Eine Schritt-für-Schritt-Anleitung für den Google und Apple Kalender befindet sich hier auf der Seiter weiter unten.
+
+<Info>
+	Für ausgewählte Gruppen gibt es auch den gesamten Kalender als Import. Dieser enthält dann alle Events, die auch auf
+	der Website im Gruppen-Kalender sichtbar sind. *Beispiele:* [AMB](https://armamachtbock.de/calendar/AMB) und
+	[DAA](https://events.deutsche-arma-allianz.de/calendar/DAA)
+</Info>
+
+<Tabs>
+	<Tab title={"Google Kalender"}>
+		Im [Kalender](https://calendar.google.com) unter "Weitere Kalender" einen neuen Kalender Per URL hinzufügen.
+
+		![Weiteren Kalender
+		hinzufügen](/images/integrationen/kalender-synchronisation/Slotbot-GoogleCalendar-Create1.png)
+
+		Die URL aus dem Profil oder die der Gruppe einfügen und "Kalender hinzufügen" klicken.
+
+		![Per URL hinzufügen](/images/integrationen/kalender-synchronisation/Slotbot-GoogleCalendar-Create2.png)
+
+		Das wars schon! Damit der Kalender stets aktualisiert wird muss die Synchronisation teils manuell in den
+		[Synchronisierungseinstellungen](https://calendar.google.com/calendar/syncselect) aktiviert werden.
+	</Tab>
+	<Tab title={"Apple Kalender"}>
+		<Columns cols={2}>
+			<Frame caption="Kalenderabonnement im Kalender hinzufügen">
+				![Kalenderabonnement im Kalender
+				hinzufügen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create1.PNG)
+			</Frame>
+
+			<Frame caption="URL einfügen und Hinzufügen klicken">
+				![URL einfügen und Hinzufügen
+				klicken](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create2.PNG)
+			</Frame>
+		</Columns>
+
+		Falls dies, wie bei mir im Bild, nicht funktioniert, kann ein Kalender auch über die Einstellungen konfiguriert
+		werden.
+
+		<Frame caption="In den Einstellungen unter Kalender Accounts auswählen">
+			![In den Einstellungen unter Kalender Accounts
+			auswählen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create3.PNG)
+		</Frame>
+
+		<Columns cols={3}>
+			<Frame caption="Neuen Account hinzufügen">
+				![Neuen Account
+				hinzufügen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create4.PNG)
+			</Frame>
+
+			<Frame caption="Andere Account Art auswählen">
+				![Andere Account Art
+				auswählen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create5.PNG)
+			</Frame>
+
+			<Frame caption="Kalendarabo hinzufügen">
+				![Kalendarabo
+				hinzufügen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create6.PNG)
+			</Frame>
+		</Columns>
+
+		<Columns cols={2}>
+			<Frame caption="URL des Kalenders als Server eintragen">
+				![URL des Kalenders als Server
+				eintragen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create7.PNG)
+			</Frame>
+
+			<Frame caption="Konfiguration bestätigen">
+				![Konfiguration
+				bestätigen](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create8.PNG)
+			</Frame>
+		</Columns>
+
+		<Frame caption="Im Kalender taucht das neue Kalenderabonnement in der Kategorie Abonniert auf">
+			![Im Kalender taucht das neue Kalenderabonnement in der Kategorie Abonniert
+			auf](/images/integrationen/kalender-synchronisation/Slotbot-AppleCalendar-Create9.PNG)
+		</Frame>
+	</Tab>
+</Tabs>

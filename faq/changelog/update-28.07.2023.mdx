@@ -1,0 +1,25 @@
+---
+title: "Update 28.07.2023"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.5.0" serverNew frontend="1.5.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* Verbesserte Konfiguration des [Event-Archives](/integrationen/discord/archiv). Dieses kann nun von den `Slotbot_Event_Manage`rn in der Community-Konfiguration eingestellt werden. Im Falle der Löschung dieses Kanals wird die Konfiguration rückgängig gemacht. _(commit: [c8a9b312](https://github.com/Alf-Melmac/slotbot-frontend/commit/c8a9b312d0dbecc74b5eabae33542d00c36c60ce), [290e55ec](https://github.com/Alf-Melmac/slotbotServer/commit/290e55ecf2609d5dbebd7468392962e2d999506e))_
+
+* Wenn der Discord-Bot noch nicht Mitglied des Servers ist, wird die Einladung in der Community-Konfiguration angeboten. Vorher ist es nicht möglich, Discord-spezifische Konfigurationen vorzunehmen. _(commit: [c8a9b312](https://github.com/Alf-Melmac/slotbot-frontend/commit/c8a9b312d0dbecc74b5eabae33542d00c36c60ce))_
+
+* Event-Verknüpfungen werden nun automatisch aufgehoben, wenn der Bot von einem Server entfernt wird. _(commit: [7d180d40](https://github.com/Alf-Melmac/slotbotServer/commit/7d180d4010849ff2d09aeee7fffb6659c640787b))_
+
+* Kein `/archive` Befehl mehr. Wenn ein Archivkanal konfiguriert ist und der Event-Kanal gelöscht wird, werden die Events automatisch archiviert. _(commit: [e99933ee](https://github.com/Alf-Melmac/slotbotServer/commit/e99933ee24c3c221e1c056b7c2af01f7023079fe))_
+
+* Event List API Endpunkt. Der neue Endpunkt ermöglicht alle Events in einem gegebenen Zeitraum zu ermitteln. Siehe [API Dokumentation](/integrationen/api-dokumentation). _(commit: [e148f9ab](https://github.com/Alf-Melmac/slotbotServer/commit/e148f9ab35dc39a7ce10e5e9773518e6dfbe0af8))_
+
+## 🐞 Fehlerbehebungen
+
+* Discord-Interaktionen (Slash-Befehle und das Kontextmenü) werden nun auch beim nachträglichen Beitritt des Bots zu einem Server ohne Neustart angelegt. Damit wurde gleichzeitig der Neustart beschleunigt. _(commit: [7d180d40](https://github.com/Alf-Melmac/slotbotServer/commit/7d180d4010849ff2d09aeee7fffb6659c640787b))_
+
+* Die angezeigte Checkbox für nicht direkt sichtbare Interaktionen wird wieder als echtes Häkchen dargestellt. _(commit: [0e5e59a2](https://github.com/Alf-Melmac/slotbotServer/commit/0e5e59a2dee74f62e4bf79a1691f091790828a7d))_

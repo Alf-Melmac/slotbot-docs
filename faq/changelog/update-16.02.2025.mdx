@@ -1,0 +1,23 @@
+---
+title: "Update 16.02.2025"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.16.1" serverNew frontend="1.15.1" frontendNew/>
+
+## 🐞 Fehlerbehebungen
+
+* Fehlermeldung nach dem Importieren einer mission.sqm. `(Danke GSG9_abzocker für den Hinweis)` _(commit: [b947baaf](https://github.com/Alf-Melmac/slotbotServer/commit/b947baafe2661cdcddd7d19a75145e09b814fe71))_
+
+* Verbesserung rund um die Speicherung von Änderungen in der Slotliste eines Events. Dies verhindert unter anderem, dass fälschlicherweise Benachrichtigungen über eine nicht stattgefundene Abmeldung versendet werden. _(commit: [9855000f](https://github.com/Alf-Melmac/slotbotServer/commit/9855000f05f069cc8bc9c97e714a1d642786d134))_
+
+## 🔮 Feature-Vorschau
+
+* Die Zuordnung von Voraussetzungen ohne Selbstzuordnung ist nur bei aktivierter Merkmalsvorschau möglich. _(commit: [b5b7fb85](https://github.com/Alf-Melmac/slotbot-frontend/commit/b5b7fb854d3d9de055b14636b9c5c9d17f40af44))_
+
+* Voraussetzungslisten können gelöscht werden. _(commit: [2746feac](https://github.com/Alf-Melmac/slotbot-frontend/commit/2746feac5210dac2fe363ef21b8f327fc92f23e1), [5ce60391](https://github.com/Alf-Melmac/slotbotServer/commit/5ce60391573b5f82adeabe2f6d305fb59cb91f00))_
+
+* Fehlende Übersetzung für geerbte Squad-Voraussetzungen in den Slot-Regeln ergänzt. _(commit: [d95c1bdb](https://github.com/Alf-Melmac/slotbot-frontend/commit/d95c1bdb31e80382769758c310d42ae3a04c5da9))_
+
+* Nach erfolgreicher Bearbeitung der Slotliste mit Voraussetzungen wurde diese weiterhin als bearbeitet angezeigt und der Nutzende wurde zum erneuten Speichern aufgefordert. _(commit: [d95c1bdb](https://github.com/Alf-Melmac/slotbot-frontend/commit/d95c1bdb31e80382769758c310d42ae3a04c5da9))_

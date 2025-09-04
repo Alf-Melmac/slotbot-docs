@@ -1,0 +1,17 @@
+---
+title: "Update 12.10.2024"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.14.0" serverNew frontend="1.13.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* Community-Administratoren können nun Events in den Event-Details löschen. _(commit: [58886f9a](https://github.com/Alf-Melmac/slotbot-frontend/commit/58886f9a315464859b1510083e5f97659402a396), [3208a262](https://github.com/Alf-Melmac/slotbotServer/commit/3208a26248988d341b350b4a5877395670ae70aa))_
+
+* Communities können nun, ohne eine eigene URL zugewiesen zu bekommen, alle eventbezogenen Aktionen durchführen. Dabei wurden auch Probleme bei der Bearbeitung eigener Events über einen anderen Kalender behoben. _([#500](https://github.com/Alf-Melmac/slotbot-frontend/pull/500), [#99](https://github.com/Alf-Melmac/slotbotServer/pull/99))_
+
+## 🔨 Technisches
+
+* Neben allgemeinen Optimierungen der Download-Größe wurde das Frontend in mehrere kleinere Pakete aufgeteilt, um die Zeit bis zum ersten Aufruf der Seite zu optimieren. _(commit: [fe566e04](https://github.com/Alf-Melmac/slotbot-frontend/commit/fe566e04d90bdf3ee05aed31cccbdfde3004afcc), [8f00f7ee](https://github.com/Alf-Melmac/slotbot-frontend/commit/8f00f7ee8fb15ac8621dc12a0ff5d89212fed2be))_

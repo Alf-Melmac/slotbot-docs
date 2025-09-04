@@ -1,0 +1,45 @@
+---
+title: "Update 13.10.2023"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.7.0" serverNew frontend="1.6.0" frontendNew/>
+
+## ⭐ Neue Features
+
+* Die [Communities](https://slotbot.de/guilds) sind jetzt von jeder Seite aus direkt erreichbar. Allerdings nur, wenn dein Bildschirm groß genug ist. _(commit: [dd3a9677](https://github.com/Alf-Melmac/slotbot-frontend/commit/dd3a9677d4e9ee114b2b8fdabf847f57a84a77b8))_
+
+* Neue Seite mit Informationen über den Ablauf der Login-Session. Beispielsweise hat sich derselbe Benutzer zu oft angemeldet oder seine Rollen wurden geändert. _(commit: [8a0b0008](https://github.com/Alf-Melmac/slotbot-frontend/commit/8a0b0008d54041d519fe0e2b683590b388f7495c), [b1b991af](https://github.com/Alf-Melmac/slotbot-frontend/commit/b1b991afe9e87067880a66b2f9862c51e75956f8))_
+
+* Community-Rollen Verwaltung _(commit: [6068afb4](https://github.com/Alf-Melmac/slotbot-frontend/commit/6068afb4eb0776099f5ab99de95f7e7e876d0520), [2672d254](https://github.com/Alf-Melmac/slotbot-frontend/commit/2672d254bb5ea0578684187042a283d4c653508f), [335af06b](https://github.com/Alf-Melmac/slotbotServer/commit/335af06b47abf15780bbb45c6a155efbd09dd1c3), [eaa78d81](https://github.com/Alf-Melmac/slotbotServer/commit/eaa78d819b829677097188d589e173463696e9d9), [9a985c72](https://github.com/Alf-Melmac/slotbotServer/commit/9a985c72298f5321000dd0f7581ceb8b11fca0ba))_
+
+  * Die Berechtigungsverwaltung muss nicht mehr vollständig über Discord-Rollen erfolgen. Dadurch entfallen auch die automatisch generierten Rollen Slotbot_Admin und Slotbot_Event_Manage. Auf Servern, auf denen die Rollen bereits generiert wurden, werden sie nicht automatisch gelöscht.
+
+  * Community-Administratoren haben die Möglichkeit, Community-Mitgliedern Rechte zur Bearbeitung von Events und der Community zu erteilen. Die Rollen können auch mit Discord-Rollen synchronisiert werden.
+
+* Community-Mitglieder werden automatisch entfernt, wenn sie den verknüpften Discord-Server verlassen. _(commit: [04ac047e](https://github.com/Alf-Melmac/slotbotServer/commit/04ac047ee4361fa7fda82709948b0223e7a35305))_
+
+* Mit dem neuen Bild-Upload können nun Bilder in Events einfach hochgeladen werden, anstatt einen Link einfügen zu müssen. _(commit: [31cdeecc](https://github.com/Alf-Melmac/slotbotServer/commit/31cdeecc7b2721119b32567905e14b855876d691))_
+
+  * Dieses Änderung ist die Vorbereitung für die anstehende Änderung für Discord-Links, die außerhalb der App nicht mehr endlos lang verwendet werden können: [https://www.reddit.com/r/DataHoarder/comments/16zs1gt/cdndiscordapp_links_will_expire_breaking/](https://www.reddit.com/r/DataHoarder/comments/16zs1gt/cdndiscordapp_links_will_expire_breaking/)
+
+## 🐞 Fehlerbehebungen
+
+* Manchmal wurde im Event-Bearbeitungsmodus der Zustand vor der letzten eigenen Änderung angezeigt. _(commit: [49f066a7](https://github.com/Alf-Melmac/slotbot-frontend/commit/49f066a7f72c1453ec5b1f1d22b55ce059140cf3))_
+
+* Event-Bilder können wieder entfernt werden. _(commit: [fee0f12c](https://github.com/Alf-Melmac/slotbotServer/commit/fee0f12c248fbe3359a932bf56f2481239d31652))_
+
+* Benachrichtigungen werden neu berechnet, wenn ein Slot gelöscht wird. _(commit: [7e0e8491](https://github.com/Alf-Melmac/slotbotServer/commit/7e0e84917ab8fc11ffc5b9d9cbffc96e7f01df80))_
+
+* Nutzer, die noch an keinem Event teilgenommen haben, konnten nach der Anmeldung keine Events öffnen. `(Danke Andy für die Meldung)` _(commit: [54e6a489](https://github.com/Alf-Melmac/slotbotServer/commit/54e6a489541c5a0bcbd6b58fb28a3084fffb8465))_
+
+* Beim Wechseln des Slots über die Website tritt kein Fehler mehr auf. _(commit: [dce36c5e](https://github.com/Alf-Melmac/slotbotServer/commit/dce36c5e460027041e97c9fef75397700d86fcce))_
+
+* Neben dem [Slot](/integrationen/discord/bot-befehle/slot)-Befehl versendet auch der [Zufälliger Slot](/integrationen/discord/bot-befehle/zufälliger-slot)-Befehl die Unslot- und Slot-Benachrichtung beim Slot-Wechsel in der richtigen Reihenfolge. _(commit: [dce36c5e](https://github.com/Alf-Melmac/slotbotServer/commit/dce36c5e460027041e97c9fef75397700d86fcce))_
+
+* Die Steam-ID eines Nutzers kann wieder entfernt werden. _(commit: [24048d03](https://github.com/Alf-Melmac/slotbotServer/commit/24048d03bf7f715da58d98c1b31a9a8af04bad3c))_
+
+## 🔨 Technisches
+
+* Unterstützung nur für aktuelle Browser. _(commit: [ceca85e5](https://github.com/Alf-Melmac/slotbot-frontend/commit/ceca85e5bff33b86d2aaeae99aafec2d4729f77b))_
