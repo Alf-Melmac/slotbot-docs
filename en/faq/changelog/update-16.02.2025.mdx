@@ -1,0 +1,23 @@
+---
+title: "Update 16.02.2025"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.16.1" serverNew frontend="1.15.1" frontendNew/>
+
+## 🐞 Bug Fixes
+
+* Error message after importing a mission.sqm. `(Thanks GSG9_abzocker for pointing that out)` _(commit: [b947baaf](https://github.com/Alf-Melmac/slotbotServer/commit/b947baafe2661cdcddd7d19a75145e09b814fe71))_
+
+* Improvements to the storage of changes in the slot list of an event. Among other things, this prevents notifications from being sent in error about an unslot that did not take place. _(commit: [9855000f](https://github.com/Alf-Melmac/slotbotServer/commit/9855000f05f069cc8bc9c97e714a1d642786d134))_
+
+## 🔮 Feature Preview
+
+* The assignment of requirements without self-assignment is only possible when the characteristic preview is activated. _(commit: [b5b7fb85](https://github.com/Alf-Melmac/slotbot-frontend/commit/b5b7fb854d3d9de055b14636b9c5c9d17f40af44))_
+
+* Requirement lists can be deleted. _(commit: [2746feac](https://github.com/Alf-Melmac/slotbot-frontend/commit/2746feac5210dac2fe363ef21b8f327fc92f23e1), [5ce60391](https://github.com/Alf-Melmac/slotbotServer/commit/5ce60391573b5f82adeabe2f6d305fb59cb91f00))_
+
+* Added missing translation for inherited squad requirements in the slot rules. _(commit: [d95c1bdb](https://github.com/Alf-Melmac/slotbot-frontend/commit/d95c1bdb31e80382769758c310d42ae3a04c5da9))_
+
+* After successfully editing the slot list with requirements, it continued to be displayed as edited and the user was prompted to save again. _(commit: [d95c1bdb](https://github.com/Alf-Melmac/slotbot-frontend/commit/d95c1bdb31e80382769758c310d42ae3a04c5da9))_

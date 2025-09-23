@@ -1,0 +1,20 @@
+---
+title: "Update 24. & 26.10.2021"
+---
+
+## ⭐ New Features
+
+* Shared events that have been added to the own server are now also displayed in the calendar. *(commit:* [*7ae496ba*](https://github.com/Alf-Melmac/slotbotServer/commit/7ae496bab535b933cc0cf1ee279f0b24c150dfc2)*)*
+* The shareability of an event can no longer be changed if the event has already been added to another Discord server. *(commit:* [*66ee998a*](https://github.com/Alf-Melmac/slotbotServer/commit/66ee998a3b7e79acc1fea56a999f151a540a0fe7)*)*
+* Leading and trailing spaces are now also automatically removed in the event description, mission length, event image url, event details field name and description. *(commit:* [*6096671b*](https://github.com/Alf-Melmac/slotbotServer/commit/6096671b3a9669a40e677077f144b039529f46fb)*,* [*db1c1b3a*](https://github.com/Alf-Melmac/slotbotServer/commit/db1c1b3ae40d16b6a82973164e3200817edb3f0c)*)*
+* Texts within the DAA design are easier to read due to less yellow. A new slot list separator has been introduced for DAA. *(commit:* [*cb60303a*](https://github.com/Alf-Melmac/slotbotServer/commit/cb60303a9f12c39e2598dcd9e55a8d79b892d290)*,* [*8218166c*](https://github.com/Alf-Melmac/slotbotServer/commit/8218166ca56a9c626d3afbc5f1f2ea2f2ebb2d3f)*)*
+* The "Add Channel" button in the event details is back and will be displayed as long as the owners of an event have not added it to their Discord. *(commit:* [*67398586*](https://github.com/Alf-Melmac/slotbotServer/commit/6739858602a2aeba80c95822efd8c7c5dd663caf)*)*
+* The display text of a blocked slot can be overwritten by blocking it again. *(commit:* [*04851765*](https://github.com/Alf-Melmac/slotbotServer/commit/04851765030a1fad19a3dbfefbbdc2cb2dbce3de)*)*
+* Events of the type "Deutsche Arma Allianz" can now be created with pre-filled details. *(commit:* [*865506b3*](https://github.com/Alf-Melmac/slotbotServer/commit/865506b33b8012eeeb84b4e3ea383733e0d59447)*)*
+
+## 🐞 Bug Fixes
+
+* Reserve slots no longer receive duplicate slot numbers if the slot list contains slot number 100. *(commit:* [*07fec89c*](https://github.com/Alf-Melmac/slotbotServer/commit/07fec89c9c469760c5d0149ee79d58454b0c9b0b)*)*
+* Event notifications and logging times should now be executed at correct times or display the correct data. *(commit:* [*2dfefeb1*](https://github.com/Alf-Melmac/slotbotServer/commit/2dfefeb1572b4819588a891bf8b415afb8c68189)*,* [*ef377b9f*](https://github.com/Alf-Melmac/slotbotServer/commit/ef377b9f1307f4f3c91fa5bf1f674406c8573115)*,* [*1d85ddd8*](https://github.com/Alf-Melmac/slotbotServer/commit/1d85ddd870ba2fbd06fb9029cd5782774bc6f238)*)*
+* Event details are copied again when duplicating an event. *(commit:* [*1b42b6cc*](https://github.com/Alf-Melmac/slotbotServer/commit/1b42b6cc88ea1d993c905d1707528f8cf3320863)*)*
+* The visibility, shareability and display texts of blocked slots of an event are no longer overwritten with the default values with every update. *(commit:* [*8430dc36*](https://github.com/Alf-Melmac/slotbotServer/commit/8430dc36bd20cd64cd968f942004d6a43bb88a31)*,* [*04851765*](https://github.com/Alf-Melmac/slotbotServer/commit/04851765030a1fad19a3dbfefbbdc2cb2dbce3de)*)*

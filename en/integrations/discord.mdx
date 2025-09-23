@@ -1,0 +1,32 @@
+---
+title: "Discord"
+description: "Event participants will receive all information via Discord."
+---
+
+<img src="/images/integrationen/discord/Discord-Logo+Wordmark-Color.png"alt="Discord Logo" noZoom/>
+
+## Get started
+
+No setup required. Once the bot has joined the server, we are ready to go.
+
+## Feature overview
+
+The Discord integration allows the events to be displayed in channels. Participants can register without leaving Discord and receive notifications before the event starts. An overview of all past events is also available.
+
+### The most important commands at a glance
+
+#### For participants
+
+| Command             | Explanation                                | Details                                                |
+|---------------------|--------------------------------------------|--------------------------------------------------------|
+| `/slot slot_number` | Enrols you for an empty slot in the event. | [Slot](/en/integrations/discord/bot-commands/slot)     |
+| `/unslot`           | Removes you from the event.                | [Unslot](/en/integrations/discord/bot-commands/unslot) |
+| `/swap @User`       | Sends the person a request to swap places. | [Swap](/en/integrations/discord/bot-commands/swap)     |
+
+#### For participant management
+
+| Command                        | Explanation                                     | Details                                                            |
+|--------------------------------|-------------------------------------------------|--------------------------------------------------------------------|
+| `/blockSlot slot_number`       | Block a slot so that no one can register on it. | [Block slot](/en/integrations/discord/bot-commands/block-slot)     |
+| `/forceSlot slot_number @User` | Enrols a person in a slot.                      | [Force slot](/en/integrations/discord/bot-commands/force-slot)     |
+| `/forceUnslot slot_number`     | Empties the slot with the given number.         | [Force unslot](/en/integrations/discord/bot-commands/force-unslot) |

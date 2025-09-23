@@ -1,0 +1,52 @@
+---
+title: "Configuration"
+icon: "gear"
+---
+
+<Info>
+	**Permissions**
+
+	To configure a community the `Admin` role is required.
+</Info>
+
+## Discord Integration
+
+### Language
+
+Not all integrations allow the user to choose their preferred language. For static text, such as the details of an event in Discord, a language can be set.
+
+![Language settings](/images/communities/konfiguration/Slotbot-Guild-Language.png)
+
+The following settings can only be configured once the bot has joined the server.
+
+![Hint to invite the discord bot](/images/communities/konfiguration/Slotbot-Guild-MissingInvite.png)
+
+### Archive Channel
+
+Once an event has finished, information about it can be collected in an archive channel.
+
+<Card title={"Archive"} href={"/en/integrations/discord/archive"} horizontal arrow/>
+
+### Synchronisation Of Member Roles
+
+The three authorisation roles can be linked to Discord roles. When a new role is assigned to a person, the corresponding Discord role is assigned automatically. The reverse also applies: if the linked Discord role is assigned, the corresponding authorisation role is automatically updated.
+
+![Member role settings](/images/communities/konfiguration/Slotbot-Guild-RoleSync.png)
+
+<Info>
+	Only roles below the Slotbot integration role can be selected. You can adjust the order of the roles in Discord, in the Server Settings menu, under 'Roles'.
+</Info>
+
+<Tip>
+	Tip: If you configure Discord roles, also configure them for the [slash commands](/en/integrations/discord/recommended-configuration).
+</Tip>
+
+## Event types
+
+All available event types are listed here. The types marked as "Global" are pre-defined standards. All others are private to your community.
+
+![List of event types](/images/communities/konfiguration/Slotbot-Guild-EventTypes.png)
+
+Templates can be configured for all types. Learn more about it here:
+
+<Card title={"Event Standards"} href={"/en/communities/event-standards"} icon={"receipt"} horizontal arrow/>

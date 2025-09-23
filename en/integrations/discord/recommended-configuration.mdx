@@ -1,0 +1,18 @@
+---
+title: "Recommended configuration"
+description: "Learn how to configure the Discord integration."
+---
+
+## Command Permissions
+
+For the smoothest possible permissions configuration, it is recommended that the roles created by the bot are given command permissions. Of course, configuring according to other roles or individual persons is also possible here. [Learn more about managing integrations.](https://support.discord.com/hc/de/articles/360045093012)
+
+![Overview of discord command configuration](/images/integrationen/discord/empfohlene-konfiguration/Slotbot-Discord-Configuration.png)
+
+| Command              | Overwrite            | Details                                                                           |
+|:---------------------|:---------------------|:----------------------------------------------------------------------------------|
+| Add_Event_To_Channel | Slotbot_Event_Manage | [Add event to channel](/en/integrations/discord/bot-commands/add-event-to-cannel) |
+| Block_Slot           | Slotbot_Event_Manage | [Block slot](/en/integrations/discord/bot-commands/block-slot)                    |
+| Force_Slot           | Slotbot_Event_Manage | [Force slot](/en/integrations/discord/bot-commands/force-slot)                    |
+| Force_Unslot         | Slotbot_Event_Manage | [Force unslot](/en/integrations/discord/bot-commands/force-unslot)                |
+| Rebuild_Archive      | Slotbot_Admin        | [Rebuild archive](/en/integrations/discord/bot-commands/rebuild-archive)          |

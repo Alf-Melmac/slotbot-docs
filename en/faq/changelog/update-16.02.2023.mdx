@@ -1,0 +1,41 @@
+---
+title: "Update 16.02.2023"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.1.0" serverNew frontend="1.1.0" frontendNew/>
+
+## ⭐ New Features
+
+* Happy New Year! 🎉 *(commit:* [*4a10a9e9*](https://github.com/Alf-Melmac/slotbot-frontend/commit/4a10a9e92d52f56d0a58d3544687f9a0924bc493)*)*
+* The entire website is now translated into English. If a language other than German is selected in the browser, all interface texts are displayed in English. `(Thanks The43rd for the support with the translations)` *(commit:* [*76a7720f*](https://github.com/Alf-Melmac/slotbot-frontend/commit/76a7720f1ef3f9aa9f9362ef0d2c9116d78497d2)*,* [*da820223*](https://github.com/Alf-Melmac/slotbot-frontend/commit/da82022321eb2e6dba241443686730314709e4ad)*)*
+* The Discord messages have also been translated. For interactions with the bot, the language selected in Discord is used (German or otherwise English). For displays, such as the event details, the language set in the new community configuration (see below) is used. *(commit:* [*3d41760b*](https://github.com/Alf-Melmac/slotbotServer/commit/3d41760b29c5143089b71e6f7dd6fc3eac11c955)*,* [*31151e42*](https://github.com/Alf-Melmac/slotbotServer/commit/31151e42b526a50f5dcf641bcc006be51665cae5)*,* [*a13b6108*](https://github.com/Alf-Melmac/slotbotServer/commit/a13b6108a00fe354a826e2642c3dde869219ad0b)*)*
+* At the same time as the translations, most Discord commands have been revised and the output improved.
+* AddEventToChannel is now only a slash command.
+* ArchiveEvent is now only a slash command.
+* BlockSlot is now only a slash command.
+* EventPing is now only a slash command.
+* RandomSlot is now only a slash command.
+* RebuildArchive is now a slash command.
+* Slot und ForceSlot are now only slash commands.
+* Swap is now only a slash command.
+* Unslot und ForceUnslot are now only slash commands.
+* By replacing most text commands with slash commands, the help command is no longer needed.
+* Community/guild administration. All communities can be viewed, searched and managed via the new overview page. In addition to viewing some details and a member view, community administrators can configure the default language, view event types (see below) and manage members. *(commit:* [*df05b822*](https://github.com/Alf-Melmac/slotbot-frontend/commit/df05b822aa9c1f869d6a69139b1723554b0280da)*,* [*c8376952*](https://github.com/Alf-Melmac/slotbot-frontend/commit/c837695231f903653a5770b340d32fa6da79c94d)*,* [*01b7b028*](https://github.com/Alf-Melmac/slotbot-frontend/commit/01b7b028933dd337f2e134f83595d189c9c24dc3)*,* [*546f377f*](https://github.com/Alf-Melmac/slotbot-frontend/commit/546f377f33e06c92fd6b324a83ee66db518daf68)*,* [*c573f8de*](https://github.com/Alf-Melmac/slotbot-frontend/commit/c573f8de080d34e637ba3c4a77c8f825c36ad49a)*, Member Management* [*7949d461*](https://github.com/Alf-Melmac/slotbot-frontend/commit/7949d4615c80cf5afcae3d9cbbf66df67c0ee01a)*, Configuration* [*097a1cb3*](https://github.com/Alf-Melmac/slotbot-frontend/commit/097a1cb31713a86a3d84c8de7b88d0f04f6f319c)*,* [*1840b42f*](https://github.com/Alf-Melmac/slotbot-frontend/commit/1840b42f37855a251ced845bcc4b0225e8fc35e1)*;* [*2f4694a0*](https://github.com/Alf-Melmac/slotbotServer/commit/2f4694a0cff3891c9b764c298bc655ff0c97148a)*, Member Management* [*b64c26a5*](https://github.com/Alf-Melmac/slotbotServer/commit/b64c26a5d769c4ef5f756ff728c85a7d4eca4141)*,* [*836089b9*](https://github.com/Alf-Melmac/slotbotServer/commit/836089b9a611281c0becd94a93db7f56949b78ea)*,* [*c07b4cea*](https://github.com/Alf-Melmac/slotbotServer/commit/c07b4cea6cb3d589620d92cccb611a5c1c6d80ad)*, Configuration* [*144a5fb7*](https://github.com/Alf-Melmac/slotbotServer/commit/144a5fb7a48a920eeaafcbd5fd78333018842a7d)*,* [*be7d4be8*](https://github.com/Alf-Melmac/slotbotServer/commit/be7d4be802a7861594bc0b449db94ff3874126dd)*)*
+* Members can be added to a community via the context menu in Discord. Right click on a user -> Apps -> Add community *(commit:* [*4fe3b7aa*](https://github.com/Alf-Melmac/slotbotServer/commit/4fe3b7aa5709f33c5f14ac83360c7e17f5c5ac53)*,* [*ef71736e*](https://github.com/Alf-Melmac/slotbotServer/commit/ef71736eb2837f5dabfe43a240be23cdb6535eaa)*)*
+* Event types are sorted alphabetically. *(commit:* [*7fb5f42f*](https://github.com/Alf-Melmac/slotbotServer/commit/7fb5f42f8244c349fc54eade7cdc59bef12cc49d)*)*
+* Event types are created community-specific by default. This allows the event creators to be better guided as to which types are relevant for their own community. These are displayed as non-global to administrators in the community view. *(commit:* [*9c27b57b*](https://github.com/Alf-Melmac/slotbotServer/commit/9c27b57bd3490da72e928717498f3f7a95293370)*,* [*836f33d5*](https://github.com/Alf-Melmac/slotbotServer/commit/836f33d5f638ef12af8e54268c8c722cf1666578)*)*
+
+## 🐞 Bug Fixes
+
+* Logos in the navigation bar are now soft and round. *(commit:* [*8eaf52a5*](https://github.com/Alf-Melmac/slotbot-frontend/commit/8eaf52a5505bcff3626f578db2e0d122caddcd54)*)*
+* If a future event was not shareable, but the own community had a reserved squad or slot in it, an error occurred when trying to add it to a Discord channel. *(commit:* [*bcec5b63*](https://github.com/Alf-Melmac/slotbotServer/commit/bcec5b63fc2d98447046ad5108b47a5906f8644b)*)*
+
+<Info>
+	With this update, most of the text commands are finally dropped. Please use the Discord slash commands. [Bot commands](/en/integrations/discord/bot-commands)
+</Info>
+
+<Warning>
+	For administrators: Due to the new Discord authorisation system, the slash commands are no longer authorised by default by the slotbot roles. You can view and configure the permissions in the server settings under Apps -> Integrations -> Bots and Apps. In the long run, the permission control will be moved more to the website.
+</Warning>

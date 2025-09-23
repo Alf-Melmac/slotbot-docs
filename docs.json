@@ -36,177 +36,348 @@
 	}
   },
   "navigation": {
-	"groups": [
+	"languages": [
 	  {
-		"group": "Erste Schritte",
-		"pages": [
-		  "index",
-		  "warum-den-slotbot-nutzen",
-		  "jetzt-starten"
-		]
-	  },
-	  {
-		"group": "Events",
-		"pages": [
-		  "events/übersicht",
-		  "events/eventkalender",
-		  "events/event-details",
+		"language": "de",
+		"groups": [
 		  {
-			"group": "Events Erstellen",
-			"icon": "pen-to-square",
+			"group": "Erste Schritte",
 			"pages": [
-			  "events/events-erstellen",
-			  "events/events-erstellen/besondere-event-details",
-			  "events/events-erstellen/teilnahmeplatz-regeln",
-			  "events/events-erstellen/arma-3-slotlist-generierung"
+			  "index",
+			  "warum-den-slotbot-nutzen",
+			  "jetzt-starten"
 			]
-		  }
-		]
-	  },
-	  {
-		"group": "Communities",
-		"pages": [
-		  "communities/übersicht",
-		  "communities/konfiguration",
-		  "communities/event-standards",
+		  },
 		  {
-			"group": "Mitglieder",
-			"icon": "users",
+			"group": "Events",
 			"pages": [
-			  "communities/mitglieder",
-			  "communities/mitglieder/mitglieder-hinzufügen-oder-entfernen",
-			  "communities/mitglieder/rollen"
-			]
-		  }
-		]
-	  },
-	  {
-		"group": "Integrationen",
-		"pages": [
-		  {
-			"group": "Discord",
-			"icon": "discord",
-			"pages": [
-			  "integrationen/discord",
-			  "integrationen/discord/teilnehmerverwaltung",
+			  "events/übersicht",
+			  "events/eventkalender",
+			  "events/event-details",
 			  {
-				"group": "Bot Befehle",
+				"group": "Events Erstellen",
+				"icon": "pen-to-square",
 				"pages": [
-				  "integrationen/discord/bot-befehle",
-				  "integrationen/discord/bot-befehle/archivieren",
-				  "integrationen/discord/bot-befehle/archiv-neu-aufbauen",
-				  "integrationen/discord/bot-befehle/community-hinzufügen",
-				  "integrationen/discord/bot-befehle/event-hinzufügen",
-				  "integrationen/discord/bot-befehle/event-ping",
-				  "integrationen/discord/bot-befehle/slot",
-				  "integrationen/discord/bot-befehle/slot-blockieren",
-				  "integrationen/discord/bot-befehle/slot-entfernen",
-				  "integrationen/discord/bot-befehle/slot-erzwingen",
-				  "integrationen/discord/bot-befehle/slot-hinzufügen",
-				  "integrationen/discord/bot-befehle/slot-umbenennen",
-				  "integrationen/discord/bot-befehle/squad-umbenennen",
-				  "integrationen/discord/bot-befehle/tauschen",
-				  "integrationen/discord/bot-befehle/unslot",
-				  "integrationen/discord/bot-befehle/unslot-erzwingen",
-				  "integrationen/discord/bot-befehle/zufälliger-slot"
+				  "events/events-erstellen",
+				  "events/events-erstellen/besondere-event-details",
+				  "events/events-erstellen/teilnahmeplatz-regeln",
+				  "events/events-erstellen/arma-3-slotlist-generierung"
+				]
+			  }
+			]
+		  },
+		  {
+			"group": "Communities",
+			"pages": [
+			  "communities/übersicht",
+			  "communities/konfiguration",
+			  "communities/event-standards",
+			  {
+				"group": "Mitglieder",
+				"icon": "users",
+				"pages": [
+				  "communities/mitglieder",
+				  "communities/mitglieder/mitglieder-hinzufügen-oder-entfernen",
+				  "communities/mitglieder/rollen"
+				]
+			  }
+			]
+		  },
+		  {
+			"group": "Integrationen",
+			"pages": [
+			  {
+				"group": "Discord",
+				"icon": "discord",
+				"pages": [
+				  "integrationen/discord",
+				  "integrationen/discord/teilnehmerverwaltung",
+				  {
+					"group": "Bot Befehle",
+					"pages": [
+					  "integrationen/discord/bot-befehle",
+					  "integrationen/discord/bot-befehle/archivieren",
+					  "integrationen/discord/bot-befehle/archiv-neu-aufbauen",
+					  "integrationen/discord/bot-befehle/community-hinzufügen",
+					  "integrationen/discord/bot-befehle/event-hinzufügen",
+					  "integrationen/discord/bot-befehle/event-ping",
+					  "integrationen/discord/bot-befehle/slot",
+					  "integrationen/discord/bot-befehle/slot-blockieren",
+					  "integrationen/discord/bot-befehle/slot-entfernen",
+					  "integrationen/discord/bot-befehle/slot-erzwingen",
+					  "integrationen/discord/bot-befehle/slot-hinzufügen",
+					  "integrationen/discord/bot-befehle/slot-umbenennen",
+					  "integrationen/discord/bot-befehle/squad-umbenennen",
+					  "integrationen/discord/bot-befehle/tauschen",
+					  "integrationen/discord/bot-befehle/unslot",
+					  "integrationen/discord/bot-befehle/unslot-erzwingen",
+					  "integrationen/discord/bot-befehle/zufälliger-slot"
+					]
+				  },
+				  "integrationen/discord/empfohlene-konfiguration",
+				  "integrationen/discord/benachrichtigungen",
+				  "integrationen/discord/archiv"
 				]
 			  },
-			  "integrationen/discord/empfohlene-konfiguration",
-			  "integrationen/discord/benachrichtigungen",
-			  "integrationen/discord/archiv"
+			  "integrationen/kalender-synchronisation",
+			  "integrationen/api-dokumentation"
 			]
 		  },
-		  "integrationen/kalender-synchronisation",
-		  "integrationen/api-dokumentation"
-		]
-	  },
-	  {
-		"group": "Persönliche Einstellungen",
-		"pages": [
-		  "persönliche-einstellungen/profil",
-		  "persönliche-einstellungen/sprache",
-		  "persönliche-einstellungen/feature-vorschau"
-		]
-	  },
-	  {
-		"group": "FAQ",
-		"pages": [
+		  {
+			"group": "Persönliche Einstellungen",
+			"pages": [
+			  "persönliche-einstellungen/profil",
+			  "persönliche-einstellungen/sprache",
+			  "persönliche-einstellungen/feature-vorschau"
+			]
+		  },
 		  {
 			"group": "FAQ",
-			"icon": "message-question",
 			"pages": [
-			  "faq/faq",
-			  "faq/faq/wie-kann-ich-hilfe-erhalten",
-			  "faq/faq/security-faq"
+			  {
+				"group": "FAQ",
+				"icon": "message-question",
+				"pages": [
+				  "faq/faq",
+				  "faq/faq/wie-kann-ich-hilfe-erhalten",
+				  "faq/faq/security-faq"
+				]
+			  },
+			  {
+				"group": "Changelog",
+				"icon": "sparkles",
+				"pages": [
+				  "faq/changelog",
+				  "faq/changelog/update-02.06.2025",
+				  "faq/changelog/update-11.04.2025",
+				  "faq/changelog/update-18.02.2025",
+				  "faq/changelog/update-16.02.2025",
+				  "faq/changelog/update-15.02.2025",
+				  "faq/changelog/update-17.12.2024",
+				  "faq/changelog/update-12.12.2024",
+				  "faq/changelog/update-09.12.2024",
+				  "faq/changelog/update-12.10.2024",
+				  "faq/changelog/update-06.10.2024",
+				  "faq/changelog/update-09.08.2024",
+				  "faq/changelog/update-08.08.2024",
+				  "faq/changelog/update-21.07.2024",
+				  "faq/changelog/update-18.07.2024",
+				  "faq/changelog/update-08.06.2024",
+				  "faq/changelog/update-12.03.2024",
+				  "faq/changelog/update-09.01.2024",
+				  "faq/changelog/update-29.12.2023",
+				  "faq/changelog/update-25.11.2023",
+				  "faq/changelog/update-15.11.2023",
+				  "faq/changelog/update-13.10.2023",
+				  "faq/changelog/update-10.09.2023",
+				  "faq/changelog/update-28.07.2023",
+				  "faq/changelog/update-27.06.2023",
+				  "faq/changelog/update-13.06.2023",
+				  "faq/changelog/update-10.05.2023",
+				  "faq/changelog/update-08.05.2023",
+				  "faq/changelog/update-31.03.2023",
+				  "faq/changelog/update-22.02.2023",
+				  "faq/changelog/update-16.02.2023",
+				  "faq/changelog/update-03.12.2022",
+				  "faq/changelog/update-30.11.2022",
+				  "faq/changelog/update-06.02.2022",
+				  "faq/changelog/update-23.11.2021",
+				  "faq/changelog/update-14.11.2021",
+				  "faq/changelog/update-24.-and-26.10.2021",
+				  "faq/changelog/update-18.10.2021",
+				  "faq/changelog/update-09.09.2021",
+				  "faq/changelog/update-03.08.2021",
+				  "faq/changelog/update-28.07.2021",
+				  "faq/changelog/update-13.07.2021",
+				  "faq/changelog/update-12.06.2021",
+				  "faq/changelog/update-17.05.2021",
+				  "faq/changelog/update-14.05.2021",
+				  "faq/changelog/vor-05.2021"
+				]
+			  },
+			  "faq/mitwirken"
 			]
 		  },
 		  {
-			"group": "Changelog",
-			"icon": "sparkles",
+			"group": "Policies",
 			"pages": [
-			  "faq/changelog",
-			  "faq/changelog/update-02.06.2025",
-			  "faq/changelog/update-11.04.2025",
-			  "faq/changelog/update-18.02.2025",
-			  "faq/changelog/update-16.02.2025",
-			  "faq/changelog/update-15.02.2025",
-			  "faq/changelog/update-17.12.2024",
-			  "faq/changelog/update-12.12.2024",
-			  "faq/changelog/update-09.12.2024",
-			  "faq/changelog/update-12.10.2024",
-			  "faq/changelog/update-06.10.2024",
-			  "faq/changelog/update-09.08.2024",
-			  "faq/changelog/update-08.08.2024",
-			  "faq/changelog/update-21.07.2024",
-			  "faq/changelog/update-18.07.2024",
-			  "faq/changelog/update-08.06.2024",
-			  "faq/changelog/update-12.03.2024",
-			  "faq/changelog/update-09.01.2024",
-			  "faq/changelog/update-29.12.2023",
-			  "faq/changelog/update-25.11.2023",
-			  "faq/changelog/update-15.11.2023",
-			  "faq/changelog/update-13.10.2023",
-			  "faq/changelog/update-10.09.2023",
-			  "faq/changelog/update-28.07.2023",
-			  "faq/changelog/update-27.06.2023",
-			  "faq/changelog/update-13.06.2023",
-			  "faq/changelog/update-10.05.2023",
-			  "faq/changelog/update-08.05.2023",
-			  "faq/changelog/update-31.03.2023",
-			  "faq/changelog/update-22.02.2023",
-			  "faq/changelog/update-16.02.2023",
-			  "faq/changelog/update-03.12.2022",
-			  "faq/changelog/update-30.11.2022",
-			  "faq/changelog/update-06.02.2022",
-			  "faq/changelog/update-23.11.2021",
-			  "faq/changelog/update-14.11.2021",
-			  "faq/changelog/update-24.-and-26.10.2021",
-			  "faq/changelog/update-18.10.2021",
-			  "faq/changelog/update-09.09.2021",
-			  "faq/changelog/update-03.08.2021",
-			  "faq/changelog/update-28.07.2021",
-			  "faq/changelog/update-13.07.2021",
-			  "faq/changelog/update-12.06.2021",
-			  "faq/changelog/update-17.05.2021",
-			  "faq/changelog/update-14.05.2021",
-			  "faq/changelog/vor-05.2021"
+			  "policies/dmca-takedown-policy",
+			  "policies/name-squatting-policy",
+			  "policies/sicherheitslücken-melden",
+			  "policies/terms-of-service",
+			  {
+				"group": "Datenschutzerklärung",
+				"pages": [
+				  "policies/datenschutzerklärung",
+				  "policies/datenschutzerklärung/cookies"
+				]
+			  }
 			]
-		  },
-		  "faq/mitwirken"
+		  }
 		]
 	  },
 	  {
-		"group": "Policies",
-		"pages": [
-		  "policies/dmca-takedown-policy",
-		  "policies/name-squatting-policy",
-		  "policies/sicherheitslücken-melden",
-		  "policies/terms-of-service",
+		"language": "en",
+		"groups": [
 		  {
-			"group": "Datenschutzerklärung",
+			"group": "First steps",
 			"pages": [
-			  "policies/datenschutzerklärung",
-			  "policies/datenschutzerklärung/cookies"
+			  "en/index",
+			  "en/getting-started"
+			]
+		  },
+		  {
+			"group": "Events",
+			"pages": [
+			  "en/events/overview",
+			  "en/events/event-calendar",
+			  "en/events/event-details",
+			  {
+				"group": "Creating events",
+				"icon": "pen-to-square",
+				"pages": [
+				  "en/events/creating-events",
+				  "en/events/creating-events/special-event-details",
+				  "en/events/creating-events/slotlist-rules",
+				  "en/events/creating-events/arma-3-slotlist-generation"
+				]
+			  }
+			]
+		  },
+		  {
+			"group": "Communities",
+			"pages": [
+			  "en/communities/overview",
+			  "en/communities/configuration",
+			  "en/communities/event-standards",
+			  {
+				"group": "Members",
+				"icon": "users",
+				"pages": [
+				  "en/communities/members",
+				  "en/communities/members/add-or-remove-members",
+				  "en/communities/members/roles"
+				]
+			  }
+			]
+		  },
+		  {
+			"group": "Integrations",
+			"pages": [
+			  {
+				"group": "Discord",
+				"icon": "discord",
+				"pages": [
+				  "en/integrations/discord",
+				  "en/integrations/discord/participant-management",
+				  {
+					"group": "Bot commands",
+					"pages": [
+					  "en/integrations/discord/bot-commands",
+					  "en/integrations/discord/bot-commands/add-community",
+					  "en/integrations/discord/bot-commands/add-event-to-channel",
+					  "en/integrations/discord/bot-commands/add-slot",
+					  "en/integrations/discord/bot-commands/archive",
+					  "en/integrations/discord/bot-commands/block-slot",
+					  "en/integrations/discord/bot-commands/delete-slot",
+					  "en/integrations/discord/bot-commands/event-ping",
+					  "en/integrations/discord/bot-commands/force-slot",
+					  "en/integrations/discord/bot-commands/force-unslot",
+					  "en/integrations/discord/bot-commands/random-slot",
+					  "en/integrations/discord/bot-commands/rebuild-archive",
+					  "en/integrations/discord/bot-commands/rename-slot",
+					  "en/integrations/discord/bot-commands/rename-squad",
+					  "en/integrations/discord/bot-commands/slot",
+					  "en/integrations/discord/bot-commands/swap",
+					  "en/integrations/discord/bot-commands/unslot"
+					]
+				  },
+				  "en/integrations/discord/recommended-configuration",
+				  "en/integrations/discord/reminders",
+				  "en/integrations/discord/archive"
+				]
+			  },
+			  "en/integrations/calendar-sync",
+			  "en/integrations/api-documentation"
+			]
+		  },
+		  {
+			"group": "Personal Settings",
+			"pages": [
+			  "en/personal-settings/profile",
+			  "en/personal-settings/language"
+			]
+		  },
+		  {
+			"group": "FAQ",
+			"pages": [
+			  {
+				"group": "FAQs",
+				"icon": "message-question",
+				"pages": [
+				  "en/faq/faq",
+				  "en/faq/faq/how-can-i-get-help",
+				  "en/faq/faq/security-faq"
+				]
+			  },
+			  {
+				"group": "Changelog",
+				"icon": "sparkles",
+				"pages": [
+				  "en/faq/changelog",
+				  "en/faq/changelog/update-02.06.2025",
+				  "en/faq/changelog/update-11.04.2025",
+				  "en/faq/changelog/update-18.02.2025",
+				  "en/faq/changelog/update-16.02.2025",
+				  "en/faq/changelog/update-15.02.2025",
+				  "en/faq/changelog/update-17.12.2024",
+				  "en/faq/changelog/update-12.12.2024",
+				  "en/faq/changelog/update-09.12.2024",
+				  "en/faq/changelog/update-12.10.2024",
+				  "en/faq/changelog/update-06.10.2024",
+				  "en/faq/changelog/update-09.08.2024",
+				  "en/faq/changelog/update-08.08.2024",
+				  "en/faq/changelog/update-21.07.2024",
+				  "en/faq/changelog/update-18.07.2024",
+				  "en/faq/changelog/update-08.06.2024",
+				  "en/faq/changelog/update-12.03.2024",
+				  "en/faq/changelog/update-09.01.2024",
+				  "en/faq/changelog/update-29.12.2023",
+				  "en/faq/changelog/update-25.11.2023",
+				  "en/faq/changelog/update-15.11.2023",
+				  "en/faq/changelog/update-13.10.2023",
+				  "en/faq/changelog/update-10.09.2023",
+				  "en/faq/changelog/update-28.07.2023",
+				  "en/faq/changelog/update-27.06.2023",
+				  "en/faq/changelog/update-13.06.2023",
+				  "en/faq/changelog/update-10.05.2023",
+				  "en/faq/changelog/update-08.05.2023",
+				  "en/faq/changelog/update-31.03.2023",
+				  "en/faq/changelog/update-22.02.2023",
+				  "en/faq/changelog/update-16.02.2023",
+				  "en/faq/changelog/update-03.12.2022",
+				  "en/faq/changelog/update-30.11.2022",
+				  "en/faq/changelog/update-06.02.2022",
+				  "en/faq/changelog/update-23.11.2021",
+				  "en/faq/changelog/update-14.11.2021",
+				  "en/faq/changelog/update-24.-and-26.10.2021",
+				  "en/faq/changelog/update-18.10.2021",
+				  "en/faq/changelog/update-09.09.2021",
+				  "en/faq/changelog/update-03.08.2021",
+				  "en/faq/changelog/update-28.07.2021",
+				  "en/faq/changelog/update-13.07.2021",
+				  "en/faq/changelog/update-12.06.2021",
+				  "en/faq/changelog/update-17.05.2021",
+				  "en/faq/changelog/update-14.05.2021",
+				  "en/faq/changelog/before-05.2021"
+				]
+			  }
+			]
+		  },
+		  {
+			"group": "Policies",
+			"pages": [
+			  "en/policies/policies"
 			]
 		  }
 		]

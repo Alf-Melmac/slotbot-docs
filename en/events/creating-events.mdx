@@ -1,0 +1,86 @@
+---
+title: "Creating events"
+description: "Creating an event in three steps."
+---
+
+Events are created via the website. Once you have successfully logged in, select "Create New Event" above the calendar to open the event creation wizard.
+
+<Info>
+	**Permissions**
+
+	To create an event, the role `Event Planner` or higher is required.
+</Info>
+
+## General information
+
+![First page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard.png)
+
+The general information for a new event contains the most important basic data. This includes the title, time and duration of the event.
+
+### Allow Sharing
+
+By default, other groups using the Slotbot will be able to add new events to their calendar and enter participants into empty, unreserved slots. If you disable sharing, the event can only be published in your own calendar and Discord. This does not apply to groups that have been invited by reservation.
+
+### Hidden
+
+By hiding an event, it can only be viewed in the calendar by people with the role `Event Planner` or higher.
+
+<Columns cols={2}>
+	<Frame caption="Indication of a hidden event on the website">
+		![Indication of a hidden event on the website](/images/events/events-erstellen/Slotbot-DE-HiddenEvent-Details.png)
+	</Frame>
+
+	<Frame caption="Note in Discord">
+		![Indication of a hidden event in Discord](/images/events/events-erstellen/Slotbot-HiddenEvent-Discord.png)
+	</Frame>
+</Columns>
+
+### Event type
+
+The event type categorises events. The chosen colour makes it easy to identify mission series in the calendar and in Discord.
+
+<Columns cols={2}>
+	<Frame caption="Event type colour in calendar">
+		![Event type colour in calendar](/images/events/events-erstellen/Slotbot-DE-EventType-Calendar.png)
+	</Frame>
+
+	<Frame caption="Event type in the event details">
+		![Event type in the event details](/images/events/events-erstellen/Slotbot-DE-EventType-Details.png)
+	</Frame>
+</Columns>
+
+### Description
+
+The description supports basic text formatting, similar to Discord chat. Bold, italic, underlined, strikethrough, three levels of headings, small subtext, and numbered and unnumbered lists are supported.
+
+### Picture
+
+The display image can be specified by providing an external URL to an image, or by uploading your own.
+
+![Picture upload dialog](/images/events/events-erstellen/Slotbot-DE-EventWizard-ImageUpload.png)
+
+## Details
+
+![Second page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard-Details.png)
+
+The second step of the wizard allows you to define 23 free text fields. These additional details contain key points of additional information for the description, such as the meeting point and external links.
+
+Community administrators can define [templates for these fields](/en/communities/event-standards) for each event type. This provides clear assistance to event creators. Once a standard has been configured, it can be used by clicking on the 'Add standard 'X' details' button.
+
+Event details that are displayed/formatted in a special form are described in [special event details](/en/events/creating-events/special-event-details).
+
+## Slotlist
+
+![Third page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard-Slotlist.png)
+
+The slot list of an event always consists of groups ("squads") and seats within those groups ("slots"). The order of the groups can be freely determined. Slots within a squad are sorted in ascending order by their slot number.
+
+If all slots in an event are occupied, a reserve of 25% of the number of slots is automatically created. Reservists will automatically move into slots that become available.
+
+### Rule
+
+<Card title={"Slotlist Rules"} href={"/en/events/creating-events/slotlist-rules"} horizontal arrow/>
+
+### Upload Slotlist
+
+<Card title={"Arma 3 Slotlist Generation"} href={"/en/events/creating-events/arma-3-slotlist-generation"} horizontal arrow/>

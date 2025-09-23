@@ -1,0 +1,28 @@
+---
+title: "Update 08.05.2023"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.3.0" serverNew frontend="1.3.0" frontendNew/>
+
+## ⭐ New Features
+
+* All user profile pages can now be accessed much faster. *(commit:* [*7ae0e12d*](https://github.com/Alf-Melmac/slotbotServer/commit/7ae0e12dab4eb755493b68839d255b113f1fd5d4)*)*
+* If a Discord message of the event output is deleted, the event link is removed and a warning message is displayed that no further updates will be displayed. The event can then be added again in the same or other channels. *(commit:* [*9abffefd*](https://github.com/Alf-Melmac/slotbotServer/commit/9abffefde4628c9e739466b15f6b46f44b41011b)*)*
+* In the event details on the website
+* the own slot is highlighted in colour. *(commit:* [*0b2f093b*](https://github.com/Alf-Melmac/slotbot-frontend/commit/0b2f093bd030f4c4184eede7b698b980fa1a80b2)*,* [*de5d4033*](https://github.com/Alf-Melmac/slotbotServer/commit/de5d4033c99b39884155a2f38913c783094e1562)*)*
+* you can sign up for available slots in future events. *(commit:* [*40340230*](https://github.com/Alf-Melmac/slotbot-frontend/commit/4034023028616658bcee71b5039afa985ad36579)*,* [*c08087ce*](https://github.com/Alf-Melmac/slotbot-frontend/commit/c08087ce158d75157b4a5cc8a172703eaf73c420)*,* [*98d01151*](https://github.com/Alf-Melmac/slotbotServer/commit/98d01151327df22d4ad6488fde91ea9523270876)*,* [*a461fbfc*](https://github.com/Alf-Melmac/slotbotServer/commit/a461fbfcebcb6ad06dedd8c3530120ca5fd94204)*)*
+* you can unslot. *(commit:* [*c389e010*](https://github.com/Alf-Melmac/slotbot-frontend/commit/c389e0102cb58da1eb2fde020ba66b3555482c7e)*,* [*2f3a578f*](https://github.com/Alf-Melmac/slotbotServer/commit/2f3a578f9350ee43b8c299d0108986494e5c019d)*)*
+* the reservation displays redirect to the group overview pages when clicked. *(commit:* [*e948354f*](https://github.com/Alf-Melmac/slotbot-frontend/commit/e948354ffe440feb49d1054e099a6dd12c88310f)*)*
+* When copying an event, a loading animation is displayed as long as the information to be copied is still being loaded. *(commit:* [*ef702fb0*](https://github.com/Alf-Melmac/slotbot-frontend/commit/ef702fb03004417bd27b898804512ded900adfb3)*,* [*877df68a*](https://github.com/Alf-Melmac/slotbot-frontend/commit/877df68a6661825c0712e516cf0495123c91a6d5)*)*
+
+## 🐞 Bug Fixes
+
+* The generation of error messages could fail under certain circumstances. *(commit:* [*ddbea280*](https://github.com/Alf-Melmac/slotbotServer/commit/ddbea280550863883ed3cc82f6e8656c1409e8be)*)*
+* The [rebuild archive](/en/integrations/discord/bot-commands/rebuild-archive) command only displays the events, or those with participation, of the own guild. *(commit:* [*28f2f554*](https://github.com/Alf-Melmac/slotbotServer/commit/28f2f5548ecf5bb09f5852fae3da081343d459c8)*)*
+* When copying an event, the newly entered information is no longer overwritten when the browser window is refocused. *(commit:* [*877df68a*](https://github.com/Alf-Melmac/slotbot-frontend/commit/877df68a6661825c0712e516cf0495123c91a6d5)*)*
+
+## 🔨 Technical
+
+* If an event channel is deleted without archiving, the link is automatically removed. Afterwards, this event can be assigned to a new channel. *(commit:* [*f25b1417*](https://github.com/Alf-Melmac/slotbotServer/commit/f25b14174e68f578104132520646bd55a06d9e5d)*)*

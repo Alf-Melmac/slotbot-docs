@@ -1,0 +1,38 @@
+---
+title: "Update 29.12.2023"
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.8.0" serverNew frontend="1.7.0" frontendNew/>
+
+## ⭐ New Features
+
+* Not a new design, but a much better one
+* The navigation bar at the top leaves more space for the content that matters. Especially on mobile devices. *(commit:* [*1ded8075*](https://github.com/Alf-Melmac/slotbot-frontend/commit/1ded807556549b7bd4cf9b1eae52b6c56b7511f6)*)*
+* Font sizes adapt dynamically to the screen size. *(commit:* [*1ded8075*](https://github.com/Alf-Melmac/slotbot-frontend/commit/1ded807556549b7bd4cf9b1eae52b6c56b7511f6)*,* [*82a28a36*](https://github.com/Alf-Melmac/slotbot-frontend/commit/82a28a36f4ba83b431144c38916284a0cb472f38)*)*
+* Roboto is now really being used all over the place and not just downloaded. *(commit:* [*1ded8075*](https://github.com/Alf-Melmac/slotbot-frontend/commit/1ded807556549b7bd4cf9b1eae52b6c56b7511f6)*)*
+* Not only does the event title now have more space in the calendar, but it is also much more prominent as the time is now displayed as secondary information. *(commit:* [*1ded8075*](https://github.com/Alf-Melmac/slotbot-frontend/commit/1ded807556549b7bd4cf9b1eae52b6c56b7511f6)*)*
+    * <Columns cols={3}>![](/images/faq/changelog/update-20231229/Changelog-122023-CalendarEvent-Old.jpg) ![](/images/faq/changelog/update-20231229/Changelog-122023-CalendarEvent-New.jpg)</Columns>
+
+  * Today's date will no longer be coloured yellow in the calendar, but the date itself will be highlighted. _(commit: [346873db](https://github.com/Alf-Melmac/slotbot-frontend/commit/346873db513c9b613507f161aa63b576531a6209), [edc2e8ba](https://github.com/Alf-Melmac/slotbot-frontend/commit/edc2e8baaab70ad3b0b8d0bd69fb3775321b5620))_
+
+  	* <Columns cols={3}>![](/images/faq/changelog/update-20231229/Changelog-122023-CalendarToday-New.jpg) ![](/images/faq/changelog/update-20231229/Changelog-122023-CalendarToday-Old.jpg)</Columns>
+
+  * Event details and slot list are displayed more clearly on mobile devices, making better use of the space available. *(commit:* [*53212965*](https://github.com/Alf-Melmac/slotbot-frontend/commit/53212965ec9a3d2c099f880de4e2e1fc3d3d3446)*,* [*7c020e83*](https://github.com/Alf-Melmac/slotbot-frontend/commit/7c020e835be4c6c55ed60e2c91db9a5d7a2b1936)*)*
+* Welcome to the TTT with its own design. *(commit:* [*91a42e40*](https://github.com/Alf-Melmac/slotbot-frontend/commit/91a42e4022778251bbe96368a9dbe58b7e3841b1)*,* [*984fdf4a*](https://github.com/Alf-Melmac/slotbot-frontend/commit/984fdf4af2123da37d12b1ff6b3a3955beae867a)*,* [*edc2e8ba*](https://github.com/Alf-Melmac/slotbot-frontend/commit/edc2e8baaab70ad3b0b8d0bd69fb3775321b5620)*,* [*3599df2a*](https://github.com/Alf-Melmac/slotbotServer/commit/3599df2ac448eb73b161a1d155c31e6b8aa1c900)*,* [*8837fc70*](https://github.com/Alf-Melmac/slotbotServer/commit/8837fc70d4f1675f75b2541d90448534e0dec7aa)*,* [*bbbf4c75*](https://github.com/Alf-Melmac/slotbot-frontend/commit/bbbf4c7508d33f946baa3f85754790bcfece8295)*,* [*16e70330*](https://github.com/Alf-Melmac/slotbot-frontend/commit/16e70330769533aafeab2f5bcbd104ed5de785cd)*)*
+* The last remaining references to the Discord CDN have been replaced. For details see [update-13.10.2023](/en/faq/changelog/update-13.10.2023). *(commit:* [*3599df2a*](https://github.com/Alf-Melmac/slotbotServer/commit/3599df2ac448eb73b161a1d155c31e6b8aa1c900)*)*
+* In addition to the basic text formatting already supported, headings are now also recognised as valid formatting and will be displayed. *(commit:* [*c06356e7*](https://github.com/Alf-Melmac/slotbotServer/commit/c06356e7adbe436b25a28472ed15b63fe5952e37)*,* [*b41d6f3b*](https://github.com/Alf-Melmac/slotbotServer/commit/b41d6f3bbbfb1f518e4089131fcf180fb078a538)*)*
+* If the bot does not have administrative permissions, the event output will not be cancelled if it does not have permissions to edit messages and cannot remove the pin success message. *(commit:* [*1f9f5148*](https://github.com/Alf-Melmac/slotbotServer/commit/1f9f5148bb2779f9d6da3fba210ecb2a2c2384df)*)*
+* In addition to the standard text channels, all other channel types with chat can now also be used as event and archive channels. These include threads, forum posts and announcement channels. *(commit:* [*6880608d*](https://github.com/Alf-Melmac/slotbotServer/commit/6880608d53b210eeb9354eea2154ffef1541b619)*)*
+* Consistent naming of events rather than missions. *(*[*#407*](https://github.com/Alf-Melmac/slotbot-frontend/pull/407)*) by* [*@MenomDE*](https://github.com/MenomDE)
+* For now, the root page automatically redirects to the calendar. More on this next year. *(commit:* [*58b6ee39*](https://github.com/Alf-Melmac/slotbot-frontend/commit/58b6ee391d9b6ff35275b09771ecccccdc6ec3b5)*)*
+
+## 🐞 Bug Fixes
+
+* Events between 23:00 and 23:59 are no longer displayed in the calendar for two days. *(commit:* [*6faa5be2*](https://github.com/Alf-Melmac/slotbot-frontend/commit/6faa5be2f8fcb16fd4ea7dd4be1512ee842adf75)*)*
+
+## 🔨 Technical
+
+* Only in dev mode is the XSRF token sent to other hosts. *(commit:* [*65da465f*](https://github.com/Alf-Melmac/slotbot-frontend/commit/65da465f4768f0bec618ddd43a4c83ad423bccec)*)*
+* The Roboto font is now delivered statically, rather than being loaded from Google's servers. `(Thanks Menom for the hint)` *(commit:* [*1ded8075*](https://github.com/Alf-Melmac/slotbot-frontend/commit/1ded807556549b7bd4cf9b1eae52b6c56b7511f6)*)*
