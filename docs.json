@@ -21,7 +21,7 @@
   "navbar": {
 	"links": [
 	  {
-		"label": "Kalender",
+		"label": "Events",
 		"href": "https://slotbot.de"
 	  },
 	  {
@@ -31,7 +31,7 @@
 	],
 	"primary": {
 	  "type": "button",
-	  "label": "Bot einladen",
+	  "label": "Invite Slotbot",
 	  "href": "https://slotbot.de/invite"
 	}
   },
