@@ -431,8 +431,12 @@
 	  "destination": "/policies/sicherheitslücken-melden"
 	},
 	{
-	  "source": "/policies/datenschutzerklarung*",
-	  "destination": "/policies/datenschutzerklärung*"
+	  "source": "/policies/datenschutzerklarung",
+	  "destination": "/policies/datenschutzerklärung"
+	},
+	{
+	  "source": "/policies/datenschutzerklarung/cookies",
+	  "destination": "/policies/datenschutzerklärung/cookies"
 	}
   ]
 }
