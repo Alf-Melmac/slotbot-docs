@@ -1,0 +1,24 @@
+---
+title: "Update 10.10.2025"
+---
+
+import {Releases} from '/snippets/releases.jsx';
+
+<Releases server="2.18.0" serverNew frontend="1.17.0" frontendNew/>
+
+## ⭐ New Features
+* Event descriptions now look like all other texts on the website. Additionally, the spacing between consecutive headings has been reduced. _(commit: [882377a](https://github.com/Alf-Melmac/slotbot-frontend/commit/882377af27b62fce416be21d43a52363a8bf1f55))_
+* It is now possible to manually synchronise the member list and roles from Discord. _([9e5c19b](https://github.com/Alf-Melmac/slotbot-frontend/commit/9e5c19b2425465f7801d43a7827de68d659b0d7b), [e553048](https://github.com/Alf-Melmac/slotbotServer/commit/e553048101e6a3e7ce540e47c971cee278be1402))_
+* Communities are automatically categorised as active or inactive. If a community has not organised any events in the last X months, it will be displayed as inactive in the community overview. _([cb930cc](https://github.com/Alf-Melmac/slotbot-frontend/commit/cb930cc5badbc0d003fe05cf26fb26306012fa8c), [db48d41](https://github.com/Alf-Melmac/slotbotServer/commit/db48d416b12d8424b38f17723e17b4985813b262))_
+* The [Event Ping](/en/integrations/discord/bot-commands/event-ping) command shows the triggerer each time it is used, so that everyone can see who triggered the ping. _([e9f9258](https://github.com/Alf-Melmac/slotbotServer/commit/e9f925840dee9528f4dac91ab3f7b97eb1bc3493))_
+* Slotting is now possible up to 24 hours after an event has started. _([714c215](https://github.com/Alf-Melmac/slotbotServer/commit/714c215ffbc781286a20f26140fece4a127c9e70))_
+
+## 🐞 Bug Fixes
+* Details of the communities are visible again on smaller screens. _([f24461f](https://github.com/Alf-Melmac/slotbot-frontend/commit/f24461f3a8f32e9c11708ddbc9d2a78a6bcff6e7))_
+* If the same Discord role had been configured for two different roles within a community, updating it via the interface would remove the person from the community rather than updating the role. _([e416c6f](https://github.com/Alf-Melmac/slotbotServer/commit/e416c6f0088cd6648ed08a68b123dd5bf2fdf736))_
+* Archive messages contained escape characters (`\`). _([54802ad](https://github.com/Alf-Melmac/slotbotServer/commit/54802ade1eba9bad9a13c10cbda223af9a01b891))_
+* In addition, several minor bugs related to requirements, Steam ID entry, and authorisation checks have been fixed. _([9506e16](https://github.com/Alf-Melmac/slotbotServer/commit/9506e16b09638f3baa9f94997af249ab3f66c874), [fdd1193](https://github.com/Alf-Melmac/slotbotServer/commit/fdd1193ba6d6e69c4e8c8f06eee19cedca09ebb8))_
+
+## 🔨 Technical
+* The security mechanisms for login sessions have been optimised. This should result in fewer forced logouts.
+* iCloud Private Relay is now correctly identified, allowing you to stay logged in for longer.
