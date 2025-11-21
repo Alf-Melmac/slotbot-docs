@@ -1,0 +1,33 @@
+---
+title: "Update 21.11.2025"
+---
+
+import {Releases} from '/snippets/releases.jsx';
+
+<Releases server="2.19.0" serverNew frontend="1.18.0" frontendNew/>
+
+## ⭐ Neue Features
+* Diverse Verbesserungen für die mobile Benutzung:
+	* Neue Wochenansicht für den Event-Kalender. _(commit: [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f))_
+	* Verbesserte Navigation und Footer. Menüelemente werden nicht mehr ausgeblendet, sondern sind in einem Überhangmenü zu finden. _(commit: [b3c57815](https://github.com/Alf-Melmac/slotbot-frontend/commit/b3c57815a644d5428d2ef275b6c549e7bfcb19b7))_
+	* Die meisten Browser fragen dich, ob du die Seite zum Home-Bildschirm hinzufügen willst. Nach der Installation läuft die Seite wie eine App. _(commit: [e92591f5](https://github.com/Alf-Melmac/slotbot-frontend/commit/e92591f54ba3e019dbebee23704d2d93c6991d9b))_
+* Wenn du jetzt in den Kalender oder die Details eines Events schaust, siehst du, wer das Event veranstaltet. _(commit: Kalender [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f), [eaf5c096](https://github.com/Alf-Melmac/slotbotServer/commit/eaf5c09641fc43791b9e98d05f8ecf0d3565875d) Event-Details [cd309655](https://github.com/Alf-Melmac/slotbot-frontend/commit/cd309655c06686006f45a990a1d1b2e615951725), [6cec3ea5](https://github.com/Alf-Melmac/slotbotServer/commit/6cec3ea52ec84329f673cdb10264cc405fc3f14f))_
+* Im Kalender wird auch der Name des Event-Types angezeigt, und nicht nur die Farbe dazu. _(commit: [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f), [eaf5c096](https://github.com/Alf-Melmac/slotbotServer/commit/eaf5c09641fc43791b9e98d05f8ecf0d3565875d))_
+* Die Sprachauswahl steht auch für nicht angemeldete Nutzende zur Verfügung. _(commit: [b3c57815](https://github.com/Alf-Melmac/slotbot-frontend/commit/b3c57815a644d5428d2ef275b6c549e7bfcb19b7))_
+* Über dem allgemeinen Kalender findest du eine Verlinkung zum [Startleitfaden](/jetzt-starten). _(commit: [89f0daf5](https://github.com/Alf-Melmac/slotbot-frontend/commit/89f0daf562ccf8a3cd548f5dbf3962447b28a566), [1140ebf3](https://github.com/Alf-Melmac/slotbot-frontend/commit/1140ebf3eda11f32a36197250aae605c72499bc4))_
+* Während der Bearbeitung einer Event-Beschreibung oder beim Verfassen eines neuen Beitrags auf der Startseite ... _(commit: [c3ec6c6a](https://github.com/Alf-Melmac/slotbot-frontend/commit/c3ec6c6ad68738d8778b5ecd99713b0b874dc259))_
+	* wird beim Drag-and-Drop von Textbausteinen und Bildern eine Linie angezeigt, die die Stelle darstellt, an der das Element beim Loslassen eingefügt wird.
+	* wird das aktuell ausgewählte Bild durch einen Rahmen hervorgehoben.
+	* wird während dem Fokussieren eines Bildes nicht mehr angeboten, Hervorhebungen für Texte anzuwenden.
+* Event-Planer können in den Event-Details sehen, wann Teilnehmer an- und abgemeldet wurden oder untereinander Plätze getauscht haben. Diese Informationen stehen auch für vergangene Events zur Verfügung. _(commit: [f4927bbb](https://github.com/Alf-Melmac/slotbot-frontend/commit/f4927bbbfcdebe61900798fbd6e852bd7211db45))_
+* Event-Voraussetzungen sind jetzt für alle verfügbar. Mehr dazu an späterer Stelle. _(commit: [cd50d421](https://github.com/Alf-Melmac/slotbot-frontend/commit/cd50d42113f2523108023baa77ce7e3233eaefae), [c1127cac](https://github.com/Alf-Melmac/slotbotServer/commit/c1127cac0b29b581b7b5e02793b330cb002268c3))_
+* TTT-Winter-Design _([#609](https://github.com/Alf-Melmac/slotbot-frontend/pull/609) von [MenomDE](https://github.com/MenomDE))_
+
+## 🐞 Fehlerbehebungen
+* Communities mit aktivierter Startseite wurden nicht automatisch auf diese geleitet, sondern landeten erst im Kalender statt auf der Startseite. _(commit: [cfa4f74c](https://github.com/Alf-Melmac/slotbot-frontend/commit/cfa4f74c6ef74a4600d18ed5d41ce21dadc1e4aa))_
+* Für Communities, die einen Namen im Logo haben, wird dieser nun auch auf kleineren Bildschirmen angezeigt. _(commit: [b3c57815](https://github.com/Alf-Melmac/slotbot-frontend/commit/b3c57815a644d5428d2ef275b6c549e7bfcb19b7))_
+* Im Fehlerfall waren zwei Kalender sichtbar. Einer mit Ladebalken und ein leerer. _(commit: [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f))_
+* Für Zeilen, die wie eine nummerierte Liste aussehen, aber keine Liste sind, wurde bei der Berechnung der Zeichenbegrenzung ein Zeichen zu viel gezählt. _(commit: [8bff29fe](https://github.com/Alf-Melmac/slotbot-frontend/commit/8bff29fe4db4921ec54af842fd5f54dfa9ffa2ec))_
+
+## 🔨 Technisches
+* Aktualisierungen auf Java 25 _(commit: [962783af](https://github.com/Alf-Melmac/slotbotServer/commit/962783af8ea9174992835e27d485411de25246b8))_, Unterstützung für Discord Components v2 _(commit: [cb62f66d](https://github.com/Alf-Melmac/slotbotServer/commit/cb62f66dd3d0a5ff5c05896a03b6fb9f574f4795))_ und Mantine v8 _([#606](https://github.com/Alf-Melmac/slotbot-frontend/pull/606))_.

@@ -1,0 +1,33 @@
+---
+title: "Update 21.11.2025"
+---
+
+import {Releases} from '/snippets/releases.jsx';
+
+<Releases server="2.19.0" serverNew frontend="1.18.0" frontendNew/>
+
+## ⭐ New Features
+* A whole set of mobile upgrades:
+	* New weekly view for the event calendar. _(commit: [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f))_
+	* Refined navigation and footer. Menu items no longer disappear; they tuck into an overflow menu. _(commit: [b3c57815](https://github.com/Alf-Melmac/slotbot-frontend/commit/b3c57815a644d5428d2ef275b6c549e7bfcb19b7))_
+	* Most browsers now prompt you to install Slotbot to your home screen. Once installed, it behaves just like a native app. _(commit: [e92591f5](https://github.com/Alf-Melmac/slotbot-frontend/commit/e92591f54ba3e019dbebee23704d2d93c6991d9b))_
+* Calendar and event details now display which community is hosting the event. _(commit: calendar [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f), [eaf5c096](https://github.com/Alf-Melmac/slotbotServer/commit/eaf5c09641fc43791b9e98d05f8ecf0d3565875d) event details [cd309655](https://github.com/Alf-Melmac/slotbot-frontend/commit/cd309655c06686006f45a990a1d1b2e615951725), [6cec3ea5](https://github.com/Alf-Melmac/slotbotServer/commit/6cec3ea52ec84329f673cdb10264cc405fc3f14f))_
+* The calendar also displays the name of the event type, not just the color. _(commit: [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f), [eaf5c096](https://github.com/Alf-Melmac/slotbotServer/commit/eaf5c09641fc43791b9e98d05f8ecf0d3565875d))_
+* Language selection is also available for users who are not logged in. _(commit: [b3c57815](https://github.com/Alf-Melmac/slotbot-frontend/commit/b3c57815a644d5428d2ef275b6c549e7bfcb19b7))_
+* The [Getting Started Guide](/en/getting-started) is now linked right above the global calendar to help new communities get started more quickly. _(commit: [89f0daf5](https://github.com/Alf-Melmac/slotbot-frontend/commit/89f0daf562ccf8a3cd548f5dbf3962447b28a566), [1140ebf3](https://github.com/Alf-Melmac/slotbot-frontend/commit/1140ebf3eda11f32a36197250aae605c72499bc4))_
+* While editing an event description or composing a new homepage post ... _(commit: [c3ec6c6a](https://github.com/Alf-Melmac/slotbot-frontend/commit/c3ec6c6ad68738d8778b5ecd99713b0b874dc259))_
+	* you now see a drop indicator when dragging blocks or images, so it is clear where content will land.
+	* the currently selected image receives a subtle outline.
+	* focusing an image no longer offers text-highlighting controls.
+* In the event details, event planners can see when participants slotted, unslotted and swapped slots with each other. This information is also available for past events. _(commit: [f4927bbb](https://github.com/Alf-Melmac/slotbot-frontend/commit/f4927bbbfcdebe61900798fbd6e852bd7211db45))_
+* Event requirements are now available to everyone. More on that soon. _(commit: [cd50d421](https://github.com/Alf-Melmac/slotbot-frontend/commit/cd50d42113f2523108023baa77ce7e3233eaefae), [c1127cac](https://github.com/Alf-Melmac/slotbotServer/commit/c1127cac0b29b581b7b5e02793b330cb002268c3))_
+* TTT-Winter-Design _([#609](https://github.com/Alf-Melmac/slotbot-frontend/pull/609) by [MenomDE](https://github.com/MenomDE))_
+
+## 🐞 Bug Fixes
+* Communities with an enabled homepage were redirected to the calendar instead of landing on their homepage. _(commit: [cfa4f74c](https://github.com/Alf-Melmac/slotbot-frontend/commit/cfa4f74c6ef74a4600d18ed5d41ce21dadc1e4aa))_
+* Communities that include their name inside the logo now show their name on smaller screens. _(commit: [b3c57815](https://github.com/Alf-Melmac/slotbot-frontend/commit/b3c57815a644d5428d2ef275b6c549e7bfcb19b7))_
+* When an error occurred, two calendars were visible. One had skeletons and the other was empty. _(commit: [e80e7e51](https://github.com/Alf-Melmac/slotbot-frontend/commit/e80e7e519bd9762b1ee3fef35013f4928719401f))_
+* Rows that only resemble lists and are labelled with a number no longer increase the character limit by one more than necessary. _(commit: [8bff29fe](https://github.com/Alf-Melmac/slotbot-frontend/commit/8bff29fe4db4921ec54af842fd5f54dfa9ffa2ec))_
+
+## 🔨 Technical
+* Upgraded to Java 25 _(commit: [962783af](https://github.com/Alf-Melmac/slotbotServer/commit/962783af8ea9174992835e27d485411de25246b8))_, supported Discord Components v2 _(commit: [cb62f66d](https://github.com/Alf-Melmac/slotbotServer/commit/cb62f66dd3d0a5ff5c05896a03b6fb9f574f4795))_, and rolled out Mantine v8 _([#606](https://github.com/Alf-Melmac/slotbot-frontend/pull/606))_.
