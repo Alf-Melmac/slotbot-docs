@@ -1,0 +1,30 @@
+---
+title: Update 12.01.2026
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.20.0" serverNew frontend="1.19.0" frontendNew/>
+
+<Warning>
+	**Neue Discord Berechtigungen**
+
+	**Ab dem 23. Februar 2026** benötigt der Slotbot neben der Berechtigung "Nachrichten verwalten" auch die **Berechtigungen "Slow-Modus umgehen" und "Nachrichten anpinnen"**, um die Slotliste im Event-Kanal zu posten und anzupinnen. Dies ist eine Änderung seitens Discord, die alle Rollen betrifft.
+
+	Am einfachsten kannst du den Bot über den [Einladungslink](https://slotbot.de/invite), ohne ihn vorher zu entfernen, nochmal dem Server hinzufügen und dabei die neuen Berechtigungen bestätigen. Alternativ kann auch die Berechtigung der Slotbot-Rolle in den Servereinstellungen angepasst werden. Details zu den nötigen Berechtigungen findest du im [FAQ](/faq/faq#welche-rechte-braucht-der-discord-bot).
+</Warning>
+
+## ⭐ Neue Features
+* Event-Details unterstützen nun eine visuelle Auswahl von Formatierungen. Ähnlich wie bei der Event-Beschreibung können auch in allen Text-Details Formatierungen einfach eingefügt werden. _([#581](https://github.com/Alf-Melmac/slotbot-frontend/pull/581), [#166](https://github.com/Alf-Melmac/slotbotServer/pull/166))_
+	![](/images/faq/changelog/update-20260112/Event-Details-Wysiwyg.png)
+	* Neu dazu gekommen sind Links, die auch in Discord angeklickt werden können.
+	* Natürlich sind die Formatierungen auch für die [Standard-Texte der Vorlagen](/communities/event-standards) verfügbar.
+* Die Berechnung der maximal erlaubten Länge aller Event-Informationen für die Discord-Anzeige berücksichtigt nun die Formatierung von Beschreibung und Details direkt bei der Eingabe besser. _([#581](https://github.com/Alf-Melmac/slotbot-frontend/pull/581))_
+* Happy New Year! 🎉 _(commit: [d92f3f12](https://github.com/Alf-Melmac/slotbot-frontend/commit/d92f3f1269f8a184f15377814dd760f7b16376f7))_
+
+## 🐞 Fehlerbehebungen
+* Die [persönlichen Benachrichtigungseinstellungen](/integrationen/discord/benachrichtigungen) wurden nach einer Änderung und dem neu Öffnen der Seite manchmal noch mit dem alten Stand angezeigt. _(commit: [3f1a7eb7](https://github.com/Alf-Melmac/slotbot-frontend/commit/3f1a7eb72fdfe122eb37e898edd2359d112d5169))_
+* Auch bei der Eingabe der Steam-ID wird jetzt immer der aktuell gespeicherte Stand angezeigt und die Eingabe direkt beim Eintragen und nicht erst beim Speichern validiert. _(commit: [0adf14e2](https://github.com/Alf-Melmac/slotbot-frontend/commit/0adf14e2861828030a687ab16c25e240e1d0fa93), [2ac424ef](https://github.com/Alf-Melmac/slotbotServer/commit/2ac424efd6261051bc383a40e93ae1c79172a88f))_
+
+## 🔨 Technisches
+* Spring Boot 4: Aktualisierung des technischen Fundaments um langfristig Stabilität, Sicherheit und Performance zu gewährleisten. _([#162](https://github.com/Alf-Melmac/slotbotServer/pull/162))_

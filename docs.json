@@ -148,6 +148,7 @@
 				"icon": "sparkles",
 				"pages": [
 				  "faq/changelog",
+				  "faq/changelog/update-12.01.2026",
 				  "faq/changelog/update-21.11.2025",
 				  "faq/changelog/update-10.10.2025",
 				  "faq/changelog/update-02.06.2025",
@@ -328,6 +329,7 @@
 				"icon": "sparkles",
 				"pages": [
 				  "en/faq/changelog",
+				  "en/faq/changelog/update-12.01.2026",
 				  "en/faq/changelog/update-21.11.2025",
 				  "en/faq/changelog/update-02.06.2025",
 				  "en/faq/changelog/update-11.04.2025",

@@ -19,12 +19,19 @@ A single slot in an event. A single participant registers for a slot, which indi
 
 ## What permissions does the Discord Bot require?
 
+<Info>
+	**Servers that added the bot before 12th of January 2026**
+
+	From 23rd of February 2026 onwards, the Slotbot will require the additional permissions "Bypass Slowmode" and "Pin Messages". You can either re-invite the bot via the [Bot invitation](https://slotbot.de/invite), without removing it first, or manually adjust the Slotbot role permissions in the server settings.
+</Info>
+
 In order to make the various functions available as easily and smoothly as possible, the Discord Bot requires certain rights. The following actions are carried out with them. "Channels" include the standard text channels as well as threads and forum posts.
 
-* **View channel** and **Send messages (in Threads)** to [output](/en/integrations/discord/bot-commands/add-event-to-cannel) and update events and send [messages to event participants](/en/integrations/discord/bot-commands/event-ping). To send [archive messages](/en/integrations/discord/archive), the bot must also have access to the archive channel. Selection options can also be offered when configuring the archive channel if the permission to view channels is given.
-* **Embed links** to output the event details and the event separator.
-* (Optional) **Manage messages** to pin the slot list in the event channel.
-* (Optional) **Read message history** to remove the information for pinning the event details between or below the slot list.
+* **View channel** and **Send messages (in Threads)** to [output](/en/integrations/discord/bot-commands/add-event-to-channel) and update events and send [messages to event participants](/en/integrations/discord/bot-commands/event-ping). To send [archive messages](/en/integrations/discord/archive), the bot must also have access to the archive channel. Selection options can also be offered when configuring the archive channel if the permission to view channels is given.
+* **Embed links** and **Bypass Slowmode** to output the event details and the event separator without delay.
+* (Optional, but recommended) **Manage roles** to reflect changes in the permissions of [community members](/en/communities/members) in the assigned Discord roles.
+* (Optional) **Pin messages** to pin the slotlist in the event channel.
+* (Optional) **Read message history** and **Manage messages** to remove the information for pinning the event details between or below the slot list.
 	* With this permission, the bot cannot read the content of other users' messages. It only receives information about the meta information of the messages. (More on this in the [Discord FAQ](https://support-dev.discord.com/hc/en-us/articles/4404772028055))
 
 This additional information is forwarded to the bot by Discord (Intents [https://discord.com/developers/docs/topics/gateway#list-of-intents](https://discord.com/developers/docs/topics/gateway#list-of-intents)):

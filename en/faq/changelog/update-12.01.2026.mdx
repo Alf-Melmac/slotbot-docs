@@ -1,0 +1,31 @@
+---
+title: Update 12.01.2026
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.20.0" serverNew frontend="1.19.0" frontendNew/>
+
+<Warning>
+	**New Discord Permissions**
+
+	**From 23rd of February 2026** onwards, the Slotbot will require the **permissions "Bypass Slowmode" and "Pin Messages"** in addition to the "Manage Messages" permission to post and pin the slot list in the event channel. This is a change from Discord that affects all roles.
+
+	The easiest way is to re-invite the bot to the server via the [invitation link](https://slotbot.de/invite) without removing it first and confirm the new permissions. Alternatively, the permissions of the Slotbot role can also be adjusted in the server settings. You can find details on the required permissions in the [FAQ](/en/faq/faq#what-permissions-does-the-discord-bot-require).
+</Warning>
+
+## ⭐ New Features
+* Event details now support a visual selection of formatting. Similar to the event description, formatting can also be easily inserted in all text details. _([#581](https://github.com/Alf-Melmac/slotbot-frontend/pull/581), [#166](https://github.com/Alf-Melmac/slotbotServer/pull/166))_
+	![](/images/faq/changelog/update-20260112/Event-Details-Wysiwyg.png)
+	* New addition: Links that can also be clicked in Discord.
+	* Of course, the formatting is also available for the [standard texts of templates](/en/communities/event-standards).
+* The calculation of the maximum allowed length of all event information for the Discord output now better takes into account the formatting of the description and details directly during input. _([#581](https://github.com/Alf-Melmac/slotbot-frontend/pull/581))_
+* Happy New Year! 🎉 _(commit: [d92f3f12](https://github.com/Alf-Melmac/slotbot-frontend/commit/d92f3f1269f8a184f15377814dd760f7b16376f7))_
+
+## 🐞 Bug Fixes
+* The [personal notification settings](/en/integrations/discord/reminders) were sometimes still displayed with the old state after a change and reopening the page. _(commit: [3f1a7eb7](https://github.com/Alf-Melmac/slotbot-frontend/commit/3f1a7eb72fdfe122eb37e898edd2359d112d5169))_
+* The currently saved status is now always displayed when entering the Steam ID and the input is validated directly when entering and not only when saving. _(commit: [0adf14e2](https://github.com/Alf-Melmac/slotbot-frontend/commit/0adf14e2861828030a687ab16c25e240e1d0fa93), [2ac424ef](https://github.com/Alf-Melmac/slotbotServer/commit/2ac424efd6261051bc383a40e93ae1c79172a88f))_
+
+## 🔨 Technical
+* Spring Boot 4: Update of the technical foundation to ensure long-term stability, security and performance. _([#162](https://github.com/Alf-Melmac/slotbotServer/pull/162))_
+
