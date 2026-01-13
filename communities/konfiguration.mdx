@@ -9,46 +9,50 @@ icon: "gear"
 	Um eine Community zu konfigurieren, ist die Rolle `Admin` erforderlich.
 </Info>
 
+## Voraussetzungen
+Mit Voraussetzungen können Event-Erstellende Bedingungen festlegen, die Mitglieder erfüllen müssen, um an bestimmten Events teilnehmen zu können:
+<Card title={"Event Voraussetzungen"} href={"/communities/event-voraussetzungen"} icon={"puzzle-piece"} horizontal arrow/>
+
+## Event-Typen
+Mit Event-Typen lassen sich gleichartige Events gruppieren. Sie teilen gemeinsame Eigenschaften wie Farbe oder Vorlagen bei der Event-Erstellung.
+Neue Event-Typen kannst du direkt beim Erstellen eines Events hinzufügen.
+![Liste der Event-Typen](/images/communities/konfiguration/Slotbot-Guild-EventTypes.png)
+
+Für jeden Event-Typ kannst du Vorlagen und anwendbare Voraussetzungen konfigurieren:
+<Columns cols={2}>
+	<Card title={"Event Vorlagen"} href={"/communities/event-standards"} icon={"receipt"} horizontal arrow/>
+	<Card title={"Event Voraussetzungen"} href={"/communities/event-voraussetzungen#voraussetzungen-in-events-verwenden"} icon={"puzzle-piece"} horizontal arrow/>
+</Columns>
+
+## Bans
+Alles rund um den Ausschluss von Mitgliedern aus der Community findest du hier:
+<Card title={"Mitglieder Bannen"} href={"/communities/mitglieder/mitglieder-verwalten#mitglieder-bannen"} icon={"gavel"} horizontal arrow/>
+
 ## Discord Integration
-
 ### Sprache
-
-Nicht alle Integrationen erlauben die Anzeige in der vom Benutzer bevorzugten Sprache. Für statische Texte, wie z.B. Event-Details in Discord, kann eine Sprache konfiguriert werden.
-
+Nicht alle Integrationen erlauben die Anzeige in der vom Nutzenden bevorzugten Sprache. Für statische Texte, wie Event-Details in Discord, kannst du hier eine Standardsprache festlegen.
 ![Einstellung zur Sprache](/images/communities/konfiguration/Slotbot-Guild-Language.png)
 
-Die folgenden Einstellungen können ausschließlich nach Beitritt des Bots auf dem Server vorgenommen werden.
-
-![Hinweis zum Einladen des Discord Bots](/images/communities/konfiguration/Slotbot-Guild-MissingInvite.png)
+<Note>
+	Die folgenden Einstellungen können ausschließlich nach Beitritt des Bots auf dem Server vorgenommen werden.
+	![Hinweis zum Einladen des Discord Bots](/images/communities/konfiguration/Slotbot-Guild-MissingInvite.png)
+</Note>
 
 ### Archivierungskanal
-
-Nach Abschluss von Events besteht die Möglichkeit, diese in einem Archivkanal zu sammeln.
-
+Nach Abschluss von Events kannst du diese in einem Archivkanal sammeln.
 <Card title={"Archiv"} href={"/integrationen/discord/archiv"} horizontal arrow/>
 
 ### Synchronisierung der Mitgliederrollen
+Die drei [Berechtigungsrollen](/communities/mitglieder/rollen) können mit Discord-Rollen verknüpft werden. Die Synchronisierung funktioniert bidirektional:
+- **Slotbot → Discord**: Wenn du einer Person im Slotbot eine Rolle zuweist, erhält sie automatisch die verknüpfte Discord-Rolle.
+- **Discord → Slotbot**: Wenn eine Person eine verknüpfte Discord-Rolle erhält, wird ihr automatisch die entsprechende Rolle im Slotbot zugewiesen.
 
-Die drei Berechtigungsrollen können mit Discord-Rollen verknüpft werden. Wird anschließend einer Person eine neue Rolle zugeordnet, wird diese automatisch mit der entsprechenden Discord-Rolle versehen. Dies funktioniert auch umgekehrt: Wird die verknüpfte Discord-Rolle vergeben, wird die Rolle automatisch angepasst.
+Zur Veränderung des Mitgliedsstatus siehe auch [Mitglieder verwalten](/communities/mitglieder/mitglieder-verwalten#synchronisierung-der-rollen).
 
 ![Einstellung zu Mitgliederrollen](/images/communities/konfiguration/Slotbot-Guild-RoleSync.png)
-
 <Info>
-	Es können nur Rollen unterhalb der Slotbot-Integrationsrolle ausgewählt werden. Die Reihenfolge der Rollen kann in
-	Discord in den Servereinstellungen unter Rollen angepasst werden.
+	Aufgrund der Discord-Berechtigungshierarchie können nur Rollen unterhalb der Slotbot-Integrationsrolle ausgewählt werden. Die Reihenfolge der Rollen kannst du in Discord in den Servereinstellungen unter Rollen anpassen.
 </Info>
-
 <Tip>
-	Tipp: Wenn ihr Discord-Rollen konfiguriert, konfiguriert diese auch für die
-	[Slash-Befehle](/integrationen/discord/empfohlene-konfiguration).
+	Tipp: Wenn ihr Discord-Rollen konfiguriert, richtet diese auch für die [Slash-Befehle](/integrationen/discord/empfohlene-konfiguration) ein.
 </Tip>
-
-## Event-Typen
-
-Hier werden alle verfügbaren Event-Typen angezeigt. Die als "Global" markierten Typen sind vorgegebene Standards. Alle anderen sind privat für deine Community.
-
-![Liste der Event-Typen](/images/communities/konfiguration/Slotbot-Guild-EventTypes.png)
-
-Für alle Typen können Vorlagen konfiguriert werden. Lerne hier mehr darüber:
-
-<Card title={"Event Standards"} href={"/communities/event-standards"} icon={"receipt"} horizontal arrow/>

@@ -59,7 +59,6 @@
 				"icon": "pen-to-square",
 				"pages": [
 				  "events/events-erstellen",
-				  "events/events-erstellen/besondere-event-details",
 				  "events/events-erstellen/teilnahmeplatz-regeln",
 				  "events/events-erstellen/arma-3-slotlist-generierung"
 				]
@@ -70,17 +69,18 @@
 			"group": "Communities",
 			"pages": [
 			  "communities/übersicht",
-			  "communities/konfiguration",
-			  "communities/event-standards",
 			  {
 				"group": "Mitglieder",
 				"icon": "users",
 				"pages": [
 				  "communities/mitglieder",
-				  "communities/mitglieder/mitglieder-hinzufügen-oder-entfernen",
+				  "communities/mitglieder/mitglieder-verwalten",
 				  "communities/mitglieder/rollen"
 				]
-			  }
+			  },
+			  "communities/konfiguration",
+			  "communities/event-standards",
+			  "communities/event-voraussetzungen"
 			]
 		  },
 		  {
@@ -411,6 +411,10 @@
 	{
 	  "source": "/communities/mitglieder/mitglieder-hinzufugen-oder-entfernen",
 	  "destination": "/communities/mitglieder/mitglieder-hinzufügen-oder-entfernen"
+	},
+	{
+	  "source": "/communities/mitglieder/mitglieder-hinzufügen-oder-entfernen",
+	  "destination": "/communities/mitglieder/mitglieder-verwalten"
 	},
 	{
 	  "source": "/integrationen/discord/bot-befehle/community-hinzufuegen",

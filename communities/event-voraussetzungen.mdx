@@ -1,0 +1,71 @@
+---
+title: "Event Voraussetzungen"
+description: "Voraussetzungen für die Teilnahme an Events."
+icon: "puzzle-piece"
+---
+
+![Übersicht der Voraussetzung](/images/communities/event-voraussetzungen/Guild-Requirements.png)
+Mit **Event-Voraussetzungen** legst du fest, welche Anforderungen Teilnehmende erfüllen müssen, um an bestimmten Events teilnehmen zu können. Sei es ein bestimmtes DLC, eine abgeschlossene Ausbildung oder andere Kriterien.
+
+Du entscheidest dabei, ob die Mitglieder ihre Voraussetzungen selbst verwalten oder ob dies durch die Community-Administratoren erfolgt.
+
+<Info>
+	**Berechtigungen**
+
+	Um Voraussetzungen anzulegen und zu verwalten, ist die Rolle `Admin` erforderlich.
+</Info>
+
+## So funktionieren Voraussetzungen
+- Event-Ersteller [wählen in der Slotliste aus Voraussetzungen](/events/events-erstellen/teilnahmeplatz-regeln#voraussetzungen), die für den jeweiligen Event-Typ freigeschaltet wurden.
+- Mehrere Voraussetzungen sind **UND-verknüpft**: Teilnehmende müssen **alle** ausgewählten Voraussetzungen erfüllen, um sich anmelden zu können.
+
+## Voraussetzungen anlegen
+Öffne die [Community Verwaltung](/communities/konfiguration) und scrolle zum Bereich **Voraussetzungen**.
+
+Voraussetzungen werden in Listen organisiert, damit du zusammengehörige Anforderungen gruppieren kannst.
+
+![Anlage einer neuen Voraussetzungliste](/images/communities/event-voraussetzungen/Guild-RequirementList.png)
+
+### Listen-Einstellungen
+
+Für jede Liste legst du neben dem Namen zwei Eigenschaften fest:
+
+#### 1. Wer pflegt den Erfüllungsstatus?
+- **Selbstzuweisung erlaubt (Teilnehmende selbst)**: Teilnehmende geben bei der Anmeldung an, welche Voraussetzungen sie erfüllen. Das wird auch direkt gespeichert und fürs nächste Mal vorgemerkt.
+- **Community Administratoren**: Admins pflegen die Erfüllung in der [Mitgliederverwaltung](/communities/mitglieder/mitglieder-verwalten#erfüllte-voraussetzungen).
+
+#### 2. Verpflichtend oder nur ein Hinweis?
+- **Verpflichtend (Blocker)**: Fehlt eine dieser Voraussetzungen, wird die Anmeldung blockiert. (Es muss nicht jede Voraussetzung erfüllt sein, nur die für den Slot ausgewählten.)
+- **Nicht verpflichtend (Hinweis)**: Teilnehmende erhalten nur einen Hinweis, können sich aber trotzdem anmelden.
+
+<Columns cols={2}>
+	<Frame caption="Verpflichtende Voraussetzung">
+		![Verpflichtende Voraussetzung](/images/communities/event-voraussetzungen/Guild-Requirement-Required.png)
+	</Frame>
+
+	<Frame caption="Nicht verpflichtende Voraussetzung">
+		![Nicht verpflichtende Voraussetzung](/images/communities/event-voraussetzungen/Guild-Requirement-NotRequired.png)
+	</Frame>
+</Columns>
+
+### Voraussetzungen: Name, Abkürzung und Icon
+
+Jede Voraussetzung benötigt mindestens einen **Namen**.
+
+Optional kannst du eine **Abkürzung** angeben. Diese wird an Stellen mit begrenztem Platz verwendet wird, beispielsweise in der Discord-Ausgabe der Slotliste.
+
+**Icons** machen Voraussetzungen auf einen Blick erkennbar. Du kannst optional ein zweites Icon für helle Hintergründe hochladen.
+
+![Icon-Upload für Voraussetzungen](/images/communities/event-voraussetzungen/Guild-Requirement-Icon.png)
+
+## Voraussetzungen in Events verwenden
+
+Damit Event-Ersteller aus einer übersichtlichen Auswahl wählen können, schaltest du Voraussetzungslisten gezielt für bestimmte Event-Typen frei.
+
+Bleibe in der Community Verwaltung und wechsle zur Überschrift **Event-Typen**. Wähle einen Event-Typ aus und klicke auf das <Icon icon="list-check"/>-Icon in der Zeile.
+
+![Zuordnung der Voraussetzungen zu einem Event-Typen](/images/communities/event-voraussetzungen/Guild-EventType-Requirement.png)
+
+Anschließend stehen in Events dieses Typs alle Voraussetzungen der aktivierten Listen zur Auswahl. Event-Ersteller können daraus einzelne oder alle Voraussetzungen auswählen.
+
+<Card title={"Voraussetzungen in der Slotliste konfigurieren"} href={"/events/events-erstellen/teilnahmeplatz-regeln#voraussetzungen"} horizontal arrow/>

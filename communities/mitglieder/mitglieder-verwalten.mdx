@@ -1,0 +1,37 @@
+---
+title: "Mitglieder verwalten"
+---
+
+Mitglieder können aktuell nur über Discord zu einer Community hinzugefügt werden. Entweder automatisch über die [Synchronisierung der Mitgliederrollen](/communities/konfiguration#synchronisierung-der-mitgliederrollen) oder manuell per Kontextmenü mit dem [Community hinzufügen](/integrationen/discord/bot-befehle/community-hinzufügen)-Befehl.
+
+<Info>
+	**Berechtigungen**
+
+	Zur Verwaltung der Mitglieder ist die Rolle `Admin` erforderlich.
+</Info>
+
+## <Icon icon="user-plus"/> Manuelles Hinzufügen
+Nutze das Kontextmenü in Discord, um einzelne Mitglieder manuell hinzuzufügen: [Community hinzufügen](/integrationen/discord/bot-befehle/community-hinzufügen)
+
+## <Icon icon="user-minus"/> Mitglieder entfernen
+Es gibt drei Möglichkeiten, wie ein Mitglied aus der Community entfernt wird:
+1. **Manuelles Entfernen**: Administratoren können einzelne Mitglieder jederzeit über das <Icon icon="user-minus"/>-Icon in der [Mitglieder-Übersicht](/communities/mitglieder) entfernen.
+2. **Automatisches Entfernen durch Rollenverlust**: Sobald eine Mitgliederrolle konfiguriert wurde, werden Mitglieder automatisch entfernt, wenn sie keine der konfigurierten Rollen mehr besitzen (z.B. Mitgliederrolle oder Event-Planer-Rolle).
+3. **Automatisches Entfernen beim Verlassen des Servers**: Verlässt ein Mitglied den Discord-Server, verliert es automatisch seinen Mitgliedsstatus.
+
+## <Icon icon="gavel"/> Mitglieder bannen
+Wenn ein Mitglied dauerhaft ausgeschlossen werden muss, können Admins es über das <Icon icon="gavel"/>-Icon bannen.
+
+Gebannte Mitglieder verlieren nicht nur ihren Mitgliedsstatus, sondern werden auch aus allen zukünftig stattfindenden Events der Community entfernt und können sich nicht erneut anmelden. Das Mitglied wird über den Ban selbst nicht informiert, erhält aber eine Benachrichtigung über die Event-Abmeldungen. Der Ban bleibt aktiv, bis ein Admin ihn aufhebt.
+
+## <Icon icon="arrows-rotate"/> Synchronisierung der Rollen
+
+Sobald du die [Rollensynchronisierung in den Community-Einstellungen](/communities/konfiguration#synchronisierung-der-mitgliederrollen) konfiguriert hast, werden die Berechtigungen deiner Mitglieder automatisch mit den Discord-Rollen synchronisiert.
+
+Wenn ein Mitglied eine konfigurierte Discord-Rolle erhält oder verliert, werden seine Berechtigungen im Slotbot automatisch aktualisiert. Bei konfigurierter Mitgliederrolle werden Nutzende automatisch als Mitglied hinzugefügt, sobald sie diese Rolle erhalten.
+
+## <Icon icon="user-tag"/> Erfüllte Voraussetzungen
+Über das <Icon icon="user-tag"/>-Icon in der [Mitglieder-Übersicht](/communities/mitglieder) kannst du die erfüllten Voraussetzungen eines Mitglieds einsehen und bearbeiten.
+![Erfüllte Voraussetzungen eines Mitglieds](/images/communities/mitglieder/GuildMember-Requirements-Managed.png)
+Bei verpflichtenden Voraussetzungen kann sich das Mitglied nur dann auf Slots mit dieser Voraussetzung anmelden, wenn die Erfüllung hier markiert ist. Bei nicht-verpflichtenden Voraussetzungen erhält das Mitglied lediglich einen Hinweis, die Anmeldung wird aber nicht verhindert.
+<Card title={"Konfiguration der Voraussetzungen"} href={"/communities/event-voraussetzungen"} horizontal arrow/>

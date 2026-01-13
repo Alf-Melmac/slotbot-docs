@@ -2,21 +2,32 @@
 title: "Teilnahmeplatz Regeln"
 ---
 
-Über das Drei-Punkte-Menü hinter jeder Zeile können neben dem Duplizieren und Löschen weitere Regeln konfiguriert werden.
+## Voraussetzungen
+Je nachdem welche [Voraussetzungen](/communities/event-voraussetzungen) dein Community-Administrator für den ausgewählten Event-Typ freigeschaltet hat, kannst du diese in der Slotliste auswählen.
 
+Du kannst Voraussetzungen für das ganze Event, für einzelne Squads oder für einzelne Slots festlegen. Voraussetzungen werden über alle Ebenen hinweg addiert und sind **UND-verknüpft**: Teilnehmende müssen **alle** Voraussetzungen des Events, des Squads und des Slots erfüllen, um sich anmelden zu können.
+
+## Weitere Regeln
+Über das Drei-Punkte-Menü hinter jeder Squad- oder Slot-Zeile kannst du neben dem Duplizieren und Löschen auch Reservierungen und Blockierungen konfigurieren.
 ![Kontextmenü eines Slots](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-DE-EventWizard-Slotlist-Rules.png)
 
 ### Reservierung
+Ganze Squads oder einzelne Slots können für eine Community reserviert werden. Nur Mitglieder dieser Community können sich dann für die reservierten Plätze anmelden.
 
-Ganze Squads oder einzelne Slots können für bestimmte Gruppen reserviert werden. Es können sich dann nur noch Mitglieder der ausgewählten Gruppen in diese Slots eintragen. Reservierungen von Squads werden an Slots vererbt.
+Wenn ein Squad für eine Community reserviert ist, erben alle Slots diese Reservierung. Du kannst die Reservierung für einzelne Slots überschreiben, indem du dort eine andere Community auswählst.
 
 <Frame>
 	![Reservierungseinstellung](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-Slotlist-Squad-Settings.png)
 </Frame>
 
 ### Blockierung
+Slots können blockiert werden, um Anmeldungen für diesen Platz zu verhindern. In der Slotliste wird dies entweder als "_Gesperrt_" oder mit einem benutzerdefinierten Text angezeigt.
 
-Slots können auch blockiert werden. Dadurch werden Anmeldungen für diesen Platz verhindert. Angezeigt wird dies in der Slotliste entweder als "_Gesperrt_" oder den gewählten Ersatztext. Dies eignet sich auch, um die Anmeldungen von Teilnehmenden zu markieren, die keinen Discord Account haben. Siehe dazu auch den Discord-Befehl [Slot blockieren](/integrationen/discord/bot-befehle/slot-blockieren).
+Typische Anwendungsfälle:
+- Slots für Teilnehmende ohne Discord-Account reservieren
+- Plätze markieren, die noch nicht verfügbar sind
+
+Du kannst blockierte Slots auch nachträglich über den Discord-Befehl [Slot blockieren](/integrationen/discord/bot-befehle/slot-blockieren) verwalten.
 
 <Frame>
 	![Blockierungseinstellung](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-DE-EventWizard-Slotlist-Rules-Slot.png)
