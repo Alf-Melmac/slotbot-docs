@@ -2,22 +2,33 @@
 title: "Slotlist Rules"
 ---
 
-In addition to duplication and deletion, other rules can be configured using the three-dot menu behind each line.
+## Requirements
+Depending on which [requirements](/en/communities/event-requirements) your community administrator has enabled for the selected event type, you can select them in the slotlist.
 
+You can set requirements for the entire event, for individual squads, or for individual slots. Requirements are added across all levels and are **AND-linked**: participants must fulfil **all** requirements of the event, the squad, and the slot to be able to register.
+
+## Additional rules
+Via the three-dot menu behind each squad or slot row, you can configure reservations and blocks in addition to duplication and deletion.
 ![Context menu of a slot](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-DE-EventWizard-Slotlist-Rules.png)
 
 ### Reservation
+Entire squads or individual slots can be reserved for a community. Only members of this community can then register for the reserved slots.
 
-Entire squads or individual slots can be reserved for specific communities. Only members of the selected groups will be able to register for these slots. Reservations for squads are inherited by slots.
+If a squad is reserved for a community, all slots inherit this reservation. You can override the reservation for individual slots by selecting a different community there.
 
 <Frame>
 	![Reservation settings](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-Slotlist-Squad-Settings.png)
 </Frame>
 
-### Lock
+### Block
+Slots can be blocked to prevent registrations for that slot. In the slotlist, this is displayed either as "_Gesperrt_" or with custom text.
 
-Slots may also be locked. This prevents registrations for that slot. It will be displayed in the slot list as either 'Gesperrt' or the selected replacement text. This can also be used to mark registrations from people who do not have a Discord account. See also the command [Block slot](/en/integrations/discord/bot-commands/block-slot).
+Typical use cases:
+- Reserve slots for participants without a Discord account
+- Mark slots that are not yet available
+
+You can also manage blocked slots retrospectively using the Discord command [Block slot](/en/integrations/discord/bot-commands/block-slot).
 
 <Frame>
-	![Lock settings](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-DE-EventWizard-Slotlist-Rules-Slot.png)
+	![Block settings](/images/events/events-erstellen/teilnahmeplatz-regeln/Slotbot-DE-EventWizard-Slotlist-Rules-Slot.png)
 </Frame>

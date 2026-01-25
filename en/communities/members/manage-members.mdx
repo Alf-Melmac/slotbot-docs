@@ -1,0 +1,37 @@
+---
+title: "Manage members"
+---
+
+Members can currently only be added to a community via Discord. Either automatically through the [synchronisation of member roles](/en/communities/configuration#synchronisation-of-member-roles) or manually via the context menu using the [Add Community](/en/integrations/discord/bot-commands/add-community) command.
+
+<Info>
+	**Permissions**
+
+	To manage members, the `Admin` role is required.
+</Info>
+
+## <Icon icon="user-plus"/> Manual addition
+Use the context menu in Discord to add individual members manually: [Add Community](/en/integrations/discord/bot-commands/add-community)
+
+## <Icon icon="user-minus"/> Removing members
+There are three ways a member can be removed from the community:
+1. **Manual removal**: Administrators can remove individual members at any time via the <Icon icon="user-minus"/> icon in the [Members overview](/en/communities/members).
+2. **Automatic removal through role loss**: Once a member role has been configured, members are automatically removed if they no longer have any of the configured roles (e.g. member or event planner role).
+3. **Automatic removal when leaving the server**: If a member leaves the Discord server, they automatically lose their member status.
+
+## <Icon icon="gavel"/> Banning members
+If a member must be permanently excluded, admins can ban them via the <Icon icon="gavel"/> icon.
+
+Banned members not only lose their member status, but are also removed from all future events of the community and cannot register again. The member is not notified about the ban itself, but receives a notification about the event removals. The ban remains active until an admin lifts it.
+
+## <Icon icon="arrows-rotate"/> Role synchronisation
+
+Once you have configured [role synchronisation in the community settings](/en/communities/configuration#synchronisation-of-member-roles), your members' permissions are automatically synchronised with Discord roles.
+
+When a member receives or loses a configured Discord role, their permissions in Slotbot are automatically updated. With a configured member role, users are automatically added as members once they receive this role.
+
+## <Icon icon="user-tag"/> Fulfilled requirements
+Via the <Icon icon="user-tag"/> icon in the [Members overview](/en/communities/members), you can view and edit the fulfilled requirements of a member.
+![Fulfilled requirements of a member](/images/communities/mitglieder/GuildMember-Requirements-Managed.png)
+For mandatory requirements, the member can only register for slots with this requirement if fulfilment is marked here. For non-mandatory requirements, the member only receives a hint, but registration is not prevented.
+<Card title={"Configuration of requirements"} href={"/en/communities/event-requirements"} horizontal arrow/>

@@ -242,7 +242,6 @@
 				"icon": "pen-to-square",
 				"pages": [
 				  "en/events/creating-events",
-				  "en/events/creating-events/special-event-details",
 				  "en/events/creating-events/slotlist-rules",
 				  "en/events/creating-events/arma-3-slotlist-generation"
 				]
@@ -253,17 +252,18 @@
 			"group": "Communities",
 			"pages": [
 			  "en/communities/overview",
-			  "en/communities/configuration",
-			  "en/communities/event-standards",
 			  {
 				"group": "Members",
 				"icon": "users",
 				"pages": [
 				  "en/communities/members",
-				  "en/communities/members/add-or-remove-members",
+				  "en/communities/members/manage-members",
 				  "en/communities/members/roles"
 				]
-			  }
+			  },
+			  "en/communities/configuration",
+			  "en/communities/event-standards",
+			  "en/communities/event-requirements"
 			]
 		  },
 		  {
@@ -449,6 +449,10 @@
 	{
 	  "source": "/policies/datenschutzerklarung/cookies",
 	  "destination": "/policies/datenschutzerklärung/cookies"
+	},
+	{
+	  "source": "/en/communities/members/add-or-remove-members",
+	  "destination": "/en/communities/members/manage-members"
 	}
   ]
 }
