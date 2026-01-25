@@ -1,0 +1,176 @@
+---
+title: "Slotbot in 2025"
+noindex: true
+mode: "wide"
+---
+
+A lot has happened around Slotbot over the past 15 months. To help you discover features you might have missed, here's an overview of the most important new features and improvements that make event management even easier and more convenient for communities.
+
+- [Event Requirements](#event-requirements:-the-most-comprehensive-new-feature)
+- [Community Management](#community-management:-more-control-and-overview)
+- [Mobile Experience](#mobile-experience:-a-new-dimension)
+- [Event Creation and Management](#event-creation-and-management)
+- [Calendar Improvements](#calendar-improvements)
+- [Discord Integration](#discord-integration)
+- [Homepage and Blog Feature](#homepage-and-blog-feature)
+- [A Whole Lot of Minor Improvements](#and-a-whole-lot-of-minor-improvements)
+- [2026](#2026)
+
+## Event Requirements: The Most Comprehensive New Feature
+
+![](/images/faq/changelog/Requirements-Arma-DLC.png)
+
+By far the most comprehensive new feature is **Event Requirements**. This flexible system allows you to define specific prerequisites for entire events, squads, or individual slots.
+
+### What Are Event Requirements?
+
+Requirements enable communities to specify which qualifications or conditions must be met to participate in certain events or occupy specific slots. These can be DLCs, completed training sessions, or anything else important for participation.
+
+### Configuration and Management
+
+Community administrators can create available requirements in the community settings and specify whether:
+- Participants can mark the requirement as fulfilled themselves
+- The requirement is mandatory
+
+Of course, everything can have names and images so requirements are clearly displayed in the event details.
+
+P.S. Don't forget to enable requirements for your event types!
+
+### Display and User Experience
+
+Participants can see at a glance in the event details whether they meet all requirements. If registration isn't possible, it's transparently shown why. Whether due to missing community membership for reserved slots, a community ban, or missing requirements.
+
+Naturally, when slotting via Discord, all relevant requirement information is displayed and offered for selection when needed.
+
+[More information about configuring requirements](/en/communities/event-requirements).
+
+## Community Management: More Control and Overview
+
+![](/images/communities/übersicht/Slotbot-Guilds.png)
+
+Community management has been fundamentally revised and extended with important functions.
+
+### Community Bans
+
+![](/images/faq/changelog/Ban-List.png)
+
+Community administrators can permanently ban members from their community. This prevents banned users from registering for any future events of that community. We hope you'll never need to use it, but it's an important tool for moderating problematic users.
+
+More details [here](/en/communities/configuration#bans).
+
+### Redesigned Overview Pages
+
+Community overview pages have been completely redesigned. Management functions have been moved to a separate page, significantly improving the overview.
+
+### Automated Start Without Setup
+
+A major step for new communities: When adding the Discord bot, the person inviting the bot automatically becomes the community administrator. No manual setup required anymore. Just invite the bot and get started!
+
+### Discord Synchronisation
+
+Communities can now manually synchronise the member list and roles from Discord. This ensures information in Slotbot stays up-to-date, even if changes occurred before automatic synchronisation.
+
+### Community Active Status
+
+Communities are automatically categorised as active or inactive. If a community hasn't hosted an event in recent months, it's marked accordingly in the community overview. This helps newcomers find active communities more easily.
+
+## Mobile Experience: A New Dimension
+
+![](/images/faq/changelog/update-20251121/Mobile-Calendar.png)
+
+The mobile experience has been fundamentally improved, making Slotbot comfortable to use on smartphones and tablets.
+
+### New Week View for Event Calendar
+
+A clear week view has been developed specifically for mobile devices.
+
+### Improved Navigation
+
+Mobile navigation has been completely redesigned. Instead of hiding menu items, they're now accessible in a practical overflow menu. The footer has also been optimised, offering better access to important functions.
+
+### Progressive Web App (PWA)
+
+Slotbot can now be installed like a native app on your home screen. Most browsers offer this option automatically. After installation, the site runs in app mode: faster startup, no browser interface, full functionality.
+
+## Event Creation and Management
+
+There have also been important improvements to Slotbot's core functionality.
+
+### Visual Formatting for Event Details
+
+![](/images/faq/changelog/update-20260112/Event-Details-Wysiwyg.png)
+
+Not just event descriptions, but all event details now support visual formatting. An intuitive editor allows text formatting, including links that are also clickable in Discord. These formatting options are naturally available for standard texts in event templates as well.
+
+The calculation of maximum allowed length for Discord display now directly considers formatting during input, so there are no more surprises.
+
+### Event Deletion for Community Administrators
+
+Community administrators can delete events directly from the event details. A sensible simplification for managing the event calendar.
+
+### Communities Without Their Own URL
+
+Communities can now perform all event-related actions without being assigned their own URL.
+
+### Archiving via Discord
+
+When a Discord thread is closed, Slotbot automatically archives the associated event. Archival messages also include a direct link to the event details.
+
+### Participant Log
+
+Event planners can now see in the event details when participants registered, unregistered, or swapped slots with each other. This information is also available for past events and helps track participation.
+
+### Extended Slotting Time Windows
+
+Slotting is now possible up to 24 hours after the event starts. More flexibility for last-minute changes or late registrations.
+
+## Calendar Improvements
+
+The event calendar now displays not just the event type's colour but also its name. It also shows which community is hosting the event, both in the calendar and event details. This significantly improves calendar orientation, especially in the shared calendar at https://slotbot.de.
+
+Above the general calendar, there's also a helpful link to the getting started guide for new users.
+
+## Discord Integration
+
+### Event Ping with Transparency
+
+The `/event_ping` command now shows who triggered the ping every time it's used. This makes it transparent for everyone who woke me up at 2 AM.
+
+### New Discord Permissions (from February 23, 2026)
+
+**Important**: Starting February 23, 2026, Slotbot will additionally require the permissions "Bypass slow mode" and "Pin messages". This is a Discord-side change. The bot can simply be re-invited via the invitation link to confirm the new permissions. More details [here](/en/faq/changelog/update-12.01.2026).
+
+## Homepage and Blog Feature
+
+![](/images/faq/changelog/update-20250411/Blog-Loading.png)
+
+A completely new homepage functionality has been introduced. Selected communities can use it to:
+- Provide an overview of recently concluded or upcoming events
+- Write text posts to share information with the community
+- Create an appealing landing page for newcomers
+
+This feature offers communities a new way to present themselves and communicate with their members. Interested in using the homepage? Just contact Alf!
+
+## And a Whole Lot of Minor Improvements
+- Not so minor: The documentation has moved and been extensively revised and expanded in the process. It not only shines with a new look but also offers an improved search function along with lots of new content. [Check it out](/).
+- Event descriptions now match the styling of all other text on the website. Additionally, spacing between consecutive headings has been optimised, improving readability.
+- Language selection is now available for non-logged-in users as well. This makes it easier for international visitors to get started.
+- When editing event descriptions or blog posts, the system now shows a line during drag-and-drop that marks the insertion position. Selected images are highlighted with a border, and only relevant formatting options are offered.
+- For group reservations, the community name is always displayed in a tooltip, even when the community uses its own logo.
+- The frontend download size has been optimised and split into smaller packages. This noticeably shortens the loading time on first page visit. Administrative actions are also now only loaded for administrators, speeding up page loading for everyone else.
+- Security mechanisms for login sessions have been improved, resulting in fewer forced logouts. Support for iCloud Private Relay has also been enhanced.
+- And so much more... All changes can be found in the [changelogs](/en/faq/changelog).
+
+## I asked AI to write a conclusion:
+
+The past 15 months have evolved Slotbot from an event management platform into a comprehensive community tool. With event requirements, improved mobile experience, extended management functions, and the new homepage feature, Slotbot provides communities with all the tools they need for professional event management.
+
+Particularly noteworthy is the consistent development with a focus on user-friendliness: new features are implemented to be intuitively usable, and existing functions are continuously improved.
+
+Whether as an established community or a newcomer—Slotbot makes event management simple, transparent, and efficient.
+
+## 2026
+
+2026 will also bring many new developments. You'll hear about them first here through the update channel. Do you have wishes or ideas? We'd love to hear them!
+
+Your contributions are always welcome. Whether you write code, create designs, write texts, provide feedback, or simply share your experiences with others; every bit of support helps improve Slotbot for even more communities. Here's to a successful 2026!

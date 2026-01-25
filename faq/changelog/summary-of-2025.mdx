@@ -1,0 +1,176 @@
+---
+title: "Slotbot in 2025"
+noindex: true
+mode: "wide"
+---
+
+In den letzten 15 Monaten ist einiges rund um den Slotbot passiert. Damit ihr auch das ausprobieren könnt, was ihr noch nicht gefunden habt, gibt es hier einen Überblick über die wichtigsten neuen Features und Verbesserungen, die Events für Communities noch einfacher und komfortabler machen.
+
+- [Event-Voraussetzungen](#event-voraussetzungen:-das-umfangreichste-neue-feature)
+- [Community-Verwaltung](#community-verwaltung:-mehr-kontrolle-und-übersicht)
+- [Mobile Nutzung](#mobile-nutzung:-eine-neue-dimension)
+- [Event-Erstellung und -Verwaltung](#event-erstellung-und-verwaltung)
+- [Kalender-Verbesserungen](#kalender-verbesserungen)
+- [Discord-Integration](#discord-integration)
+- [Startseite und Blog-Funktion](#startseite-und-blog-funktion)
+- [Eine ganze Menge kleinerer Verbesserungen](#und-eine-ganze-menge-kleinerer-verbesserungen)
+- [2026](#2026)
+
+## Event-Voraussetzungen: Das umfangreichste neue Feature
+
+![](/images/faq/changelog/Requirements-Arma-DLC.png)
+
+Das mit Abstand umfangreichste neue Feature sind die **Event-Voraussetzungen**. Dieses flexible System ermöglicht es, spezifische Anforderungen für ganze Events, Squads oder einzelne Slots zu definieren.
+
+### Was sind Event-Voraussetzungen?
+
+Mit Voraussetzungen können Communities festlegen, welche Qualifikationen oder Bedingungen erfüllt sein müssen, um an bestimmten Events oder auf bestimmten Slots teilzunehmen. Das sind DLCs, abgeschlossene Trainings oder alles andere was für eine Teilnahme wichtig ist.
+
+### Konfiguration und Verwaltung
+
+Community-Administratoren können in den Community-Einstellungen verfügbare Voraussetzungen anlegen und dabei auch festlegen, ob ...
+- Teilnehmende die Voraussetzung selbst als erfüllt markieren können
+- die Voraussetzung zwingend erforderlich ist
+
+Natürlich gibt es für alles auch Namen und Bilder, damit die Voraussetzungen in den Event-Details verständlich dargestellt werden können.
+
+P.S. Vergesst nicht die Voraussetzungen für eure Event-Typen zu aktivieren!
+
+### Anzeige und Nutzererfahrung
+
+Teilnehmende sehen in den Event-Details auf einen Blick, ob sie alle Voraussetzungen erfüllen. Wenn eine Anmeldung nicht möglich ist, wird transparent angezeigt, warum. Sei es durch fehlende Community-Mitgliedschaft bei reservierten Plätzen, einen Community-Ausschluss oder fehlende Voraussetzungen.
+
+Selbstverständlich werden auch beim Slotten über Discord alle relevanten Informationen zu Voraussetzungen angezeigt und bei Bedarf zur Auswahl angeboten.
+
+[Weitere Informationen zur Konfiguration von Voraussetzungen](/communities/event-voraussetzungen).
+
+## Community-Verwaltung: Mehr Kontrolle und Übersicht
+
+![](/images/communities/übersicht/Slotbot-Guilds.png)
+
+Die Verwaltung von Communities wurde grundlegend überarbeitet und um wichtige Funktionen erweitert.
+
+### Community-Ausschluss (Ban-Funktion)
+
+![](/images/faq/changelog/Ban-List.png)
+
+Community-Administratoren können Mitglieder dauerhaft von ihrer Community ausschließen. Dies verhindert, dass gesperrte Nutzende sich für weitere Events der Community anmelden können. Wir hoffen, es nie nutzen zu müssen, aber eine wichtige Funktion für die Moderation problematischer Nutzer.
+
+Mehr dazu [hier](/communities/konfiguration#bans).
+
+### Überarbeitete Übersichtsseiten
+
+Die Community-Übersichtsseiten wurden komplett neu gestaltet. Die Verwaltungsfunktionen wurden auf eine eigene Seite ausgelagert, wodurch die Übersicht deutlich verbessert wurde.
+
+### Automatisierter Start ohne Setup
+
+Ein großer Schritt für neue Communities: Beim Hinzufügen des Discord-Bots wird die Person, die den Bot einlädt, automatisch zum Administrator der Community. Es ist kein manuelles Setup mehr nötig. Einfach Bot einladen und direkt loslegen!
+
+### Synchronisation mit Discord
+
+Communities können die Mitgliederliste und Rollen nun manuell aus Discord synchronisieren. Dies stellt sicher, dass die Informationen im Slotbot immer aktuell sind, auch wenn Änderungen vor der automatischen Synchronisation stattgefunden haben.
+
+### Aktiv-Status von Communities
+
+Communities werden automatisch als aktiv oder inaktiv kategorisiert. Hat eine Community in den letzten Monaten kein Event angeboten, wird sie in der Community-Übersicht entsprechend gekennzeichnet. Dies hilft neuen Interessierten, aktive Communities leichter zu finden.
+
+## Mobile Nutzung: Eine neue Dimension
+
+![](/images/faq/changelog/update-20251121/Mobile-Calendar.png)
+
+Die mobile Erfahrung wurde grundlegend verbessert und macht den Slotbot nun auch auf Smartphones und Tablets komfortabel nutzbar.
+
+### Neue Wochenansicht für den Event-Kalender
+
+Speziell für mobile Geräte wurde eine übersichtliche Wochenansicht entwickelt.
+
+### Verbesserte Navigation
+
+Die mobile Navigation wurde komplett überarbeitet. Statt Menüelemente auszublenden, sind sie nun in einem praktischen Überhangmenü zu finden. Auch der Footer wurde optimiert und bietet besseren Zugriff auf wichtige Funktionen.
+
+### Progressive Web App (PWA)
+
+Der Slotbot kann jetzt wie eine native App auf dem Home-Bildschirm installiert werden. Die meisten Browser bieten diese Option automatisch an. Nach der Installation läuft die Seite im App-Modus. Schneller Start, kein Browser-Interface, volle Funktionalität.
+
+## Event-Erstellung und -Verwaltung
+
+Auch bei der Kern-Funktionalität des Slotbots gab es wichtige Verbesserungen.
+
+### Visuelle Formatierung für Event-Details
+
+![](/images/faq/changelog/update-20260112/Event-Details-Wysiwyg.png)
+
+Nicht nur Event-Beschreibungen, sondern auch alle Event-Details unterstützen nun eine visuelle Auswahl von Formatierungen. Mit einem intuitiven Editor können Texte formatiert werden; inklusive Links, die auch in Discord anklickbar sind. Diese Formatierungen stehen selbstverständlich auch für Standard-Texte in Event-Vorlagen zur Verfügung.
+
+Die Berechnung der maximal erlaubten Länge für Discord-Anzeigen berücksichtigt Formatierungen nun direkt bei der Eingabe, sodass es keine Überraschungen mehr gibt.
+
+### Event-Löschen für Community-Administratoren
+
+Community-Administratoren können Events direkt in den Event-Details löschen. Eine sinnvolle Vereinfachung für die Verwaltung des Event-Kalenders.
+
+### Communities ohne eigene URL
+
+Communities können nun alle eventbezogenen Aktionen durchführen, ohne dass ihnen eine eigene URL zugewiesen werden muss.
+
+### Archivierung über Discord
+
+Wird ein Discord-Thread geschlossen, archiviert der Slotbot automatisch das zugehörige Event. Die Archivierungsnachrichten enthalten außerdem einen direkten Link zu den Event-Details.
+
+### Teilnehmer-Protokoll
+
+Event-Planer können in den Event-Details nun sehen, wann Teilnehmende sich an- und abgemeldet haben oder untereinander Plätze getauscht haben. Diese Informationen stehen auch für vergangene Events zur Verfügung und helfen bei der Nachvollziehbarkeit der Teilnahmen.
+
+### Verlängerte Slotting-Zeitfenster
+
+Slotting ist nun bis zu 24 Stunden nach Event-Start möglich. Mehr Flexibilität für kurzfristige Änderungen oder Nachmeldungen.
+
+## Kalender-Verbesserungen
+
+Der Event-Kalender zeigt nicht nur die Farbe des Event-Types, sondern auch dessen Namen. Außerdem wird angezeigt, welche Community das Event veranstaltet, sowohl im Kalender als auch in den Event-Details. Dies erleichtert die Orientierung im Kalender deutlich, besonders im gemeinsamen Kalender auf https://slotbot.de.
+
+Über dem allgemeinen Kalender findet sich außerdem eine hilfreiche Verlinkung zum Startleitfaden für neue Nutzende.
+
+## Discord-Integration
+
+### Event Ping mit Transparenz
+
+Der `/event_ping` Befehl zeigt bei jeder Nutzung an, wer den Ping ausgelöst hat. Dadurch ist für alle transparent, wer mich nachts um 2 aus dem Schlaf gerissen hat.
+
+### Neue Discord-Berechtigungen (ab 23. Februar 2026)
+
+**Wichtig**: Ab dem 23. Februar 2026 benötigt der Slotbot zusätzlich die Berechtigungen "Slow-Modus umgehen" und "Nachrichten anpinnen". Dies ist eine Discord-seitige Änderung. Der Bot kann einfach über den Einladungslink erneut hinzugefügt werden, um die neuen Berechtigungen zu bestätigen. Mehr Details dazu [hier](/faq/changelog/update-12.01.2026).
+
+## Startseite und Blog-Funktion
+
+![](/images/faq/changelog/update-20250411/Blog-Loading.png)
+
+Eine komplett neue Startseiten-Funktionalität wurde eingeführt. Ausgewählte Communities können damit:
+- Einen Überblick über kürzlich stattgefundene oder bevorstehende Events geben
+- Beiträge in Textform verfassen, um Informationen mit der Community zu teilen
+- Eine ansprechende Landing Page für neue Interessierte gestalten
+
+Diese Funktion bietet Communities eine neue Möglichkeit, sich zu präsentieren und mit ihren Mitgliedern zu kommunizieren. Interesse an der Nutzung der Startseite? Einfach bei Alf melden!
+
+## Und eine ganze Menge kleinerer Verbesserungen
+- Gar nicht so klein: Die Dokumentation ist umgezogen und wurde dabei in großem Umfang überarbeitet und erweitert. Sie strahlt nicht nur in neuem Glanz, sondern bietet neben einer verbesserten Suche auch viele neue Inhalte. [Schau doch mal rein](/).
+- Event-Beschreibungen sehen wie alle anderen Texte auf der Website aus. Zudem wurden die Abstände bei aufeinanderfolgenden Überschriften optimiert, was die Lesbarkeit verbessert.
+- Die Sprachauswahl steht auch für nicht angemeldete Nutzende zur Verfügung. Dies erleichtert den Einstieg für internationale Interessierte.
+- Beim Bearbeiten von Event-Beschreibungen oder Blog-Beiträgen zeigt das System nun beim Drag-and-Drop eine Linie an, die die Einfügeposition markiert. Ausgewählte Bilder werden durch einen Rahmen hervorgehoben, und es werden nur relevante Formatierungsoptionen angeboten.
+- Bei Reservierungen für Gruppen wird der Name der Community nun immer in einem Tooltip angezeigt, auch wenn die Community ein eigenes Logo verwendet.
+- Die Download-Größe des Frontends wurde optimiert und in kleinere Pakete aufgeteilt. Dies verkürzt die Ladezeit beim ersten Aufruf der Seite spürbar. Administrative Aktionen werden außerdem nur noch für Administratoren geladen, was den Seitenaufbau für alle anderen beschleunigt.
+- Die Sicherheitsmechanismen für Login-Sessions wurden verbessert, wodurch es zu weniger erzwungenen Logouts kommt. Auch die Nutzung des iCloud Private Relays wird nun besser unterstützt.
+- Und noch ganz viel mehr ... Alle Änderungen findest du in den [Changelogs](/faq/changelog).
+
+## Ich habe mal die KI gefragt, ein Fazit zu schreiben:
+
+Die letzten 15 Monate haben den Slotbot von einer Event-Management-Plattform zu einem umfassenden Community-Tool weiterentwickelt. Mit Event-Voraussetzungen, verbesserter mobiler Nutzung, erweiterten Verwaltungsfunktionen und der neuen Startseiten-Funktion bietet der Slotbot Communities alle Werkzeuge, die sie für professionelles Event-Management benötigen.
+
+Besonders hervorzuheben ist dabei die konsequente Weiterentwicklung mit Fokus auf Benutzerfreundlichkeit: Neue Features werden so implementiert, dass sie intuitiv nutzbar sind, und bestehende Funktionen werden kontinuierlich verbessert.
+
+Ob als etablierte Community oder als Neueinsteigende – der Slotbot macht Event-Management einfach, transparent und effizient.
+
+## 2026
+
+Auch 2026 wird wieder viel Neues entstehen. Was genau, erfahrt ihr hier über den Update-Kanal als Erstes. Habt ihr Wünsche oder Ideen? Immer her damit!
+
+Eure Beiträge sind jederzeit willkommen. Egal ob ihr Code schreibt, Designs erstellt, Texte verfasst, Feedback gebt oder einfach anderen von euren Erfahrungen berichtet; jede Unterstützung hilft, den Slotbot für noch mehr Communities zu verbessern. Auf ein erfolgreiches Jahr 2026!
