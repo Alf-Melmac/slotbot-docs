@@ -116,6 +116,7 @@
 				  },
 				  "integrationen/discord/empfohlene-konfiguration",
 				  "integrationen/discord/benachrichtigungen",
+				  "integrationen/discord/events",
 				  "integrationen/discord/archiv"
 				]
 			  },
@@ -148,6 +149,7 @@
 				"icon": "sparkles",
 				"pages": [
 				  "faq/changelog",
+				  "faq/changelog/update-04.06.2026",
 				  "faq/changelog/update-20.01.2026",
 				  "faq/changelog/update-12.01.2026",
 				  "faq/changelog/update-21.11.2025",
@@ -299,6 +301,7 @@
 				  },
 				  "en/integrations/discord/recommended-configuration",
 				  "en/integrations/discord/reminders",
+				  "en/integrations/discord/events",
 				  "en/integrations/discord/archive"
 				]
 			  },
@@ -330,6 +333,7 @@
 				"icon": "sparkles",
 				"pages": [
 				  "en/faq/changelog",
+				  "en/faq/changelog/update-04.06.2026",
 				  "en/faq/changelog/update-20.01.2026",
 				  "en/faq/changelog/update-12.01.2026",
 				  "en/faq/changelog/update-21.11.2025",

@@ -1,9 +1,9 @@
 ---
 title: "Events Erstellen"
-description: "Erstellen eines Events in drei Schritten."
+description: "Erstellen eines Events in vier Schritten."
 ---
 
-Events werden über die Website angelegt. Nach erfolgreichem Login oberhalb des Kalender "Neues Event anlegen" auswählen und die Eingabemaske öffnet sich.
+Events werden über die Website angelegt. Nach dem Login findest du oberhalb des Kalenders **"Neues Event anlegen"**. Ein Klick darauf öffnet die Eingabemaske.
 
 <Info>
 	**Berechtigungen**
@@ -13,17 +13,19 @@ Events werden über die Website angelegt. Nach erfolgreichem Login oberhalb des 
 
 ## Allgemeine Informationen
 
-![Erste Seite des Event-Wizards](/images/events/events-erstellen/Slotbot-DE-EventWizard.png)
+Im ersten Schritt werden die wichtigsten Rahmendaten des Events festgelegt, darunter Titel, Zeitpunkt und Dauer.
 
-Die allgemeinen Informationen für ein neues Event enthalten die wichtigsten Rahmendaten. Dazu zählen unter anderem der Titel, der Zeitpunkt und die Dauer des Events.
+![Erste Seite des Event-Wizards](/images/events/events-erstellen/EventWizard-General-DE.png)
 
 ### Teilen erlauben
 
-Standardmäßig ist es anderen Gruppen, die den Slotbot benutzen, erlaubt, neue Events zu ihrem Kalender hinzuzufügen und Teilnehmer auf freie, nicht reservierte, Slots einzutragen. Durch Deaktivieren der **Teilbarkeit** kann dieses Event nur im eigenen Kalender und Discord veröffentlicht werden. Ausgenommen davon sind Gruppen, die über Reservierungen eingeladen wurden.
+Standardmäßig können andere Communities, die den Slotbot nutzen, ein Event zu ihrem eigenen Kalender hinzufügen. Damit wird es auch für deren Mitglieder sichtbar und sie können sich für Slots eintragen. Mitglieder anderer Communities können sich dabei nur in Slots eintragen, die nicht für eine bestimmte Community reserviert sind.
+
+Durch Deaktivieren der **Teilbarkeit** wird das Event ausschließlich im eigenen Kalender und Discord veröffentlicht. Ausgenommen davon sind Communities, für die Slots reserviert wurden. Sie behalten unabhängig von dieser Einstellung Zugriff auf ihre reservierten Plätze.
 
 ### Versteckt
 
-Ein Event zu verstecken bedeutet, dass das Event im Kalender nur noch für Personen mit der Rolle `Event-Planer` oder höher sichtbar ist.
+Ein verstecktes Event erscheint im Kalender nur noch für Personen mit der Rolle `Event-Planer` oder höher. Der direkte Link zum Event bleibt jedoch für alle zugänglich.
 
 <Columns cols={2}>
 	<Frame caption="Hinweis eines versteckten Events auf der Website">
@@ -38,7 +40,7 @@ Ein Event zu verstecken bedeutet, dass das Event im Kalender nur noch für Perso
 
 ### Event-Typ
 
-Der Event-Typ kategorisiert Events. Durch die ausgewählte Farbe lassen sich Missionsreihen im Kalender und im Discord auf den ersten Blick erkennen.
+Der Event-Typ dient zur Kategorisierung von Events. Jeder Typ hat eine eigene Farbe, anhand derer sich zusammengehörige Events, etwa eine Missionsreihe, im Kalender und in Discord auf den ersten Blick erkennen lassen.
 
 <Columns cols={2}>
 	<Frame caption="Event-Typ-Farbe im Kalender">
@@ -50,31 +52,37 @@ Der Event-Typ kategorisiert Events. Durch die ausgewählte Farbe lassen sich Mis
 	</Frame>
 </Columns>
 
-### Beschreibung
-
-Die Beschreibung unterstützt einfache Textformatierungen, wie sie aus dem Discord-Chat bekannt sind. Fett, kursiv, unterstrichen, durchgestrichen, drei Ebenen von Überschriften, kleiner Subtext und nummerierte und unnummerierte Listen werden unterstützt.
-
 ### Anzeigebild
 
-Für das Anzeigebild kann eine externe URL zu einem Bild angegeben oder ein eigenes Bild hochgeladen werden.
+Als Anzeigebild kann entweder eine externe Bild-URL angegeben oder ein eigenes Bild direkt hochgeladen werden.
 
 ![Bild-Hochladen-Dialog](/images/events/events-erstellen/Slotbot-DE-EventWizard-ImageUpload.png)
 
+## Beschreibung
+
+Ein Event kann mit zwei Arten von Beschreibungen ausgestattet werden, die sich in Umfang und Sichtbarkeit unterscheiden.
+
+![Zweite Seite des Event-Wizards](/images/events/events-erstellen/EventWizard-Description-DE.png)
+
+Die **Zusammenfassung** unterstützt einfache Textformatierungen, wie sie aus Discord-Chats bekannt sind, und ist auf ca. 4.000 Zeichen begrenzt.
+
+Die **erweiterte Beschreibung** hingegen unterstützt deutlich mehr Zeichen und umfangreiche Formatierungsmöglichkeiten, ist jedoch ausschließlich auf der Website sichtbar. Externe Integrationen wie Discord zeigen stattdessen nur die Zusammenfassung an. So lassen sich ausführliche Informationen teilen, ohne vom Zeichenlimit von Discord eingeschränkt zu werden.
+
 ## Details
 
-![Zweite Seite des Event-Wizards](/images/events/events-erstellen/Slotbot-DE-EventWizard-Details.png)
+![Dritte Seite des Event-Wizards](/images/events/events-erstellen/EventWizard-Details-DE.png)
 
-Im zweiten Schritt des Wizards können 23 Freitextfelder definiert werden. Diese weiteren Details enthalten stichpunktartige Zusatzinformationen zur Beschreibung, wie zum Beispiel den Treffpunkt und externe Links.
+Im dritten Schritt können bis zu 23 frei benennbare Felder mit jeweils einem Titel und einem Text befüllt werden. Sie eignen sich für stichpunktartige Zusatzinformationen wie beispielsweise Treffpunkt, Voraussetzungen oder externe Links.
 
-Community-Administratoren haben die Möglichkeit, für jeden [Event-Typ einen Standard](/communities/event-standards) für diese Felder festzulegen. Damit bieten sie den Eventerstellenden eine übersichtliche Hilfestellung. Ist ein Standard konfiguriert, kann er über den Button "Standard 'X' Details hinzufügen" verwendet werden.
+Community-Administratoren können für jeden [Event-Typ einen Standard](/communities/event-standards) für diese Felder hinterlegen und so den Eventerstellenden eine hilfreiche Vorlage bereitstellen. Ist ein Standard konfiguriert, lässt er sich über den Button **"Standard 'X' Details hinzufügen"** mit einem Klick übernehmen.
 
 ## Slotliste
 
-![Dritte Seite des Event-Wizards](/images/events/events-erstellen/Slotbot-DE-EventWizard-Slotlist.png)
+![Vierte Seite des Event-Wizards](/images/events/events-erstellen/Slotbot-DE-EventWizard-Slotlist.png)
 
-Die Slotliste eines Events besteht immer aus Gruppen ("Squads") und Plätzen innerhalb dieser Gruppen ("Slots"). Die Reihenfolge der Gruppen ist frei wählbar. Die Slots innerhalb eines Squads werden aufsteigend nach ihrer Slotnummer sortiert.
+Die Slotliste besteht aus Gruppen (**Squads**) und Plätzen innerhalb dieser Gruppen (**Slots**). Die Reihenfolge der Squads ist frei wählbar; die Slots innerhalb eines Squads werden aufsteigend nach ihrer Slotnummer sortiert.
 
-Sobald alle Slots eines Events belegt sind, wird automatisch eine Reserve in Höhe von 25% der Anzahl der Slots angelegt. Reservisten rücken automatisch in frei werdende Slots nach.
+Sobald alle Slots eines Events belegt sind, öffnet sich automatisch eine Reserveliste mit Platz für bis zu 25 % der Gesamtslotanzahl. Trägt sich jemand in die Reserve ein, rückt diese Person automatisch nach, sobald ein regulärer Slot frei wird.
 
 ### Regeln
 

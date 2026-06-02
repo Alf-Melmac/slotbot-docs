@@ -1,9 +1,9 @@
 ---
 title: "Creating events"
-description: "Creating an event in three steps."
+description: "Creating an event in four steps."
 ---
 
-Events are created via the website. Once you have successfully logged in, select "Create New Event" above the calendar to open the event creation wizard.
+Events are created via the website. Once logged in, you'll find **"Create New Event"** above the calendar. Click it to open the event creation wizard.
 
 <Info>
 	**Permissions**
@@ -13,17 +13,19 @@ Events are created via the website. Once you have successfully logged in, select
 
 ## General information
 
-![First page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard.png)
+In the first step, the most important details of the event are set, including the title, time, and duration.
 
-The general information for a new event contains the most important basic data. This includes the title, time and duration of the event.
+![First page of the event wizard](/images/events/events-erstellen/EventWizard-General-EN.png)
 
 ### Allow Sharing
 
-By default, other groups using the Slotbot will be able to add new events to their calendar and enter participants into empty, unreserved slots. If you disable sharing, the event can only be published in your own calendar and Discord. This does not apply to groups that have been invited by reservation.
+By default, other communities using the Slotbot can add an event to their own calendar. This makes it visible to their members, who can then sign up for slots. Members of other communities can only sign up for slots that are not reserved for a specific community.
+
+Disabling **sharing** restricts the event to your own calendar and Discord only. Communities that have reserved slots are exempt from this. They retain access to their reserved spots regardless of this setting.
 
 ### Hidden
 
-By hiding an event, it can only be viewed in the calendar by people with the role `Event Planner` or higher.
+A hidden event only appears in the calendar for people with the role `Event Planner` or higher. The direct link to the event remains accessible to everyone.
 
 <Columns cols={2}>
 	<Frame caption="Indication of a hidden event on the website">
@@ -37,7 +39,7 @@ By hiding an event, it can only be viewed in the calendar by people with the rol
 
 ### Event type
 
-The event type categorises events. The chosen colour makes it easy to identify mission series in the calendar and in Discord.
+The event type serves to categorise events. Each type has its own colour, making it easy to spot related events, such as a mission series, in the calendar and in Discord at a glance.
 
 <Columns cols={2}>
 	<Frame caption="Event type colour in calendar">
@@ -49,33 +51,39 @@ The event type categorises events. The chosen colour makes it easy to identify m
 	</Frame>
 </Columns>
 
-### Description
+### Display image
 
-The description supports basic text formatting, similar to Discord chat. Bold, italic, underlined, strikethrough, three levels of headings, small subtext, and numbered and unnumbered lists are supported.
-
-### Picture
-
-The display image can be specified by providing an external URL to an image, or by uploading your own.
+The display image can be specified by providing an external image URL or by uploading your own image directly.
 
 ![Picture upload dialog](/images/events/events-erstellen/Slotbot-DE-EventWizard-ImageUpload.png)
 
+## Description
+
+An event can have two types of descriptions, which differ in length and visibility.
+
+![Second page of the event wizard](/images/events/events-erstellen/EventWizard-Description-EN.png)
+
+The **summary** supports basic text formatting, as known from Discord chats, and is limited to approx. 4,000 characters.
+
+The **extended description**, on the other hand, supports far more characters and extensive formatting options, but is only visible on the website. External integrations like Discord only show the summary instead. This allows detailed information to be shared without being limited by Discord's character limit.
+
 ## Details
 
-![Second page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard-Details.png)
+![Third page of the event wizard](/images/events/events-erstellen/EventWizard-Details-EN.png)
 
-The second step of the wizard allows you to define 23 free text fields. These additional details contain key points of additional information for the description, such as the meeting point and external links.
+In the third step, you can fill in up to 23 freely named fields, each with a title and text. These fields are ideal for providing additional information in bullet-points, such as the meeting point, prerequisites or external links.
 
-Community administrators can define [templates for these fields](/en/communities/event-standards) for each event type. This provides clear assistance to event creators. Once a standard has been configured, it can be used by clicking on the 'Add standard 'X' details' button.
+Community administrators can define [templates for these fields](/en/communities/event-standards) for each event type, providing a helpful starting point for event creators. Once a standard has been configured, it can be applied with a single click using the **"Add standard 'X' details"** button.
 
 ## Slotlist
 
-![Third page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard-Slotlist.png)
+![Fourth page of the event wizard](/images/events/events-erstellen/Slotbot-DE-EventWizard-Slotlist.png)
 
-The slot list of an event always consists of groups ("squads") and seats within those groups ("slots"). The order of the groups can be freely determined. Slots within a squad are sorted in ascending order by their slot number.
+The slot list consists of groups (**squads**) and seats within those groups (**slots**). The order of the squads can be freely arranged; slots within a squad are sorted in ascending order by their slot number.
 
-If all slots in an event are occupied, a reserve of 25% of the number of slots is automatically created. Reservists will automatically move into slots that become available.
+Once all slots in an event are filled, a reserve list opens automatically with space for up to 25% of the total number of slots. Anyone who signs up as a reserve will automatically move up as soon as a regular slot becomes available.
 
-### Rule
+### Rules
 
 <Card title={"Slotlist Rules"} href={"/en/events/creating-events/slotlist-rules"} horizontal arrow/>
 

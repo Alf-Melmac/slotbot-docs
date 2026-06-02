@@ -1,0 +1,20 @@
+---
+title: Update 04.06.2026
+---
+
+import { Releases } from '/snippets/releases.jsx';
+
+<Releases server="2.21.0" serverNew frontend="1.20.0" frontendNew/>
+
+## ⭐ New Features
+* Events added to a Discord channel now automatically create a "Scheduled Event". _(commit: [ea7bb0e1](https://github.com/Alf-Melmac/slotbotServer/commit/ea7bb0e1bf91cd59ba7b64efad34a563886ec870), [d1ca37e1](https://github.com/Alf-Melmac/slotbotServer/commit/d1ca37e13a39edf263ea39f988348263135dfa96), [6669c431](https://github.com/Alf-Melmac/slotbotServer/commit/6669c431a147936e0137b8eba928025af1d7a6fe), [753ff6cc](https://github.com/Alf-Melmac/slotbotServer/commit/753ff6cc3ead72ba2af9ee80f7941530324236a5), [21e35d26](https://github.com/Alf-Melmac/slotbotServer/commit/21e35d267da69566d665c617e46aef463cabd668), [d7c8ab11](https://github.com/Alf-Melmac/slotbotServer/commit/d7c8ab11584db1a171b013cd7e85c66738708aa9))_
+	![](/images/integrationen/discord/events/Scheduled-Event-EN.png)
+	* The scheduled event is automatically created and kept up to date after the event was added to a channel.
+	* Users who mark themselves as interested in the scheduled event but have not yet slotted will receive a private message reminding them to secure their spot by slotting.
+* Events now support an optional extended description. _(commit: [2449287c](https://github.com/Alf-Melmac/slotbot-frontend/commit/2449287c19e598f6818a79c94bc8903d42306c51), [b43fb569](https://github.com/Alf-Melmac/slotbotServer/commit/b43fb569fac29a0053b97967903dcde331698c2c))_
+	![](/images/events/events-erstellen/EventWizard-Description-EN.png)
+	* The extended description supports significantly more characters and rich formatting options. It is only shown on the website. External integrations such as Discord continue to display the short description only. This lets you share detailed event information without being constrained by Discord's character limits.
+* Events now receive an estimated end time based on their length. This applies to both the new Discord Scheduled Events and the existing calendar integration. The estimation falls back to one hour if no duration is specified or can be determined. If you notice any incorrect end times, please let us know so we can improve the estimation. _(commit: [d208e344](https://github.com/Alf-Melmac/slotbotServer/commit/d208e34449291ea0c17796eaa0d6caed67bb17da))_
+
+## 🐞 Bug Fixes
+* Improved calendar generation and export for better compatibility with calendar applications such as Proton. _(commit: [efdd34ca](https://github.com/Alf-Melmac/slotbotServer/commit/efdd34ca83d459a112ba1ceb010d176bb42754a8), [73d29dcf](https://github.com/Alf-Melmac/slotbotServer/commit/73d29dcf636708ae0edab785bd49d9938c4603f2))_
