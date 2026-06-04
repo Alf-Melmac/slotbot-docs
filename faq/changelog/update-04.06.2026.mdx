@@ -3,15 +3,21 @@ title: Update 04.06.2026
 ---
 
 import { Releases } from '/snippets/releases.jsx';
+import PermissionUpdate from '/snippets/permission-update-de.md';
 
 <Releases server="2.21.0" serverNew frontend="1.20.0" frontendNew/>
 
 ## ⭐ Neue Features
-* Events, die einem Discord-Kanal hinzugefügt werden, erstellen nun automatisch ein "Geplantes Event". _(commit: [ea7bb0e1](https://github.com/Alf-Melmac/slotbotServer/commit/ea7bb0e1bf91cd59ba7b64efad34a563886ec870), [d1ca37e1](https://github.com/Alf-Melmac/slotbotServer/commit/d1ca37e13a39edf263ea39f988348263135dfa96), [6669c431](https://github.com/Alf-Melmac/slotbotServer/commit/6669c431a147936e0137b8eba928025af1d7a6fe), [753ff6cc](https://github.com/Alf-Melmac/slotbotServer/commit/753ff6cc3ead72ba2af9ee80f7941530324236a5), [21e35d26](https://github.com/Alf-Melmac/slotbotServer/commit/21e35d267da69566d665c617e46aef463cabd668), [d7c8ab11](https://github.com/Alf-Melmac/slotbotServer/commit/d7c8ab11584db1a171b013cd7e85c66738708aa9))_
-    ![](/images/integrationen/discord/events/Scheduled-Event-DE.png)
+* Events, die einem Discord-Kanal hinzugefügt werden, erstellen nun automatisch ein [Geplantes Event](/integrationen/discord/events). _(commit: [ea7bb0e1](https://github.com/Alf-Melmac/slotbotServer/commit/ea7bb0e1bf91cd59ba7b64efad34a563886ec870), [d1ca37e1](https://github.com/Alf-Melmac/slotbotServer/commit/d1ca37e13a39edf263ea39f988348263135dfa96), [6669c431](https://github.com/Alf-Melmac/slotbotServer/commit/6669c431a147936e0137b8eba928025af1d7a6fe), [753ff6cc](https://github.com/Alf-Melmac/slotbotServer/commit/753ff6cc3ead72ba2af9ee80f7941530324236a5), [21e35d26](https://github.com/Alf-Melmac/slotbotServer/commit/21e35d267da69566d665c617e46aef463cabd668), [d7c8ab11](https://github.com/Alf-Melmac/slotbotServer/commit/d7c8ab11584db1a171b013cd7e85c66738708aa9))_
+	<Note>
+		Damit der Bot Events anlegen kann, benötigt er die Berechtigung "Events erstellen".
+
+		<PermissionUpdate/>
+	</Note>
+	![](/images/integrationen/discord/events/Scheduled-Event-DE.png)
     * Das geplante Event wird automatisch erstellt und aktuell gehalten, nachdem es einem Kanal hinzugefügt wurde.
     * Discord-User, die ihr Interesse am geplanten Event bekunden, aber noch keinen Slot belegt haben, erhalten eine private Nachricht, die sie daran erinnert, ihren Platz durch Slotten zu sichern.
-* Events unterstützen nun optional eine erweiterte Beschreibung. _(commit: [2449287c](https://github.com/Alf-Melmac/slotbot-frontend/commit/2449287c19e598f6818a79c94bc8903d42306c51), [b43fb569](https://github.com/Alf-Melmac/slotbotServer/commit/b43fb569fac29a0053b97967903dcde331698c2c))_
+* Events unterstützen nun optional eine [erweiterte Beschreibung](/events/events-erstellen#beschreibung). _(commit: [2449287c](https://github.com/Alf-Melmac/slotbot-frontend/commit/2449287c19e598f6818a79c94bc8903d42306c51), [b43fb569](https://github.com/Alf-Melmac/slotbotServer/commit/b43fb569fac29a0053b97967903dcde331698c2c))_
     ![](/images/events/events-erstellen/EventWizard-Description-DE.png)
     * Die erweiterte Beschreibung unterstützt deutlich mehr Zeichen und umfangreiche Formatierungsmöglichkeiten. Sie wird ausschließlich auf der Website angezeigt. Externe Integrationen wie Discord zeigen weiterhin nur die Kurzbeschreibung an. So können detaillierte Informationen zum Event geteilt werden, ohne dass das Zeichenlimit von Discord eine Einschränkung darstellt.
 * Events erhalten nun eine geschätzte Endzeit basierend auf der "Eventlänge". Dies gilt sowohl für die neuen geplanten Discord-Events als auch für die bestehende Kalenderintegration. Wenn keine Dauer angegeben ist oder ermittelt werden kann, wird eine Stunde angenommen. Wenn fehlerhafte Endzeiten auffallen, gebt bitte Feedback, damit die Schätzung verbessert werden kann. _(commit: [d208e344](https://github.com/Alf-Melmac/slotbotServer/commit/d208e34449291ea0c17796eaa0d6caed67bb17da))_

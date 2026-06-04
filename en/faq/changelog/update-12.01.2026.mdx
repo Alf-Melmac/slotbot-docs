@@ -3,6 +3,7 @@ title: Update 12.01.2026
 ---
 
 import { Releases } from '/snippets/releases.jsx';
+import PermissionUpdate from '/snippets/permission-update-en.md';
 
 <Releases server="2.20.0" serverNew frontend="1.19.0" frontendNew/>
 
@@ -11,7 +12,7 @@ import { Releases } from '/snippets/releases.jsx';
 
 	**From 23rd of February 2026** onwards, the Slotbot will require the **permissions "Bypass Slowmode" and "Pin Messages"** in addition to the "Manage Messages" permission to post and pin the slot list in the event channel. This is a change from Discord that affects all roles.
 
-	The easiest way is to re-invite the bot to the server via the [invitation link](https://slotbot.de/invite) without removing it first and confirm the new permissions. Alternatively, the permissions of the Slotbot role can also be adjusted in the server settings. You can find details on the required permissions in the [FAQ](/en/faq/faq#what-permissions-does-the-discord-bot-require).
+	<PermissionUpdate/>
 </Warning>
 
 ## ⭐ New Features
